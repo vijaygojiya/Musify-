@@ -1,4 +1,4 @@
-const colors = {
+const lightColor = {
   MainColor: '#0077c2',
   LightBlue: '#3fb2ff',
   PaleBlue: '#a7d8ff',
@@ -16,4 +16,4 @@ const darkColor = {
   DarkGray: '#808080',
 };
 
-export default colors;
+export default {lightColor, darkColor};
