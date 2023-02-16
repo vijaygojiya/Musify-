@@ -1,9 +1,8 @@
-import {Platform, StatusBar, StyleSheet, Text} from 'react-native';
+import {Linking, Platform, StatusBar, StyleSheet} from 'react-native';
 import React, {ReactNode, useEffect, useState} from 'react';
 import colors from '../../utils/colors';
 
 import CommonGradientBg from '../../component/custom/commonGradientBg';
-import GS from '../../utils/styles';
 import {
   TabView,
   TabBar,
@@ -13,21 +12,18 @@ import {
 import styleConfig from '../../utils/styleConfig';
 import CommonToolbar from '../../component/custom/commontoolbar';
 import {checkLocationPermission} from '../../utils/permission';
-import Songs from './songs';
 import Artists from './artists';
 import Albmus from './albmus';
 import Folders from './folders';
-import {Scene} from 'react-native-tab-view/lib/typescript/types';
 import {RNAndroidAudioStore} from 'react-native-get-music-files';
-import AppPlayer from '../../player/AppPlayer';
 import TrackPlayer, {
   Event,
   State,
   useTrackPlayerEvents,
 } from 'react-native-track-player';
-import MiniPlayer from '../../player/miniplayer';
-import ModalPlayer from '../../player/modalplayer';
 import SongList from '../../utils/dummydata/song';
+import { QueueInitialTracksService, SetupService } from '../../player/services';
+import Songspage from './songspage';
 
 const options = {
   title: true,
@@ -51,13 +47,47 @@ const MyMusicScreen = () => {
   const [songs, setSongs] = useState([]);
   const [musicFolders, setMusicFolders] = useState([]);
 
-  useEffect(() => {
-    AppPlayer.initializePlayer();
+  // const track = useActiveTrack();
+  const [isPlayerReady, setIsPlayerReady] = useState<boolean>(false);
 
-    StatusBar.setBarStyle('light-content', true);
-    if (Platform.OS === 'android') {
-      StatusBar.setBackgroundColor(colors.secondaryBg, true);
+  useEffect(() => {
+    let unmounted = false;
+    (async () => {
+      const isSetup = await SetupService();
+      if (unmounted) return;
+      setIsPlayerReady(isSetup);
+      const queue = await TrackPlayer.getQueue();
+      if (unmounted) return;
+      if (isSetup && queue.length <= 0) {
+        await QueueInitialTracksService();
+      }
+    })();
+    return () => {
+      unmounted = true;
+    };
+  }, []);
+
+
+  console.log('isPlayerReadyisPlayerReady',isPlayerReady);
+  
+
+  useEffect(() => {
+    function deepLinkHandler(data: { url: string }) {
+      console.log('deepLinkHandler', data.url);
     }
+
+    // This event will be fired when the app is already open and the notification is clicked
+    Linking.addEventListener('url', deepLinkHandler);
+
+    // When you launch the closed app from the notification or any other link
+    Linking.getInitialURL().then((url) => console.log('getInitialURL', url));
+
+    return () => {
+      Linking.removeEventListener('url', deepLinkHandler);
+    };
+  }, []);
+
+  useEffect(() => {
     checkLocationPermission(fetchAllSongs);
   }, []);
 
@@ -129,8 +159,9 @@ const MyMusicScreen = () => {
   const handleSongClick = (index: number) => {
     setSongIndex(index);
     TrackPlayer.reset();
-    TrackPlayer.add(SongList[1]);
+    TrackPlayer.add(SongList);
     TrackPlayer.play();
+    
   };
 
   const renderScene = ({
@@ -141,7 +172,7 @@ const MyMusicScreen = () => {
     switch (route.key) {
       case 'Songs':
         return (
-          <Songs
+          <Songspage
             isLoading={isLoading}
             songsData={songs}
             selectedIndex={songIndex}
