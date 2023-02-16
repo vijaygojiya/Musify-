@@ -1,19 +1,19 @@
-const lightColor = {
-  MainColor: '#0077c2',
-  LightBlue: '#3fb2ff',
-  PaleBlue: '#a7d8ff',
-  LightGray: '#f2f2f2',
-  MediumGray: '#d9d9d9',
-  DarkGray: '#bfbfbf',
+const colors = {
+  black: '#000',
+  white: '#fff',
+  primary: '#9c16ad',
+  secondary: '#f638dc',
+  tertiary: '#35e4ef',
+  secondaryBg: '#170524',
+  primaryBg: "#0b001e",
+  extraDarkGrey: '#222427',
+  grey: '#c8c8c8',
+  darkGrey: '#a393ab',
+  lightGrey: '#fdfbff',
+  transparent: "transparent",
+  primarycolor: "#00205B",
+  darkblue: "#0D001F",
+  bluebackground: "#140131",
 };
 
-const darkColor = {
-  MainColor: '#1a2a3a',
-  LightBlue: '#3a506b',
-  PaleBlue: '#4f6d7a',
-  LightGray: '#f2f2f2',
-  MediumGray: '#e6e6e6',
-  DarkGray: '#808080',
-};
-
-export default {lightColor, darkColor};
+export default colors;

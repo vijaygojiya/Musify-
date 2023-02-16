@@ -10,13 +10,14 @@ const iPhoneX = Platform.OS === 'ios' && (height === 812 || height === 896);
 const ratioCount = Math.sqrt(height * height + width * width) / 1000;
 
 const APP_FONTS = {
-  MONTSERRAT_LIGHT: 'Poppins-Light',
-  MONTSERRAT_MEDIUM: 'Poppins-Medium',
-  MONTSERRAT_BOLD: 'Poppins-Bold',
-  MONTSERRAT_ITALIC: 'Poppins-Italic',
-  MONTSERRAT_REGULAR: 'Poppins-Regular',
-  MONTSERRAT_SEMIBOLD: 'Poppins-SemiBold',
-  MONTSERRAT_BOLDITALIC: 'Poppins-BoldItalic',
+  LATO_LIGHT: 'Lato-Light',
+  LATO_BOLD: 'Lato-Bold',
+  LATO_REGULAR: 'Lato-Regular',
+  RALEWAY_LIGHT: 'Raleway-Light',
+  RALEWAY_BOLD: 'Raleway-Bold',
+  RALEWAY_REGULAR: 'Raleway-Regular',
+  RALEWAY_MEDIUM: 'Raleway-Medium',
+  RALEWAY_SEMIBOLD: 'Raleway-SemiBold',
 };
 export default {
   countPixelRatio: (size: number) => size * ratioCount,
@@ -37,13 +38,11 @@ export default {
     }
     return (value * tempWidth) / 375;
   },
-  fontLight: APP_FONTS.MONTSERRAT_LIGHT,
-  fontMedium: APP_FONTS.MONTSERRAT_MEDIUM,
-  fontRegular: APP_FONTS.MONTSERRAT_REGULAR,
-  fontBold: APP_FONTS.MONTSERRAT_BOLD,
-  fontItalic: APP_FONTS.MONTSERRAT_ITALIC,
-  fontSemiBold: APP_FONTS.MONTSERRAT_SEMIBOLD,
-  fontBoldItalic: APP_FONTS.MONTSERRAT_BOLDITALIC,
+  fontLight: APP_FONTS.RALEWAY_LIGHT,
+  fontMedium: APP_FONTS.RALEWAY_MEDIUM,
+  fontRegular: APP_FONTS.RALEWAY_REGULAR,
+  fontBold: APP_FONTS.RALEWAY_BOLD,
+  fontSemiBold: APP_FONTS.RALEWAY_SEMIBOLD,
   width,
   height,
   isIphone,

@@ -5,9 +5,9 @@ import {routes} from './routes';
 import SplashScreen from '../screens/auth/splash';
 import CustomTabBar from './customtabbar';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import MyMusicScreen from '../screens/myMusic';
 import FavouritesScreen from '../screens/favourites';
 import PlayListsScreen from '../screens/playlists';
-import MyMusicScreen from '../screens/mymusic';
 
 const Stack = createNativeStackNavigator();
 
@@ -44,7 +44,7 @@ const TabNavigator = () => {
   );
 };
 
-function AppNavigator() {
+function AppContainer() {
   return (
     <NavigationContainer>
       <Stack.Navigator
@@ -60,4 +60,4 @@ function AppNavigator() {
   );
 }
 
-export default AppNavigator;
+export default AppContainer;

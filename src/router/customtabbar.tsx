@@ -1,5 +1,8 @@
+import {BlurView} from '@react-native-community/blur';
 import React, {useState} from 'react';
 import {FlatList, ImageSourcePropType, StyleSheet, View, ViewStyle} from 'react-native';
+import LinearGradient from 'react-native-linear-gradient';
+import SafeAreaView from 'react-native-safe-area-view';
 
 import AppImages from '../assets/images';
 import colors from '../utils/colors';
@@ -67,7 +70,34 @@ const CustomTabBar = (props: {navigation: any}) => {
   };
 
   return (
-   <View></View>
+    <SafeAreaView
+      forceInset={{top: 'never', bottom: 'always'}}
+      style={styles.saContainer}>
+      <BlurView
+        style={[styles.blurView]}
+        overlayColor={colors.transparent}
+        blurAmount={10}
+        blurRadius={7}>
+        <LinearGradient
+          colors={[colors.transparent, colors.extraDarkGrey]}
+          style={[styles.gradientContainer]}
+          start={{x: 0, y: 0}}
+          end={{x: 0, y: 1.5}}>
+          <View style={styles.container}>
+            <FlatList
+              horizontal={true}
+              overScrollMode="never"
+              showsHorizontalScrollIndicator={false}
+              bounces={false}
+              contentContainerStyle={styles.flTabContainer}
+              data={TabBarList}
+              renderItem={renderTabItem}
+              keyExtractor={(_, index) => index.toString()}
+            />
+          </View>
+        </LinearGradient>
+      </BlurView>
+    </SafeAreaView>
   );
 };
 

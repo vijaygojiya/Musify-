@@ -1,7 +1,8 @@
 import React from 'react';
-import {Image, StyleSheet,TouchableOpacity} from 'react-native';
+import {Image, StyleSheet, Text, TouchableOpacity} from 'react-native';
 import colors from '../utils/colors';
 import styleConfig from '../utils/styleConfig';
+import GS from '../utils/styles';
 
 const ItemTab: React.FC<{
   item: any;
@@ -35,13 +36,13 @@ const styles = StyleSheet.create({
     width: styleConfig.countPixelRatio(30),
     height: styleConfig.countPixelRatio(30),
     resizeMode: 'contain',
-    tintColor: colors.LightBlue,
+    tintColor: colors.secondary,
   },
   iIconnActive: {
     width: styleConfig.countPixelRatio(28),
     height: styleConfig.countPixelRatio(28),
     resizeMode: 'contain',
-    tintColor: colors.DarkGray,
+    tintColor: colors.darkGrey,
   },
 });
 export default ItemTab;

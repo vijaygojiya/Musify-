@@ -1,12 +1,14 @@
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, Text } from 'react-native';
 import React from 'react';
 import GS from '../../utils/styles';
+import CommonGradientBg from '../../component/custom/commonGradientBg';
 
 const FavouritesScreen = () => {
+ 
   return (
-    <View>
-      <Text>Favorite</Text>
-    </View>
+    <CommonGradientBg>
+      <Text style={[GS.text_white_regular]}>Favourites Screen</Text>
+    </CommonGradientBg>
   );
 };
 

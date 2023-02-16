@@ -4,4 +4,5 @@ export const routes = Object.freeze({
   MyMusic: 'MyMusic',
   Favourites: 'Favourites',
   Playlist:'Playlist'
+
 });
