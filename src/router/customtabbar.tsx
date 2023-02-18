@@ -1,6 +1,12 @@
 import {BlurView} from '@react-native-community/blur';
 import React, {useState} from 'react';
-import {FlatList, ImageSourcePropType, StyleSheet, View, ViewStyle} from 'react-native';
+import {
+  FlatList,
+  ImageSourcePropType,
+  StyleSheet,
+  View,
+  ViewStyle,
+} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import SafeAreaView from 'react-native-safe-area-view';
 
@@ -15,19 +21,30 @@ import {routes} from './routes';
 
 const TabBarList = [
   {
-    Name: string.MyMusic,
-    Icon: AppImages.ic_headphone,
-    Navigation: routes.MyMusic,
+    Name: string.Home,
+    Icon: AppImages.ic_home,
+    Navigation: routes.Home,
   },
+  {
+    Name: string.Search,
+    Icon: AppImages.ic_search,
+    Navigation: routes.Search,
+  },
+
   {
     Name: string.Favourites,
     Icon: AppImages.ic_heart,
     Navigation: routes.Favourites,
   },
   {
-    Name: string.Search,
-    Icon: AppImages.ic_search,
-    Navigation: routes.Playlist,
+    Name: string.MyMusic,
+    Icon: AppImages.ic_headphone,
+    Navigation: routes.MyMusic,
+  },
+  {
+    Name: string.Profile,
+    Icon: AppImages.ic_profile,
+    Navigation: routes.Profile,
   },
 ];
 
@@ -36,16 +53,25 @@ const CustomTabBar = (props: {navigation: any}) => {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   const onTabClick = (index: React.SetStateAction<number>) => {
+    console.log('inddex', index);
+
     setSelectedIndex(index);
     switch (index) {
-      case Type_Of_TabBar.MyMusic:
-        navigation.navigate(routes.MyMusic);
+      case Type_Of_TabBar.Home:
+        navigation.navigate(routes.Home);
         break;
+      case Type_Of_TabBar.Search:
+        navigation.navigate(routes.Search);
+        break;
+
       case Type_Of_TabBar.Favourites:
         navigation.navigate(routes.Favourites);
         break;
-      case Type_Of_TabBar.PlayLists:
-        navigation.navigate(routes.Playlist);
+      case Type_Of_TabBar.MyMusic:
+        navigation.navigate(routes.MyMusic);
+        break;
+      case Type_Of_TabBar.Profile:
+        navigation.navigate(routes.Profile);
         break;
     }
   };
@@ -108,15 +134,14 @@ const absoluteStyle = {
   right: 0,
   bottom: 0,
   overflow: 'hidden',
-  borderRadius: styleConfig.countPixelRatio(17)
+  borderRadius: styleConfig.countPixelRatio(17),
 } as ViewStyle;
 
 const styles = StyleSheet.create({
   saContainer: {
     backgroundColor: colors.white,
-    borderRadius :styleConfig.countPixelRatio(17),
+    borderRadius: styleConfig.countPixelRatio(17),
     ...GS.shadowEffect,
-    
   },
   flTabContainer: {
     justifyContent: 'space-around',

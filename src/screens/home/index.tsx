@@ -3,14 +3,14 @@ import React from 'react';
 import GS from '../../utils/styles';
 import CommonGradientBg from '../../component/custom/commonGradientBg';
 
-const PlayListsScreen = () => {
+const HomeScreen = () => {
   return (
     <CommonGradientBg>
-      <Text style={[GS.text_white_regular]}>Favourites Screen</Text>
+      <Text style={[GS.text_white_regular]}>Home Screen</Text>
     </CommonGradientBg>
   );
 };
 
-export default PlayListsScreen;
+export default HomeScreen;
 
 const styles = StyleSheet.create({});

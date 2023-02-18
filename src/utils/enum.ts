@@ -1,5 +1,7 @@
 export const Type_Of_TabBar = {
-  MyMusic: 0,
-  Favourites: 1,
-  PlayLists: 2,
+  Home: 0,
+  Search: 1,
+  Favourites: 2,
+  MyMusic: 3,
+  Profile: 4,
 };

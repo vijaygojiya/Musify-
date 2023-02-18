@@ -1,8 +1,7 @@
 import React from 'react';
-import {Image, StyleSheet, Text, TouchableOpacity} from 'react-native';
+import {Image, Pressable, StyleSheet} from 'react-native';
 import colors from '../utils/colors';
 import styleConfig from '../utils/styleConfig';
-import GS from '../utils/styles';
 
 const ItemTab: React.FC<{
   item: any;
@@ -11,38 +10,33 @@ const ItemTab: React.FC<{
   onTabClickListener: (index: number) => void;
 }> = ({item, index, isSelected, onTabClickListener}) => {
   return (
-    <TouchableOpacity
+    <Pressable
       accessibilityLabel={`Tab-${index}`}
-      activeOpacity={0.8}
       style={styles.toTabContainer}
       onPress={() => {
         onTabClickListener(index);
       }}>
       <Image
-        style={[isSelected ? styles.iIcon : styles.iIconnActive]}
+        style={[
+          styles.iIcon,
+          {tintColor: isSelected ? colors.secondary : colors.darkGrey},
+        ]}
         source={item.Icon}
+        resizeMode="cover"
       />
-    </TouchableOpacity>
+    </Pressable>
   );
 };
 
 const styles = StyleSheet.create({
   toTabContainer: {
-    width: styleConfig.width / 3,
+    width: styleConfig.width / 5,
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
   },
   iIcon: {
-    width: styleConfig.countPixelRatio(30),
-    height: styleConfig.countPixelRatio(30),
-    resizeMode: 'contain',
-    tintColor: colors.secondary,
-  },
-  iIconnActive: {
-    width: styleConfig.countPixelRatio(28),
-    height: styleConfig.countPixelRatio(28),
-    resizeMode: 'contain',
-    tintColor: colors.darkGrey,
+    width: styleConfig.countPixelRatio(24),
+    height: styleConfig.countPixelRatio(24),
   },
 });
 export default ItemTab;
