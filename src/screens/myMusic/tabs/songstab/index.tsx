@@ -1,10 +1,10 @@
 import React, {memo} from 'react';
 import {ActivityIndicator, FlatList, StyleSheet, View} from 'react-native';
 
-import colors from '../../../utils/colors';
-import styleConfig from '../../../utils/styleConfig';
-import SongListItme from '../../../component/custom/songlistitem';
-import SongList from '../../../utils/dummydata/song';
+import colors from '../../../../utils/colors';
+import styleConfig from '../../../../utils/styleConfig';
+import SongListItme from '../../../../component/custom/songlistitem';
+import SongList from '../../../../utils/dummydata/song';
 
 interface SongItem {
   title: string;
@@ -17,7 +17,7 @@ interface Props {
   handleSongClick: (index: number) => void;
 }
 
-const SongsPage: React.FC<Props> = ({
+const SongsTab: React.FC<Props> = ({
   songsData,
   handleSongClick,
   isLoading,
@@ -60,7 +60,7 @@ const SongsPage: React.FC<Props> = ({
   );
 };
 
-export default memo(SongsPage);
+export default memo(SongsTab);
 
 const styles = StyleSheet.create({
   mainContainer: {

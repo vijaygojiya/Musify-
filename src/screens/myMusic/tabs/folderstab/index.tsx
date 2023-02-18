@@ -1,11 +1,10 @@
 import {FlatList, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import GS from '../../../utils/styles';
-import styleConfig from '../../../utils/styleConfig';
-import colors from '../../../utils/colors';
-import LinearGradient from 'react-native-linear-gradient';
+import GS from '../../../../utils/styles';
+import styleConfig from '../../../../utils/styleConfig';
+import colors from '../../../../utils/colors';
 
-const Folders = ({musicFolders}) => {
+const FoldersTab = ({musicFolders}) => {
   const renderFolder = ({item, index}) => {
     return (
       <Text style={[GS.text_white_regular, styles.folderTitle]}>{item}</Text>
@@ -25,7 +24,7 @@ const Folders = ({musicFolders}) => {
   );
 };
 
-export default Folders;
+export default FoldersTab;
 
 const styles = StyleSheet.create({
   container: {

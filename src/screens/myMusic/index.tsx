@@ -12,9 +12,7 @@ import {
 import styleConfig from '../../utils/styleConfig';
 import CommonToolbar from '../../component/custom/commontoolbar';
 import {checkLocationPermission} from '../../utils/permission';
-import Artists from './artists';
-import Albmus from './albmus';
-import Folders from './folders';
+
 import {RNAndroidAudioStore} from 'react-native-get-music-files';
 import TrackPlayer, {
   Event,
@@ -22,8 +20,11 @@ import TrackPlayer, {
   useTrackPlayerEvents,
 } from 'react-native-track-player';
 import SongList from '../../utils/dummydata/song';
-import { QueueInitialTracksService, SetupService } from '../../player/services';
-import Songspage from './songspage';
+import {QueueInitialTracksService, SetupService} from '../../player/services';
+import Songstab from './tabs/songstab';
+import ArtistsTab from './tabs/artiststab';
+import AlbumsTab from './tabs/albumstab';
+import FoldersTab from './tabs/folderstab';
 
 const options = {
   title: true,
@@ -42,7 +43,6 @@ const MyMusicScreen = () => {
   const [index, setIndex] = useState(0);
   const [isLoading, setLoading] = useState(false);
   const [isPlaying, setPlaying] = useState(false);
-  const [isModalOpen, setIsModalOpen] = useState(false);
   const [songIndex, setSongIndex] = useState(-1);
   const [songs, setSongs] = useState([]);
   const [musicFolders, setMusicFolders] = useState([]);
@@ -68,24 +68,6 @@ const MyMusicScreen = () => {
   }, []);
 
 
-  console.log('isPlayerReadyisPlayerReady',isPlayerReady);
-  
-
-  useEffect(() => {
-    function deepLinkHandler(data: { url: string }) {
-      console.log('deepLinkHandler', data.url);
-    }
-
-    // This event will be fired when the app is already open and the notification is clicked
-    Linking.addEventListener('url', deepLinkHandler);
-
-    // When you launch the closed app from the notification or any other link
-    Linking.getInitialURL().then((url) => console.log('getInitialURL', url));
-
-    return () => {
-      Linking.removeEventListener('url', deepLinkHandler);
-    };
-  }, []);
 
   useEffect(() => {
     checkLocationPermission(fetchAllSongs);
@@ -161,7 +143,6 @@ const MyMusicScreen = () => {
     TrackPlayer.reset();
     TrackPlayer.add(SongList);
     TrackPlayer.play();
-    
   };
 
   const renderScene = ({
@@ -172,7 +153,7 @@ const MyMusicScreen = () => {
     switch (route.key) {
       case 'Songs':
         return (
-          <Songspage
+          <Songstab
             isLoading={isLoading}
             songsData={songs}
             selectedIndex={songIndex}
@@ -180,11 +161,11 @@ const MyMusicScreen = () => {
           />
         );
       case 'Artists':
-        return <Artists />;
+        return <ArtistsTab />;
       case 'Albums':
-        return <Albmus />;
+        return <AlbumsTab />;
       case 'Folders':
-        return <Folders musicFolders={musicFolders} />;
+        return <FoldersTab musicFolders={musicFolders} />;
       default:
         return null;
     }
