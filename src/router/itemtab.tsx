@@ -1,5 +1,5 @@
-import React, {useRef} from 'react';
-import {Animated,Pressable, StyleSheet} from 'react-native';
+import React, { useRef } from 'react';
+import { Animated, Pressable, StyleSheet } from 'react-native';
 import colors from '../utils/colors';
 import styleConfig from '../utils/styleConfig';
 
@@ -8,7 +8,7 @@ const ItemTab: React.FC<{
   index: number;
   isSelected: boolean;
   onTabClickListener: (index: number) => void;
-}> = ({item, index, isSelected, onTabClickListener}) => {
+}> = ({ item, index, isSelected, onTabClickListener }) => {
   const bounceValue = useRef(new Animated.Value(0.8)).current;
   const bounce = () => {
     bounceValue.setValue(0.9);
@@ -26,12 +26,13 @@ const ItemTab: React.FC<{
       onPress={() => {
         bounce();
         onTabClickListener(index);
-      }}>
+      }}
+    >
       <Animated.Image
         style={[
           styles.iIcon,
-          {tintColor: isSelected ? colors.secondary : colors.darkGrey},
-          {transform: [{scale: bounceValue}]},
+          { tintColor: isSelected ? colors.secondary : colors.darkGrey },
+          { transform: [{ scale: bounceValue }] },
         ]}
         source={item.Icon}
         resizeMode="cover"

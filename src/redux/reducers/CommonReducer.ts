@@ -1,4 +1,4 @@
-import { FORCEUPDATE_SET, MAINTENANCE_SET, SHOW_LOADER } from "../types";
+import { FORCEUPDATE_SET, MAINTENANCE_SET, SHOW_LOADER } from '../types';
 
 const INITIAL_STATE = {
   isLoading: false,

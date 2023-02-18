@@ -27,7 +27,7 @@ const CommonToolbar: React.FC<{
   onRightClickListener?: () => void;
   rightIconStyle?: ImageStyle;
   leftIconStyle?: ImageStyle;
-}> = props => {
+}> = (props) => {
   const {
     containerStyle,
     title,
@@ -42,28 +42,23 @@ const CommonToolbar: React.FC<{
     leftIconStyle,
   } = props;
   return (
-    <SafeAreaView
-      forceInset={{top: 'always', bottom: 'never'}}
-      style={styles.saContainer}>
+    <SafeAreaView forceInset={{ top: 'always', bottom: 'never' }} style={styles.saContainer}>
       <View style={[styles.vToolbarContainer, containerStyle]}>
         <Pressable
           style={styles.pIconContainer}
-          onPress={isLeftButton ? onLeftClickListener : null}>
+          onPress={isLeftButton ? onLeftClickListener : null}
+        >
           {isLeftButton ? (
-            <Image
-              source={leftIcon}
-              style={[styles.iconStyle, leftIconStyle && leftIconStyle]}
-            />
+            <Image source={leftIcon} style={[styles.iconStyle, leftIconStyle && leftIconStyle]} />
           ) : null}
         </Pressable>
-        <Text
-          numberOfLines={1}
-          style={[CS.text_white_medium, styles.tTitle, textStyle]}>
+        <Text numberOfLines={1} style={[CS.text_white_medium, styles.tTitle, textStyle]}>
           {title}
         </Text>
         <Pressable
           style={styles.pIconContainer}
-          onPress={isRightButton ? onRightClickListener : null}>
+          onPress={isRightButton ? onRightClickListener : null}
+        >
           {isRightButton ? (
             <Image
               source={rightIcon}

@@ -1,6 +1,6 @@
-import {Platform, TextStyle, ViewStyle} from 'react-native';
+import { Platform, TextStyle, ViewStyle } from 'react-native';
 import colors from './colors';
-import {Sizes} from './dimensions';
+import { Sizes } from './dimensions';
 import styleConfig from './styleConfig';
 
 interface styeleProps {
@@ -230,11 +230,10 @@ const GS: styeleProps = {
 
   shadowEffect: {
     shadowColor: colors.black,
-    shadowOffset: {width: 4, height: 4},
+    shadowOffset: { width: 4, height: 4 },
     shadowOpacity: 0.9,
     shadowRadius: Sizes.cornerRadius.large,
-    elevation:
-      Platform.OS === 'android' ? Sizes.androidElevation : Sizes.iosElevation,
+    elevation: Platform.OS === 'android' ? Sizes.androidElevation : Sizes.iosElevation,
   },
 
   loginButtonContainer: {

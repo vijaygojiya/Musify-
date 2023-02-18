@@ -1,26 +1,17 @@
-import {Linking, Platform, StatusBar, StyleSheet} from 'react-native';
-import React, {ReactNode, useEffect, useState} from 'react';
+import { Linking, Platform, StatusBar, StyleSheet } from 'react-native';
+import React, { ReactNode, useEffect, useState } from 'react';
 import colors from '../../utils/colors';
 
 import CommonGradientBg from '../../component/custom/commonGradientBg';
-import {
-  TabView,
-  TabBar,
-  NavigationState,
-  SceneRendererProps,
-} from 'react-native-tab-view';
+import { TabView, TabBar, NavigationState, SceneRendererProps } from 'react-native-tab-view';
 import styleConfig from '../../utils/styleConfig';
 import CommonToolbar from '../../component/custom/commontoolbar';
-import {checkLocationPermission} from '../../utils/permission';
+import { checkLocationPermission } from '../../utils/permission';
 
-import {RNAndroidAudioStore} from 'react-native-get-music-files';
-import TrackPlayer, {
-  Event,
-  State,
-  useTrackPlayerEvents,
-} from 'react-native-track-player';
+import { RNAndroidAudioStore } from 'react-native-get-music-files';
+import TrackPlayer, { Event, State, useTrackPlayerEvents } from 'react-native-track-player';
 import SongList from '../../utils/dummydata/song';
-import {QueueInitialTracksService, SetupService} from '../../player/services';
+import { QueueInitialTracksService, SetupService } from '../../player/services';
 import Songstab from './tabs/songstab';
 import ArtistsTab from './tabs/artiststab';
 import AlbumsTab from './tabs/albumstab';
@@ -43,6 +34,7 @@ const MyMusicScreen = () => {
   const [index, setIndex] = useState(0);
   const [isLoading, setLoading] = useState(false);
   const [isPlaying, setPlaying] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const [songIndex, setSongIndex] = useState(-1);
   const [songs, setSongs] = useState([]);
   const [musicFolders, setMusicFolders] = useState([]);
@@ -67,13 +59,13 @@ const MyMusicScreen = () => {
     };
   }, []);
 
-
+  console.log('isPlayerReadyisPlayerReady', isPlayerReady);
 
   useEffect(() => {
     checkLocationPermission(fetchAllSongs);
   }, []);
 
-  useTrackPlayerEvents([Event.PlaybackState], item => {
+  useTrackPlayerEvents([Event.PlaybackState], (item) => {
     switch (item.state) {
       // case State.Stopped:
       //   if (songDetail) {
@@ -90,13 +82,13 @@ const MyMusicScreen = () => {
     }
   });
   const routes = [
-    {key: 'Songs', title: 'Songs'},
-    {key: 'Artists', title: 'Artists'},
-    {key: 'Albums', title: 'Albmus'},
-    {key: 'Folders', title: 'Folders'},
+    { key: 'Songs', title: 'Songs' },
+    { key: 'Artists', title: 'Artists' },
+    { key: 'Albums', title: 'Albmus' },
+    { key: 'Folders', title: 'Folders' },
   ];
-  const handleIndexChange = (index: number) => {
-    setIndex(index);
+  const handleIndexChange = (_index: number) => {
+    setIndex(_index);
   };
 
   const fetchAllSongs = async () => {
@@ -104,12 +96,12 @@ const MyMusicScreen = () => {
     try {
       setLoading(true);
       const tempFolders: string[] = [];
-      const results = await RNAndroidAudioStore.getAll({options});
+      const results = await RNAndroidAudioStore.getAll({ options });
       setLoading(false);
-      const data = results.map(i => {
+      const data = results.map((i) => {
         const subText = i.path.split('/');
         tempFolders.push(subText[subText.length - 2]);
-        return {...i, url: i.path};
+        return { ...i, url: i.path };
       });
       const uniq = [...new Set(tempFolders)];
       setMusicFolders(uniq);
@@ -122,7 +114,7 @@ const MyMusicScreen = () => {
   const renderTabBar = (
     props: SceneRendererProps & {
       navigationState: NavigationState<routeType>;
-    },
+    }
   ) => {
     return (
       <TabBar
@@ -176,7 +168,7 @@ const MyMusicScreen = () => {
       <TabView
         lazy={true}
         swipeEnabled={true}
-        navigationState={{index, routes}}
+        navigationState={{ index, routes }}
         renderScene={renderScene}
         renderTabBar={renderTabBar}
         onIndexChange={handleIndexChange}

@@ -1,6 +1,6 @@
-import {PhotoIdentifier} from '@react-native-camera-roll/camera-roll';
+import { PhotoIdentifier } from '@react-native-camera-roll/camera-roll';
 import React from 'react';
-import {Text, Pressable, Image, StyleSheet, View} from 'react-native';
+import { Text, Pressable, Image, StyleSheet, View } from 'react-native';
 import AppImages from '../../../assets/images';
 import colors from '../../../utils/colors';
 import Method from '../../../utils/method';
@@ -12,35 +12,30 @@ interface videoDetailPros extends PhotoIdentifier {
   onMoreIconClick: () => void;
 }
 
-const VideoDetailListItem: React.FC<videoDetailPros> = props => {
-  const {filename, playableDuration, uri} = props.node.image;
-  const {onVideoItemPress, onMoreIconClick} = props;
+const VideoDetailListItem: React.FC<videoDetailPros> = (props) => {
+  const { filename, playableDuration, uri } = props.node.image;
+  const { onVideoItemPress, onMoreIconClick } = props;
 
   return (
     <Pressable
-      android_ripple={{color: colors.grey}}
+      android_ripple={{ color: colors.grey }}
       onPress={onVideoItemPress}
-      style={styles.rowContainer}>
-      <Image
-        resizeMode="cover"
-        source={{uri: uri}}
-        style={styles.folderIconStyle}
-      />
+      style={styles.rowContainer}
+    >
+      <Image resizeMode="cover" source={{ uri: uri }} style={styles.folderIconStyle} />
       <View style={styles.titleContainer}>
         <Text
           numberOfLines={2}
           ellipsizeMode={'tail'}
-          style={[GS.text_black_medium, styles.titleTextStyle]}>
+          style={[GS.text_black_medium, styles.titleTextStyle]}
+        >
           {filename}
         </Text>
         <Text numberOfLines={1} style={styles.countTextStyle}>
           {Method.getDurationTime(playableDuration)}
         </Text>
       </View>
-      <Pressable
-        onPress={onMoreIconClick}
-        hitSlop={5}
-        style={styles.moreIconContainer}>
+      <Pressable onPress={onMoreIconClick} hitSlop={5} style={styles.moreIconContainer}>
         <Image source={AppImages.ic_more} style={styles.moreIconStyle} />
       </Pressable>
     </Pressable>
@@ -85,6 +80,6 @@ const styles = StyleSheet.create({
     height: styleConfig.countPixelRatio(25),
     resizeMode: 'contain',
     tintColor: colors.black,
-    transform: [{rotate: '90deg'}],
+    transform: [{ rotate: '90deg' }],
   },
 });

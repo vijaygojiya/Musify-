@@ -2,4 +2,4 @@ const constant = {
   AppName: 'VMPlayer',
 };
 
-export {constant};
+export { constant };

@@ -1,14 +1,14 @@
-import Slider from "@react-native-community/slider";
-import React, { useEffect, useState } from "react";
-import { DynamicColorIOS, Image, Text, TouchableOpacity, View } from "react-native";
-import TrackPlayer, { State, useProgress } from "react-native-track-player";
+import Slider from '@react-native-community/slider';
+import React, { useEffect, useState } from 'react';
+import { DynamicColorIOS, Image, Text, TouchableOpacity, View } from 'react-native';
+import TrackPlayer, { State, useProgress } from 'react-native-track-player';
 
-import AppImages from "../../assets/images";
-import colors from "../../utils/colors";
-import string from "../../utils/string";
+import AppImages from '../../assets/images';
+import colors from '../../utils/colors';
+import string from '../../utils/string';
 
-import AppPlayer from "../AppPlayer";
-import styles from "./styles";
+import AppPlayer from '../AppPlayer';
+import styles from './styles';
 
 const AudioPlayer = ({ track, onNextPrevPress }) => {
   const {
@@ -60,16 +60,12 @@ const AudioPlayer = ({ track, onNextPrevPress }) => {
             <Text style={trackTitle}>{track.title}</Text>
           </View>
           <View>
-            <Text style={trackSubtitle}>
-              {track.artist || track.album || "unknown"}
-            </Text>
+            <Text style={trackSubtitle}>{track.artist || track.album || 'unknown'}</Text>
           </View>
         </View>
       </View>
       <View style={progrsBarSection}>
-        <Text>
-          {AppPlayer.secondsToHHMMSS(Math.floor(progress.position || 0))}
-        </Text>
+        <Text>{AppPlayer.secondsToHHMMSS(Math.floor(progress.position || 0))}</Text>
         <Slider
           style={styles.sliderContainer}
           minimumValue={0}
@@ -82,12 +78,9 @@ const AudioPlayer = ({ track, onNextPrevPress }) => {
         <Text>{AppPlayer.secondsToHHMMSS(track.duration || 0)}</Text>
       </View>
       <View style={buttonsSection}>
-        <View style={[buttonsCol, { alignItems: "flex-end" }]}>
-          <TouchableOpacity onPress={() => onNextPrevPress("prev")}>
-            <Image
-              source={AppImages.ic_previous_track}
-              style={styles.iPrevious}
-            />
+        <View style={[buttonsCol, { alignItems: 'flex-end' }]}>
+          <TouchableOpacity onPress={() => onNextPrevPress('prev')}>
+            <Image source={AppImages.ic_previous_track} style={styles.iPrevious} />
           </TouchableOpacity>
         </View>
         <View style={buttonsCol}>
@@ -99,8 +92,8 @@ const AudioPlayer = ({ track, onNextPrevPress }) => {
             )}
           </TouchableOpacity>
         </View>
-        <View style={[buttonsCol, { alignItems: "flex-start" }]}>
-          <TouchableOpacity onPress={() => onNextPrevPress("next")}>
+        <View style={[buttonsCol, { alignItems: 'flex-start' }]}>
+          <TouchableOpacity onPress={() => onNextPrevPress('next')}>
             <Image source={AppImages.ic_next_track} style={styles.iNext} />
           </TouchableOpacity>
         </View>

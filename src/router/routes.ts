@@ -1,11 +1,10 @@
 export const routes = Object.freeze({
   Splash: 'Splash',
   Dashboard: 'Dashboard',
-  Home:'Home',
+  Home: 'Home',
   MyMusic: 'MyMusic',
   Favourites: 'Favourites',
-  Search:'Search',
-  Profile:'Profile',
+  Search: 'Search',
+  Profile: 'Profile',
   // Playlist:'Playlist'
-
 });

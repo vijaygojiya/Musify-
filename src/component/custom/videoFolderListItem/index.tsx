@@ -1,6 +1,6 @@
 import React from 'react';
-import {View} from 'react-native';
-import {Text, Pressable, Image, StyleSheet} from 'react-native';
+import { View } from 'react-native';
+import { Text, Pressable, Image, StyleSheet } from 'react-native';
 import AppImages from '../../../assets/images';
 import colors from '../../../utils/colors';
 import styleConfig from '../../../utils/styleConfig';
@@ -10,22 +10,24 @@ const FolderListItem: React.FC<{
   title: string;
   count: number;
   onItemPress: (name: string, count: number) => void;
-}> = props => {
-  const {title, count, onItemPress} = props;
+}> = (props) => {
+  const { title, count, onItemPress } = props;
 
   return (
     <Pressable
-      android_ripple={{color: colors.grey}}
+      android_ripple={{ color: colors.grey }}
       onPress={() => {
         onItemPress(title, count);
       }}
-      style={styles.rowContainer}>
+      style={styles.rowContainer}
+    >
       <Image source={AppImages.folder_filled} style={styles.folderIconStyle} />
       <View style={styles.titleContainer}>
         <Text
           numberOfLines={2}
           ellipsizeMode={'tail'}
-          style={[GS.text_black_medium, styles.titleTextStyle]}>
+          style={[GS.text_black_medium, styles.titleTextStyle]}
+        >
           {title}
         </Text>
         <Text numberOfLines={1} style={styles.countTextStyle}>

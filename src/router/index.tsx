@@ -1,9 +1,9 @@
 import React from 'react';
-import {NavigationContainer} from '@react-navigation/native';
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
-import {routes} from './routes';
+import { routes } from './routes';
 import SplashScreen from '../screens/auth/splash';
 import FavouritesScreen from '../screens/favourites';
 import HomeScreen from '../screens/home';
@@ -23,28 +23,13 @@ const TabNavigator = () => (
       lazy: true,
       tabBarHideOnKeyboard: true,
     }}
-    tabBar={props => <CustomTabBar {...props} />}>
+    tabBar={(props) => <CustomTabBar {...props} />}
+  >
     <Tab.Screen key="HomeScreenTab" name={routes.Home} component={HomeScreen} />
-    <Tab.Screen
-      key="SearchScreenTab"
-      name={routes.Search}
-      component={SearchScreen}
-    />
-    <Tab.Screen
-      key="FavouritesScreenTab"
-      name={routes.Favourites}
-      component={FavouritesScreen}
-    />
-    <Tab.Screen
-      key="MyMusicScreenTab"
-      name={routes.MyMusic}
-      component={MyMusicScreen}
-    />
-    <Tab.Screen
-      key="ProfileScreenTab"
-      name={routes.Profile}
-      component={ProfileScreen}
-    />
+    <Tab.Screen key="SearchScreenTab" name={routes.Search} component={SearchScreen} />
+    <Tab.Screen key="FavouritesScreenTab" name={routes.Favourites} component={FavouritesScreen} />
+    <Tab.Screen key="MyMusicScreenTab" name={routes.MyMusic} component={MyMusicScreen} />
+    <Tab.Screen key="ProfileScreenTab" name={routes.Profile} component={ProfileScreen} />
   </Tab.Navigator>
 );
 
@@ -55,7 +40,8 @@ const AppContainer = () => (
         headerShown: false,
         animation: 'slide_from_right',
       }}
-      initialRouteName={routes.Splash}>
+      initialRouteName={routes.Splash}
+    >
       <Stack.Screen name={routes.Splash} component={SplashScreen} />
       <Stack.Screen name={routes.Dashboard} component={TabNavigator} />
     </Stack.Navigator>

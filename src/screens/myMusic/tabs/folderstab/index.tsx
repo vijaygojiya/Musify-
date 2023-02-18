@@ -1,14 +1,12 @@
-import {FlatList, StyleSheet, Text, View} from 'react-native';
+import { FlatList, StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 import GS from '../../../../utils/styles';
 import styleConfig from '../../../../utils/styleConfig';
 import colors from '../../../../utils/colors';
 
-const FoldersTab = ({musicFolders}) => {
-  const renderFolder = ({item, index}) => {
-    return (
-      <Text style={[GS.text_white_regular, styles.folderTitle]}>{item}</Text>
-    );
+const FoldersTab = ({ musicFolders }) => {
+  const renderFolder = ({ item, index }) => {
+    return <Text style={[GS.text_white_regular, styles.folderTitle]}>{item}</Text>;
   };
 
   const renderSeparator = () => <View style={styles.separator} />;
@@ -39,7 +37,5 @@ const styles = StyleSheet.create({
     borderBottomWidth: styleConfig.countPixelRatio(0.4),
     borderBottomColor: colors.tertiary,
     marginHorizontal: styleConfig.smartWidthScale(20),
-
-
   },
 });

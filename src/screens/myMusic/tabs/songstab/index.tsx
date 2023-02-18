@@ -1,10 +1,10 @@
-import React, {memo} from 'react';
-import {ActivityIndicator, FlatList, StyleSheet, View} from 'react-native';
+import React, { memo } from 'react';
+import { ActivityIndicator, FlatList, StyleSheet, View } from 'react-native';
 
-import colors from '../../../../utils/colors';
-import styleConfig from '../../../../utils/styleConfig';
 import SongListItme from '../../../../component/custom/songlistitem';
+import colors from '../../../../utils/colors';
 import SongList from '../../../../utils/dummydata/song';
+import styleConfig from '../../../../utils/styleConfig';
 
 interface SongItem {
   title: string;
@@ -17,13 +17,8 @@ interface Props {
   handleSongClick: (index: number) => void;
 }
 
-const SongsTab: React.FC<Props> = ({
-  songsData,
-  handleSongClick,
-  isLoading,
-  selectedIndex,
-}) => {
-  const renderSongItem = ({item, index}: {item: SongItem; index: number}) => {
+const SongsTab: React.FC<Props> = ({ songsData, handleSongClick, isLoading, selectedIndex }) => {
+  const renderSongItem = ({ item, index }: { item: SongItem; index: number }) => {
     return (
       <SongListItme
         index={index}
@@ -37,13 +32,7 @@ const SongsTab: React.FC<Props> = ({
 
   const renderLoader = () => {
     if (isLoading) {
-      return (
-        <ActivityIndicator
-          style={styles.loader}
-          color={colors.secondary}
-          size={'large'}
-        />
-      );
+      return <ActivityIndicator style={styles.loader} color={colors.secondary} size={'large'} />;
     }
     return null;
   };

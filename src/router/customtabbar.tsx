@@ -1,23 +1,17 @@
-import {BlurView} from '@react-native-community/blur';
-import React, {useState} from 'react';
-import {
-  FlatList,
-  ImageSourcePropType,
-  StyleSheet,
-  View,
-  ViewStyle,
-} from 'react-native';
+import { BlurView } from '@react-native-community/blur';
+import React, { useState } from 'react';
+import { FlatList, ImageSourcePropType, StyleSheet, View, ViewStyle } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import SafeAreaView from 'react-native-safe-area-view';
 
 import AppImages from '../assets/images';
 import colors from '../utils/colors';
-import {Type_Of_TabBar} from '../utils/enum';
+import { Type_Of_TabBar } from '../utils/enum';
 import string from '../utils/string';
 import styleConfig from '../utils/styleConfig';
 import GS from '../utils/styles';
 import ItemTab from './itemtab';
-import {routes} from './routes';
+import { routes } from './routes';
 
 const TabBarList = [
   {
@@ -48,8 +42,8 @@ const TabBarList = [
   },
 ];
 
-const CustomTabBar = (props: {navigation: any}) => {
-  const {navigation} = props;
+const CustomTabBar = (props: { navigation: any }) => {
+  const { navigation } = props;
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   const onTabClick = (index: React.SetStateAction<number>) => {
@@ -83,7 +77,7 @@ const CustomTabBar = (props: {navigation: any}) => {
       Navigation: string;
     };
     index: number;
-  }> = ({item, index}) => {
+  }> = ({ item, index }) => {
     return (
       <ItemTab
         item={item}
@@ -96,19 +90,19 @@ const CustomTabBar = (props: {navigation: any}) => {
   };
 
   return (
-    <SafeAreaView
-      forceInset={{top: 'never', bottom: 'always'}}
-      style={styles.saContainer}>
+    <SafeAreaView forceInset={{ top: 'never', bottom: 'always' }} style={styles.saContainer}>
       <BlurView
         style={[styles.blurView]}
         overlayColor={colors.transparent}
         blurAmount={10}
-        blurRadius={7}>
+        blurRadius={7}
+      >
         <LinearGradient
           colors={[colors.transparent, colors.extraDarkGrey]}
           style={[styles.gradientContainer]}
-          start={{x: 0, y: 0}}
-          end={{x: 0, y: 1.5}}>
+          start={{ x: 0, y: 0 }}
+          end={{ x: 0, y: 1.5 }}
+        >
           <View style={styles.container}>
             <FlatList
               horizontal={true}
