@@ -9,13 +9,13 @@ const ItemTab: React.FC<{
   isSelected: boolean;
   onTabClickListener: (index: number) => void;
 }> = ({ item, index, isSelected, onTabClickListener }) => {
-  const bounceValue = useRef(new Animated.Value(0.8)).current;
+  const bounceValue = useRef(new Animated.Value(1)).current;
   const bounce = () => {
-    bounceValue.setValue(0.9);
+    bounceValue.setValue(0.7);
     Animated.spring(bounceValue, {
       toValue: 1,
       friction: 2,
-      useNativeDriver: true,
+      useNativeDriver: false,
     }).start();
   };
 
@@ -24,8 +24,8 @@ const ItemTab: React.FC<{
       accessibilityLabel={`Tab-${index}`}
       style={styles.toTabContainer}
       onPress={() => {
-        bounce();
         onTabClickListener(index);
+        bounce();
       }}
     >
       <Animated.Image

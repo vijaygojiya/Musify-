@@ -10,12 +10,10 @@ import AppNavigator from './src/router';
 const App = () => {
   return (
     <Provider store={store}>
-      <PersistGate loading={null} persistor={persistor}>
-        {/* <StatusBar backgroundColor={colors.secondaryBg} /> */}
-        <View style={styles.appContainer}>
-          <AppNavigator />
-        </View>
-      </PersistGate>
+      {/* <StatusBar backgroundColor={colors.secondaryBg} /> */}
+      <View style={styles.appContainer}>
+        <AppNavigator />
+      </View>
     </Provider>
   );
 };
