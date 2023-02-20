@@ -16,6 +16,7 @@ const HomeScreen = () => {
     try {
       const data = await getResponse(apiEndPoints.homeData);
       const formatedeData = await formatHomePageData(data.data);
+      console.log('=====~~~~~>', formatedeData);
     } catch (error) {
       console.log('eee', error);
     }

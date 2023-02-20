@@ -52,50 +52,60 @@ const formatSongsInList = async (list: any[]) => {
   return [];
 };
 
-export const formatHomePageData = async (data: { [x: string]: any[] }) => {
+export async function formatHomePageData(data) {
   try {
-    const keysToFormat = ['new_trending', 'new_albums', 'city_mod'];
-    const modules = data.modules || {};
+    const keys = Object.keys(data);
+    const listKeys = keys.filter((key) => Array.isArray(data[key]));
+    const listPromoKeys = listKeys.filter((key) => key.startsWith('promo'));
+    const listNonPromoKeys = listKeys.filter((key) => !key.startsWith('promo'));
+    await Promise.all(
+      listPromoKeys.map(async (promoKey) => {
+        console.log('props item', data[promoKey]);
 
-    const promoList = Object.keys(modules)
-      .filter((key) => key.startsWith('promo'))
-      .reduce(
-        (list, key) => {
-          const firstItem = data[key][0];
-          if (firstItem?.type === 'song' && firstItem?.mini_obj) {
-            list.temp.push(key);
-          } else {
-            list.items.push(key);
-          }
-          return list;
-        },
-        { items: [], temp: [] }
-      );
-
-    const promoListFormatted = await Promise.all(
-      promoList.items.map((item) => formatSongsInList(data[item]))
+        if (data[promoKey][0]['type'] === 'song' && data[promoKey][0]['mini_obj'] === true) {
+          return;
+        }
+        data[promoKey] = await formatSongsInList(data[promoKey]);
+      })
+    );
+    await Promise.all(
+      listNonPromoKeys.map(async (key) => {
+        data[key] = await formatSongsInList(data[key]);
+      })
     );
 
-    promoList.items.forEach((key, index) => {
-      data[key] = promoListFormatted[index];
-    });
-
-    data.collections = [
-      ...keysToFormat,
-      'charts',
-      'tag_mixes',
-      'top_playlists',
-      'radio',
-      'artist_recos',
-      ...promoList.items,
-    ];
-
-    data.collections_temp = promoList.temp;
-    keysToFormat.forEach(
-      async (key) => data[key] && (data[key] = await formatSongsInList(data[key]))
-    );
+    return {
+      ...data,
+      collections: [
+        'new_trending',
+        'charts',
+        'new_albums',
+        'tag_mixes',
+        'top_playlists',
+        'radio',
+        'city_mod',
+        'artist_recos',
+        ...listPromoKeys,
+      ],
+      collections_temp: listPromoKeys.filter(
+        (promoKey) => data[promoKey][0]['type'] === 'song' && data[promoKey][0]['mini_obj'] === true
+      ),
+    };
   } catch (error) {
-    console.error('Error inside formatHomePageData:', error);
+    console.error(`Error inside formatHomePageData: ${error}`);
+  }
+}
+
+export async function formatPromoLists(data) {
+  try {
+    const promoList = data.collections_temp;
+    for (let i = 0; i < promoList.length; i++) {
+      data[promoList[i]] = await formatSongsInList(data[promoList[i]]);
+    }
+    data.collections.push(...promoList);
+    data.collections_temp = [];
+  } catch (e) {
+    console.error(`Error inside formatPromoLists: ${e}`);
   }
   return data;
-};
+}
