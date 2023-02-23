@@ -1,5 +1,6 @@
 import { SongType } from '.';
 import { capitalizeString } from '../utils/helper';
+import { getImageUrl } from '../utils/helpers';
 import { fetchSongDetails } from './fetchSongDetails';
 
 const formatArtistNames = (artistMap: any) => {
@@ -19,6 +20,7 @@ export const formatSingleSongResponse = async (response: SongType) => {
       album_artist: more_info.music || response.music,
       language: capitalizeString(response.language),
       genre: capitalizeString(response.language),
+      image: getImageUrl(response.image),
     };
   } catch (error) {
     console.error(`Error inside formatSingleSongResponse: ${error}`);
