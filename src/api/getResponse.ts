@@ -1,7 +1,7 @@
-import axios from 'axios';
+import axios, { AxiosPromise, AxiosResponse } from 'axios';
 import { apiStr, baseUrl } from './ApiConst';
 
-export async function getResponse(params: any) {
+export const getResponse = async <T>(params: string): AxiosPromise<T> => {
   const url = `https://${baseUrl}${apiStr}&${params}`;
   const config = {
     method: 'GET',
@@ -11,5 +11,5 @@ export async function getResponse(params: any) {
     },
   };
 
-  return axios(config);
-}
+  return axios<T>(config);
+};

@@ -11,10 +11,10 @@ const ItemTab: React.FC<{
 }> = ({ item, index, isSelected, onTabClickListener }) => {
   const bounceValue = useRef(new Animated.Value(1)).current;
   const bounce = () => {
-    bounceValue.setValue(0.7);
-    Animated.spring(bounceValue, {
+    bounceValue.setValue(0.83);
+    Animated.timing(bounceValue, {
       toValue: 1,
-      friction: 2,
+      duration: 350,
       useNativeDriver: false,
     }).start();
   };
