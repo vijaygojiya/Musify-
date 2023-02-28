@@ -1,7 +1,6 @@
-import { Image, Pressable, StyleSheet, Text, View } from 'react-native';
+import { Image, Pressable } from 'react-native';
 import React, { FC } from 'react';
 import { getImageUrl } from '../../../../utils/helpers';
-import colors from '../../../../utils/colors';
 import { styles } from './styles';
 export type mediaType = 'charts' | 'radio_station' | 'playlist' | 'song' | 'mix' | 'show' | 'album';
 

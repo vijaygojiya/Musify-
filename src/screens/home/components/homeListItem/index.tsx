@@ -1,8 +1,6 @@
-import { FlatList, ListRenderItem, Pressable, StyleSheet, Text, View } from 'react-native';
+import { FlatList, ListRenderItem, Pressable, Text } from 'react-native';
 import React, { FC } from 'react';
-import styleConfig from '../../../../utils/styleConfig';
 import GS from '../../../../utils/styles';
-import colors from '../../../../utils/colors';
 import PlayListItem from '../playlistitem';
 import { styles } from './styles';
 import { mediaType } from '../../../../api';
@@ -24,7 +22,7 @@ const HomeListItem: FC<Props> = ({ playListData, title }) => {
   };
 
   return (
-    <Pressable style={{ marginVertical: styleConfig.smartScale(10) }}>
+    <Pressable style={styles.container}>
       <Text style={[GS.text_white_medium, styles.playlistTitle]}>{title}</Text>
       <FlatList
         data={playListData}

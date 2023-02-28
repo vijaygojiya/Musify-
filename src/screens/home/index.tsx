@@ -9,6 +9,7 @@ import { formatHomePageData } from '../../api/format';
 import CommonToolbar from '../../component/custom/commontoolbar';
 import HomeListItem from './components/homeListItem';
 import styles from './styles';
+import { showToast } from '../../utils/tost';
 
 const HomeScreen = () => {
   const [data, setData] = useState([]);
@@ -23,11 +24,11 @@ const HomeScreen = () => {
       const formatedeData = await formatHomePageData(data.data);
       setData(formatedeData);
     } catch (error) {
-      console.log('eee', error);
+      showToast(`${error?.response?.data?.message}`);
     }
   };
 
-  const renderItem = ({ item, index }) => {
+  const renderItem = ({ item }) => {
     const { modules } = data;
 
     return <HomeListItem playListData={data[`${item}`]} title={modules[`${item}`]?.title} />;
