@@ -1,4 +1,4 @@
-import { FlatList, Text } from 'react-native';
+import { ActivityIndicator, FlatList, Text } from 'react-native';
 import React, { useCallback, useEffect, useState } from 'react';
 import GS from '../../utils/styles';
 import CommonGradientBg from '../../component/custom/commonGradientBg';
@@ -10,10 +10,36 @@ import CommonToolbar from '../../component/custom/commontoolbar';
 import HomeListItem from './components/homeListItem';
 import styles from './styles';
 import { showToast } from '../../utils/tost';
+import TrackPlayer from 'react-native-track-player';
+import { SetupService, QueueInitialTracksService } from '../../player/services';
+import SafeAreaView from 'react-native-safe-area-view';
 
 const HomeScreen = () => {
+  // const track = useActiveTrack();
+  const [isPlayerReady, setIsPlayerReady] = useState<boolean>(false);
+
   const [data, setData] = useState([]);
 
+  useEffect(() => {
+    let unmounted = false;
+    (async () => {
+      try {
+        const isSetup = await SetupService();
+        if (unmounted) return;
+        setIsPlayerReady(isSetup);
+        const queue = await TrackPlayer.getQueue();
+        if (unmounted) return;
+        if (isSetup && queue.length <= 0) {
+          await QueueInitialTracksService();
+        }
+      } catch (error) {
+        showToast(`${error.message}`);
+      }
+    })();
+    return () => {
+      unmounted = true;
+    };
+  }, []);
   useEffect(() => {
     fetchData();
   }, []);
@@ -31,12 +57,34 @@ const HomeScreen = () => {
   const renderItem = ({ item }) => {
     const { modules } = data;
 
-    return <HomeListItem playListData={data[`${item}`]} title={modules[`${item}`]?.title} />;
+    const handlePlaySong = (item) => {
+      console.log('item', item);
+
+      // setSongIndex(index);
+      TrackPlayer.reset();
+      TrackPlayer.add([{ ...item, artwork: item.image }]);
+      TrackPlayer.play();
+    };
+    return (
+      <HomeListItem
+        playListData={data[`${item}`]}
+        title={modules[`${item}`]?.title}
+        handlerItemClick={handlePlaySong}
+      />
+    );
   };
 
   const renderListHeader = useCallback(() => {
     return <Text style={[GS.text_white_regular, styles.greetingTextStyle]}>{data.greeting}</Text>;
   }, [data.greeting]);
+
+  // if (!isPlayerReady) {
+  //   return (
+  //     <SafeAreaView style={styles.screenContainer}>
+  //       <ActivityIndicator />
+  //     </SafeAreaView>
+  //   );
+  // }
   return (
     <CommonGradientBg>
       <CommonToolbar title="Home" containerStyle={styles.appBar} />

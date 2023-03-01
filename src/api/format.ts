@@ -2,6 +2,17 @@ import { SongType } from '.';
 import { capitalizeString } from '../utils/helper';
 import { getImageUrl } from '../utils/helpers';
 import { fetchSongDetails } from './fetchSongDetails';
+import CryptoJS from 'crypto-js';
+
+function decode(input: string) {
+  const key = '38346591';
+  const encrypted = CryptoJS.enc.Base64.parse(input);
+  const decrypted = CryptoJS.DES.decrypt({ ciphertext: encrypted }, CryptoJS.enc.Utf8.parse(key), {
+    mode: CryptoJS.mode.ECB,
+  }).toString(CryptoJS.enc.Utf8);
+  const decoded = decrypted.replace(/\.mp4.*/, '.mp4').replace(/\.m4a.*/, '.m4a');
+  return decoded.replace('http:', 'https:');
+}
 
 const formatArtistNames = (artistMap: any) => {
   const primaryArtists = artistMap?.primary_artists?.map((artist) => artist.name) || [];
@@ -21,6 +32,7 @@ export const formatSingleSongResponse = async (response: SongType) => {
       language: capitalizeString(response.language),
       genre: capitalizeString(response.language),
       image: getImageUrl(response.image),
+      url: decode(more_info['encrypted_media_url'].toString()),
     };
   } catch (error) {
     console.error(`Error inside formatSingleSongResponse: ${error}`);
@@ -62,8 +74,6 @@ export async function formatHomePageData(data) {
     const listNonPromoKeys = listKeys.filter((key) => !key.startsWith('promo'));
     await Promise.all(
       listPromoKeys.map(async (promoKey) => {
-        console.log('props item', data[promoKey]);
-
         if (data[promoKey][0]['type'] === 'song' && data[promoKey][0]['mini_obj'] === true) {
           return;
         }

@@ -1,5 +1,5 @@
 import { BlurView } from '@react-native-community/blur';
-import React, { useState } from 'react';
+import React, { memo, useCallback, useState } from 'react';
 import { FlatList, ImageSourcePropType, StyleSheet, View, ViewStyle } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import SafeAreaView from 'react-native-safe-area-view';
@@ -46,9 +46,7 @@ const CustomTabBar = (props: { navigation: any }) => {
   const { navigation } = props;
   const [selectedIndex, setSelectedIndex] = useState(0);
 
-  const onTabClick = (index: React.SetStateAction<number>) => {
-    console.log('inddex', index);
-
+  const onTabClick = useCallback((index: React.SetStateAction<number>) => {
     setSelectedIndex(index);
     switch (index) {
       case Type_Of_TabBar.Home:
@@ -68,7 +66,7 @@ const CustomTabBar = (props: { navigation: any }) => {
         navigation.navigate(routes.Profile);
         break;
     }
-  };
+  }, []);
 
   const renderTabItem: React.FC<{
     item: {
@@ -155,4 +153,4 @@ const styles = StyleSheet.create({
     ...absoluteStyle,
   },
 });
-export default CustomTabBar;
+export default memo(CustomTabBar);

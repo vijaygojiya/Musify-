@@ -43,25 +43,6 @@ const MyMusicScreen = () => {
   const [isPlayerReady, setIsPlayerReady] = useState<boolean>(false);
 
   useEffect(() => {
-    let unmounted = false;
-    (async () => {
-      const isSetup = await SetupService();
-      if (unmounted) return;
-      setIsPlayerReady(isSetup);
-      const queue = await TrackPlayer.getQueue();
-      if (unmounted) return;
-      if (isSetup && queue.length <= 0) {
-        await QueueInitialTracksService();
-      }
-    })();
-    return () => {
-      unmounted = true;
-    };
-  }, []);
-
-  console.log('isPlayerReadyisPlayerReady', isPlayerReady);
-
-  useEffect(() => {
     checkLocationPermission(fetchAllSongs);
   }, []);
 

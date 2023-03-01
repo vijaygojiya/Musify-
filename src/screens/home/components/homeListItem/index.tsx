@@ -1,11 +1,12 @@
 import { FlatList, ListRenderItem, Pressable, Text } from 'react-native';
-import React, { FC } from 'react';
+import React, { FC, memo } from 'react';
 import GS from '../../../../utils/styles';
 import PlayListItem from '../playlistitem';
 import { styles } from './styles';
 import { mediaType } from '../../../../api';
 
 interface Props {
+  handlerItemClick: (i: object) => void;
   playListData: {
     image: string;
     type: mediaType;
@@ -13,12 +14,19 @@ interface Props {
   title: string;
 }
 
-const HomeListItem: FC<Props> = ({ playListData, title }) => {
+const HomeListItem: FC<Props> = ({ playListData, title, handlerItemClick }) => {
   const renderSubItem: ListRenderItem<{
     image: string;
     type: mediaType;
   }> = ({ item }) => {
-    return <PlayListItem {...item} />;
+    return (
+      <PlayListItem
+        {...item}
+        handlerItemClick={() => {
+          handlerItemClick(item);
+        }}
+      />
+    );
   };
 
   return (
@@ -39,4 +47,4 @@ const HomeListItem: FC<Props> = ({ playListData, title }) => {
   );
 };
 
-export default HomeListItem;
+export default memo(HomeListItem);

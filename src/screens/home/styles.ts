@@ -2,6 +2,12 @@ import { StyleSheet } from 'react-native';
 import styleConfig from '../../utils/styleConfig';
 
 const styles = StyleSheet.create({
+  screenContainer: {
+    flex: 1,
+    backgroundColor: '#212121',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
   appBar: {
     paddingHorizontal: styleConfig.smartWidthScale(20),
   },
