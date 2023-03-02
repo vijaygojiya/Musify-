@@ -46,7 +46,7 @@ const ModalPlayer = ({ isModalOpen, isPlaying, songDetail, onNextPrevPress, onCl
         <Pressable style={styles.pCloseContainer} onPress={onCloseModal}>
           <Image source={AppImages.ic_close} style={styles.iClose} />
         </Pressable>
-        <Image style={styles.iAlbum} source={{ uri: songDetail.artwork }} />
+        <Image style={styles.iAlbum} source={{ uri: songDetail?.artwork }} />
         <View style={styles.vProgrsBarSection}>
           <Text style={[GS.text_white_regular, styles.tTime]}>
             {secondsToHHMMSS(Math.floor(progress.position || 0))}
@@ -55,20 +55,20 @@ const ModalPlayer = ({ isModalOpen, isPlaying, songDetail, onNextPrevPress, onCl
             style={{ width: '70%', height: 40 }}
             minimumValue={0}
             onSlidingComplete={handleOnSliding}
-            maximumValue={parseInt(songDetail.duration)}
+            maximumValue={parseInt(songDetail?.duration)}
             minimumTrackTintColor={colors.navy_purple}
             maximumTrackTintColor={colors.navy_purple}
             thumbTintColor={colors.navy_purple}
             value={progress.position}
           />
           <Text style={[GS.text_white_regular, styles.tTime]}>
-            {secondsToHHMMSS(songDetail.duration || 0)}
+            {secondsToHHMMSS(songDetail?.duration || 0)}
           </Text>
         </View>
         <View style={styles.vTitleContainer}>
-          <Text style={[GS.text_white_medium, styles.tSongTitle]}>{songDetail.title}</Text>
+          <Text style={[GS.text_white_medium, styles.tSongTitle]}>{songDetail?.title}</Text>
           <Text numberOfLines={1} style={[GS.text_white_regular, styles.tSongArtist]}>
-            {songDetail.artist}
+            {songDetail?.artist}
           </Text>
         </View>
         <View style={styles.vFunctionContainer}>

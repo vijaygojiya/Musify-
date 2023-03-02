@@ -10,12 +10,12 @@ import CommonToolbar from '../../component/custom/commontoolbar';
 import HomeListItem from './components/homeListItem';
 import styles from './styles';
 import { showToast } from '../../utils/tost';
-import TrackPlayer from 'react-native-track-player';
+import TrackPlayer, { useActiveTrack } from 'react-native-track-player';
 import { SetupService, QueueInitialTracksService } from '../../player/services';
 import SafeAreaView from 'react-native-safe-area-view';
 
 const HomeScreen = () => {
-  // const track = useActiveTrack();
+  const track = useActiveTrack();
   const [isPlayerReady, setIsPlayerReady] = useState<boolean>(false);
 
   const [data, setData] = useState([]);
@@ -58,9 +58,6 @@ const HomeScreen = () => {
     const { modules } = data;
 
     const handlePlaySong = (item) => {
-      console.log('item', item);
-
-      // setSongIndex(index);
       TrackPlayer.reset();
       TrackPlayer.add([{ ...item, artwork: item.image }]);
       TrackPlayer.play();
@@ -78,13 +75,13 @@ const HomeScreen = () => {
     return <Text style={[GS.text_white_regular, styles.greetingTextStyle]}>{data.greeting}</Text>;
   }, [data.greeting]);
 
-  // if (!isPlayerReady) {
-  //   return (
-  //     <SafeAreaView style={styles.screenContainer}>
-  //       <ActivityIndicator />
-  //     </SafeAreaView>
-  //   );
-  // }
+  if (!isPlayerReady) {
+    return (
+      <SafeAreaView style={styles.screenContainer}>
+        <ActivityIndicator />
+      </SafeAreaView>
+    );
+  }
   return (
     <CommonGradientBg>
       <CommonToolbar title="Home" containerStyle={styles.appBar} />
