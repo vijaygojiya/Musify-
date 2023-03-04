@@ -3,7 +3,7 @@ export const routes = Object.freeze({
   Dashboard: 'Dashboard',
   Home: 'Home',
   MyMusic: 'MyMusic',
-  Favourites: 'Favourites',
+  Favorites: 'Favorites',
   Search: 'Search',
   Profile: 'Profile',
   // Playlist:'Playlist'

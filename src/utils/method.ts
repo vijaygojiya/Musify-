@@ -1,5 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { CommonActions } from '@react-navigation/native';
+import ImageColors from 'react-native-image-colors';
+import colors from './colors';
 // import { GoogleSignin } from '@react-native-google-signin/google-signin';
 // import { LoginManager } from 'react-native-fbsdk-next';
 // import authService from '../FSFirebase/auth';
@@ -73,6 +75,23 @@ const Method = {
     }
 
     return hours + ':' + minutes + ':' + seconds;
+  },
+  getDominantColor: async (imgUrl: string) => {
+    const result = await ImageColors.getColors(imgUrl, {
+      fallback: colors.darkblue,
+    });
+
+    switch (result.platform) {
+      case 'android':
+        return result.dominant || colors.darkblue;
+
+      case 'ios':
+        return result.background || colors.darkblue;
+
+      default:
+        return colors.darkblue;
+    }
+    return result;
   },
 };
 

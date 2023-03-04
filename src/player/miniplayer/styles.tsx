@@ -6,53 +6,37 @@ import styleConfig from '../../utils/styleConfig';
 import GS from '../../utils/styles';
 
 const styles = StyleSheet.create({
-  pContainer: {
-    borderRadius: styleConfig.countPixelRatio(10),
+  container: {
+    borderRadius: styleConfig.countPixelRatio(8),
+    // borderTopStartRadius: styleConfig.countPixelRatio(8),
     bottom: 0,
-    marginHorizontal: styleConfig.smartWidthScale(15),
-    width: styleConfig.width - styleConfig.smartWidthScale(30),
+    width: styleConfig.width - styleConfig.smartWidthScale(16),
+    alignSelf: 'center',
     position: 'absolute',
     marginTop: styleConfig.smartScale(15),
-    marginBottom: styleConfig.smartScale(65),
-    backgroundColor: colors.darkGrey,
+    marginBottom: styleConfig.smartScale(55),
     ...GS.shadowEffect,
   },
-  vContainer: {
-    paddingHorizontal: styleConfig.smartWidthScale(10),
+  infoRowContainer: {
     flexDirection: 'row',
-    alignItems: 'center',
-  },
-  iCover: {
-    borderRadius: styleConfig.countPixelRatio(10),
     marginVertical: styleConfig.smartScale(5),
-    width: styleConfig.countPixelRatio(50),
-    height: styleConfig.countPixelRatio(50),
+    marginHorizontal: styleConfig.smartWidthScale(5),
   },
-  vSongDetailContainer: {
+  artworkImage: {
+    height: styleConfig.countPixelRatio(45),
+    width: styleConfig.countPixelRatio(45),
+    borderRadius: styleConfig.countPixelRatio(8),
+  },
+  songDetailContainer: {
     flex: 1,
     marginHorizontal: styleConfig.smartWidthScale(10),
   },
-  tSongTitle: {
-    fontSize: styleConfig.countPixelRatio(14),
-    textAlign: 'left',
+  titleTextStyle: {
+    fontSize: styleConfig.countPixelRatio(12),
   },
-  tSongArtist: {
+  songArtist: {
     opacity: 0.7,
     fontSize: styleConfig.countPixelRatio(12),
-    textAlign: 'left',
-  },
-  iPlayPause: {
-    width: styleConfig.countPixelRatio(20),
-    height: styleConfig.countPixelRatio(20),
-    resizeMode: 'contain',
-    tintColor: colors.white,
-  },
-  pPlayPauseContainer: {
-    width: styleConfig.countPixelRatio(25),
-    height: styleConfig.countPixelRatio(25),
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginHorizontal: styleConfig.smartWidthScale(5),
   },
 });
 

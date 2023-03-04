@@ -28,7 +28,7 @@ const TabBarList = [
   {
     Name: string.Favourites,
     Icon: AppImages.ic_heart,
-    Navigation: routes.Favourites,
+    Navigation: routes.Favorites,
   },
   {
     Name: string.MyMusic,
@@ -56,8 +56,8 @@ const CustomTabBar = (props: { navigation: any }) => {
         navigation.navigate(routes.Search);
         break;
 
-      case Type_Of_TabBar.Favourites:
-        navigation.navigate(routes.Favourites);
+      case Type_Of_TabBar.Favorites:
+        navigation.navigate(routes.Favorites);
         break;
       case Type_Of_TabBar.MyMusic:
         navigation.navigate(routes.MyMusic);

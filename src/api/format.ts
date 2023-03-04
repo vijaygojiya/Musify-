@@ -28,6 +28,7 @@ export const formatSingleSongResponse = async (response: SongType) => {
       ...updateData,
       ...more_info,
       artist: formatArtistNames(more_info.artistMap),
+      subtitle: response?.description || response?.subtitle.toString(),
       album_artist: more_info.music || response.music,
       language: capitalizeString(response.language),
       genre: capitalizeString(response.language),

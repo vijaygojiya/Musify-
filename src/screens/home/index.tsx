@@ -15,7 +15,6 @@ import { SetupService, QueueInitialTracksService } from '../../player/services';
 import SafeAreaView from 'react-native-safe-area-view';
 
 const HomeScreen = () => {
-  const track = useActiveTrack();
   const [isPlayerReady, setIsPlayerReady] = useState<boolean>(false);
 
   const [data, setData] = useState([]);
@@ -30,7 +29,7 @@ const HomeScreen = () => {
         const queue = await TrackPlayer.getQueue();
         if (unmounted) return;
         if (isSetup && queue.length <= 0) {
-          await QueueInitialTracksService();
+          // await QueueInitialTracksService();
         }
       } catch (error) {
         showToast(`${error.message}`);
@@ -95,6 +94,7 @@ const HomeScreen = () => {
         overScrollMode="never"
         ListHeaderComponent={renderListHeader}
         contentContainerStyle={styles.flContainer}
+        initialNumToRender={3}
       />
     </CommonGradientBg>
   );

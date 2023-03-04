@@ -1,20 +1,23 @@
-import { Animated, Image, ImageStyle, Pressable, StyleProp } from 'react-native';
+import { Animated, Image, ImageStyle, Pressable, StyleProp, Text } from 'react-native';
 import React, { FC, memo, useMemo, useRef } from 'react';
 import { getImageUrl } from '../../../../utils/helpers';
 import { styles } from './styles';
-import colors from '../../../../utils/colors';
 import styleConfig from '../../../../utils/styleConfig';
+import GS from '../../../../utils/styles';
+import { getSubTitle } from '../../../../utils/helper';
 export type mediaType = 'charts' | 'radio_station' | 'playlist' | 'song' | 'mix' | 'show' | 'album';
 
 interface Props {
   image: string;
+  title: string;
   type: mediaType;
   handlerItemClick: () => void;
 }
 
 const AnimatedPressable = Animated.createAnimatedComponent(Pressable);
 
-const PlayListItem: FC<Props> = ({ image, type, handlerItemClick }) => {
+const PlayListItem: FC<Props> = ({ handlerItemClick, ...item }) => {
+  const { image, type, title } = item;
   const scale = useRef(new Animated.Value(1)).current;
   const opacity = useRef(new Animated.Value(1)).current;
 
@@ -51,7 +54,7 @@ const PlayListItem: FC<Props> = ({ image, type, handlerItemClick }) => {
   const songItemContainerStyle: StyleProp<ImageStyle> = useMemo(() => {
     if (type === 'song') {
       return {
-        borderRadius: styleConfig.countPixelRatio(75),
+        borderRadius: styleConfig.countPixelRatio(100),
       };
     }
     return {};
@@ -59,7 +62,11 @@ const PlayListItem: FC<Props> = ({ image, type, handlerItemClick }) => {
   return (
     <AnimatedPressable
       onPressIn={handlePressIn}
-      onPress={handlerItemClick}
+      onPress={() => {
+        if (type === 'song') {
+          handlerItemClick();
+        }
+      }}
       onPressOut={handlePressOut}
       style={[
         styles.itemContainer,
@@ -74,6 +81,12 @@ const PlayListItem: FC<Props> = ({ image, type, handlerItemClick }) => {
         style={[styles.artwrokImage, songItemContainerStyle]}
         resizeMode="contain"
       />
+      <Text numberOfLines={1} style={[GS.text_white_medium, styles.titleText]}>
+        {title}
+      </Text>
+      <Text numberOfLines={1} style={[GS.text_white_regular, styles.subTitleText]}>
+        {getSubTitle(item)}
+      </Text>
     </AnimatedPressable>
   );
 };

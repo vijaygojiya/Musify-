@@ -7,7 +7,7 @@ import {
   ImageSourcePropType,
   PressableProps,
 } from 'react-native';
-import React, { FC } from 'react';
+import React, { FC, memo } from 'react';
 import colors from '../../../utils/colors';
 import styleConfig from '../../../utils/styleConfig';
 
@@ -19,6 +19,7 @@ const PressableIcon: FC<{
   iconStyle?: ImageStyle;
 }> = (props) => {
   const { iconSource, onIconClick, containerStyle, iconStyle, containerProps } = props;
+  console.log('reodnasdasdfasd>>>>>');
 
   return (
     <Pressable
@@ -32,7 +33,7 @@ const PressableIcon: FC<{
   );
 };
 
-export default PressableIcon;
+export default memo(PressableIcon);
 
 const styles = StyleSheet.create({
   iconStyle: {

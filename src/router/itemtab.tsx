@@ -1,5 +1,13 @@
 import React, { useRef } from 'react';
-import { Animated, Pressable, StyleSheet } from 'react-native';
+import { Pressable, StyleSheet } from 'react-native';
+import Animated, {
+  interpolateColor,
+  useAnimatedStyle,
+  useDerivedValue,
+  useSharedValue,
+  withSpring,
+  withTiming,
+} from 'react-native-reanimated';
 import colors from '../utils/colors';
 import styleConfig from '../utils/styleConfig';
 
@@ -9,16 +17,26 @@ const ItemTab: React.FC<{
   isSelected: boolean;
   onTabClickListener: (index: number) => void;
 }> = ({ item, index, isSelected, onTabClickListener }) => {
-  const bounceValue = useRef(new Animated.Value(1)).current;
+  const bounceValue = useSharedValue(1);
   const bounce = () => {
-    bounceValue.setValue(0.83);
-    Animated.timing(bounceValue, {
-      toValue: 1,
-      duration: 350,
-      useNativeDriver: false,
-    }).start();
+    bounceValue.value = 0.9;
+    bounceValue.value = withSpring(1);
   };
+  const progress = useDerivedValue(() => {
+    return withTiming(isSelected ? 1 : 0);
+  });
 
+  const animatedStyle = useAnimatedStyle(() => {
+    const tintColor = interpolateColor(progress.value, [0, 1], [colors.white, colors.secondary]);
+    return {
+      tintColor: tintColor,
+      transform: [
+        {
+          scale: bounceValue.value,
+        },
+      ],
+    };
+  });
   return (
     <Pressable
       accessibilityLabel={`Tab-${index}`}
@@ -28,15 +46,7 @@ const ItemTab: React.FC<{
         bounce();
       }}
     >
-      <Animated.Image
-        style={[
-          styles.iIcon,
-          { tintColor: isSelected ? colors.secondary : colors.darkGrey },
-          { transform: [{ scale: bounceValue }] },
-        ]}
-        source={item.Icon}
-        resizeMode="cover"
-      />
+      <Animated.Image style={[styles.iIcon, animatedStyle]} source={item.Icon} resizeMode="cover" />
     </Pressable>
   );
 };

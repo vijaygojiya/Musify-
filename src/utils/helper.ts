@@ -37,3 +37,46 @@ export const secondsToHHMMSS = (seconds: number) => {
   const scnds = s > 0 ? (s < 10 ? `0${s}` : s) : '00';
   return `${hrs}${mins}${scnds}`;
 };
+
+export function getSubTitle(item: { [key: string]: any }): string {
+  const type = item['type'];
+  switch (type) {
+    case 'charts':
+      return '';
+    case 'radio_station':
+      return `Radio • ${
+        (item['subtitle']?.toString() ?? '').isEmpty ? 'JioSaavn' : item['subtitle']?.toString()
+      }`;
+    case 'playlist':
+      return `Playlist • ${
+        (item['subtitle']?.toString() ?? '').isEmpty ? 'JioSaavn' : item['subtitle']?.toString()
+      }`;
+    case 'song':
+      return `Single • ${item['artist']?.toString()}`;
+    case 'mix':
+      return `Mix • ${
+        (item['subtitle']?.toString() ?? '').isEmpty ? 'JioSaavn' : item['subtitle']?.toString()
+      }`;
+    case 'show':
+      return `Podcast • ${
+        (item['subtitle']?.toString() ?? '').isEmpty ? 'JioSaavn' : item['subtitle']?.toString()
+      }`;
+    case 'album':
+      const artists = item['more_info']?.['artistMap']?.['artists'].map(
+        (artist: { [key: string]: any }) => artist['name']
+      );
+
+      if (artists != null) {
+        return `Album • ${artists?.join(', ')?.toString()}`;
+      } else if (item['subtitle'] != null && item['subtitle'] != '') {
+        return `Album • ${item['subtitle']?.toString()}`;
+      }
+      return 'Album';
+    default:
+      const _artists = item['more_info']?.['artistMap']?.['_artists'].map(
+        (artist: { [key: string]: any }) => artist['name']
+      );
+
+      return _artists?.join(', ')?.toString() ?? '_';
+  }
+}

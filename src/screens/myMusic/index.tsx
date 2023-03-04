@@ -11,7 +11,6 @@ import { checkLocationPermission } from '../../utils/permission';
 import { RNAndroidAudioStore } from 'react-native-get-music-files';
 import TrackPlayer, { Event, State, useTrackPlayerEvents } from 'react-native-track-player';
 import SongList from '../../utils/dummydata/song';
-import { QueueInitialTracksService, SetupService } from '../../player/services';
 import Songstab from './tabs/songstab';
 import ArtistsTab from './tabs/artiststab';
 import AlbumsTab from './tabs/albumstab';

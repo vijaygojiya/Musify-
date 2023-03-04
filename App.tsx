@@ -1,16 +1,15 @@
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import { StatusBar, StyleSheet, View } from 'react-native';
 import { Provider } from 'react-redux';
 
-import { PersistGate } from 'redux-persist/integration/react';
-
-import { persistor, store } from './src/redux/store';
+import { store } from './src/redux/store';
 import AppNavigator from './src/router';
+import colors from './src/utils/colors';
 
 const App = () => {
   return (
     <Provider store={store}>
-      {/* <StatusBar backgroundColor={colors.secondaryBg} /> */}
+      <StatusBar backgroundColor={colors.secondaryBg} />
       <View style={styles.appContainer}>
         <AppNavigator />
       </View>
