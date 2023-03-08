@@ -19,8 +19,6 @@ const PressableIcon: FC<{
   iconStyle?: ImageStyle;
 }> = (props) => {
   const { iconSource, onIconClick, containerStyle, iconStyle, containerProps } = props;
-  console.log('reodnasdasdfasd>>>>>');
-
   return (
     <Pressable
       {...containerProps}

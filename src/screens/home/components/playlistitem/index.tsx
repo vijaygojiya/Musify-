@@ -20,7 +20,6 @@ const PlayListItem: FC<Props> = ({ handlerItemClick, ...item }) => {
   const { image, type, title } = item;
   const scale = useRef(new Animated.Value(1)).current;
   const opacity = useRef(new Animated.Value(1)).current;
-
   const handlePressIn = () => {
     Animated.parallel([
       Animated.spring(scale, {
@@ -51,6 +50,11 @@ const PlayListItem: FC<Props> = ({ handlerItemClick, ...item }) => {
     ]).start();
   };
 
+  const itemClickHandler = () => {
+    if (type === 'song') {
+      handlerItemClick();
+    }
+  };
   const songItemContainerStyle: StyleProp<ImageStyle> = useMemo(() => {
     if (type === 'song') {
       return {
@@ -62,11 +66,7 @@ const PlayListItem: FC<Props> = ({ handlerItemClick, ...item }) => {
   return (
     <AnimatedPressable
       onPressIn={handlePressIn}
-      onPress={() => {
-        if (type === 'song') {
-          handlerItemClick();
-        }
-      }}
+      onPress={itemClickHandler}
       onPressOut={handlePressOut}
       style={[
         styles.itemContainer,

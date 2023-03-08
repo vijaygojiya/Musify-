@@ -10,16 +10,24 @@ import CommonToolbar from '../../component/custom/commontoolbar';
 import HomeListItem from './components/homeListItem';
 import styles from './styles';
 import { showToast } from '../../utils/tost';
-import TrackPlayer, { useActiveTrack } from 'react-native-track-player';
-import { SetupService, QueueInitialTracksService } from '../../player/services';
+import TrackPlayer from 'react-native-track-player';
+import { SetupService } from '../../player/services';
 import SafeAreaView from 'react-native-safe-area-view';
+import styleConfig from '../../utils/styleConfig';
+
+const ITEM_HEIGHT =
+  styleConfig.smartScale(20) +
+  styleConfig.countPixelRatio(18) +
+  styleConfig.countPixelRatio(175) +
+  styleConfig.countPixelRatio(12) +
+  styleConfig.countPixelRatio(10);
 
 const HomeScreen = () => {
   const [isPlayerReady, setIsPlayerReady] = useState<boolean>(false);
-
   const [data, setData] = useState([]);
 
   useEffect(() => {
+    fetchData();
     let unmounted = false;
     (async () => {
       try {
@@ -39,36 +47,38 @@ const HomeScreen = () => {
       unmounted = true;
     };
   }, []);
-  useEffect(() => {
-    fetchData();
-  }, []);
 
-  const fetchData = async () => {
+  const fetchData = useCallback(async () => {
     try {
       const data = await getResponse(apiEndPoints.homeData);
-      const formatedeData = await formatHomePageData(data.data);
-      setData(formatedeData);
+      if (data.data) {
+        const formattedData = await formatHomePageData(data.data);
+        setData(formattedData);
+      }
     } catch (error) {
       showToast(`${error?.response?.data?.message}`);
     }
-  };
+  }, []);
 
-  const renderItem = ({ item }) => {
-    const { modules } = data;
+  const renderItem = useCallback(
+    ({ item }) => {
+      const { modules } = data;
 
-    const handlePlaySong = (item) => {
-      TrackPlayer.reset();
-      TrackPlayer.add([{ ...item, artwork: item.image }]);
-      TrackPlayer.play();
-    };
-    return (
-      <HomeListItem
-        playListData={data[`${item}`]}
-        title={modules[`${item}`]?.title}
-        handlerItemClick={handlePlaySong}
-      />
-    );
-  };
+      const handlePlaySong = (item) => {
+        TrackPlayer.reset();
+        TrackPlayer.add([{ ...item, artwork: item.image }]);
+        TrackPlayer.play();
+      };
+      return (
+        <HomeListItem
+          playListData={data[`${item}`]}
+          title={modules[`${item}`]?.title}
+          handlerItemClick={handlePlaySong}
+        />
+      );
+    },
+    [data]
+  );
 
   const renderListHeader = useCallback(() => {
     return <Text style={[GS.text_white_regular, styles.greetingTextStyle]}>{data.greeting}</Text>;
@@ -81,13 +91,24 @@ const HomeScreen = () => {
       </SafeAreaView>
     );
   }
+
+  const getKey = (_, index): string => index.toString();
+
+  const getItemLayout = (data, index) => {
+    return {
+      length: ITEM_HEIGHT,
+      offset: ITEM_HEIGHT * data.length,
+      index,
+    };
+  };
+
   return (
     <CommonGradientBg>
       <CommonToolbar title="Home" containerStyle={styles.appBar} />
       <FlatList
         data={data.collections}
         renderItem={renderItem}
-        keyExtractor={(_, index) => index.toString()}
+        keyExtractor={getKey}
         showsVerticalScrollIndicator={false}
         style={styles.flMain}
         bounces={false}
@@ -95,6 +116,9 @@ const HomeScreen = () => {
         ListHeaderComponent={renderListHeader}
         contentContainerStyle={styles.flContainer}
         initialNumToRender={3}
+        updateCellsBatchingPeriod={1000}
+        maxToRenderPerBatch={5}
+        getItemLayout={getItemLayout}
       />
     </CommonGradientBg>
   );

@@ -12,6 +12,7 @@ import TrackPlayer, {
 } from 'react-native-track-player';
 import AppImages from '../../assets/images';
 import PressableIcon from '../../component/custom/pressableIcon';
+import MarqueeText from '../../component/MarqueeText';
 import ProgressBar from '../../component/ProgressBar';
 
 import { useDebouncedValue } from '../../hooks/useDebouncedValue';
@@ -23,21 +24,11 @@ import styles from './styles';
 
 const MiniPlayer = () => {
   const track = useActiveTrack();
-  const { state } = usePlaybackState();
-  const playWhenReady = usePlayWhenReady();
-  const isLoading = useDebouncedValue(state === State.Loading || state === State.Buffering, 250);
-
-  const { position, duration, buffered } = useProgress();
 
   if (!track) {
     return null;
   }
   const { title, artwork } = track;
-
-  const isErrored = state === State.Error;
-  const isEnded = state === State.Ended;
-  const showPause = playWhenReady && !(isErrored || isEnded);
-  const showBuffering = playWhenReady && isLoading;
 
   return (
     <Animated.View style={[styles.container]} entering={FadeInDown}>
@@ -49,45 +40,70 @@ const MiniPlayer = () => {
       >
         <LinearGradient
           style={{ borderRadius: styleConfig.countPixelRatio(8) }}
-          colors={['rgba(0, 0, 0, 0.85)', '#5E5C60', colors.transparent]}
-          locations={[0.2, 0.6, 1.56]}
+          colors={[colors.bluebackground, colors.darkGrey, colors.transparent]}
+          locations={[0.15, 0.6, 1.56]}
           useAngle={true}
           angle={90}
         >
           <View style={styles.infoRowContainer}>
             <Image source={{ uri: artwork?.toString() }} style={styles.artworkImage} />
             <View style={styles.songDetailContainer}>
-              <Text numberOfLines={1} style={[GS.text_white_medium, styles.titleTextStyle]}>
+              <MarqueeText
+                style={[GS.text_white_medium, styles.titleTextStyle]}
+                speed={1}
+                marqueeOnStart={true}
+                loop={true}
+                delay={1000}
+              >
                 {title}
-              </Text>
+              </MarqueeText>
               <Text numberOfLines={1} style={[GS.text_white_regular, styles.songArtist]}>
                 {track?.artist}
               </Text>
             </View>
-            {showBuffering ? (
-              <ActivityIndicator size="small" color={colors.tertiary} />
-            ) : (
-              <PressableIcon
-                iconSource={showPause ? AppImages.ic_pause_mini : AppImages.ic_play_mini}
-                onIconClick={showPause ? TrackPlayer.pause : TrackPlayer.play}
-              />
-            )}
+            <PlayPauseUi />
           </View>
-          <ProgressBar
-            height={2}
-            style={{ alignSelf: 'center' }}
-            unfilledColor={colors.white50}
-            color={colors.white}
-            borderWidth={0}
-            progress={duration !== 0 ? position / duration : 0}
-            width={styleConfig.width - styleConfig.smartWidthScale(32)}
-            useNativeDriver={true}
-            animationType="timing"
-            borderRadius={styleConfig.countPixelRatio(8)}
-          />
+          <ProgressUi />
         </LinearGradient>
       </BlurView>
     </Animated.View>
   );
 };
 export default memo(MiniPlayer);
+
+const PlayPauseUi = memo(() => {
+  const { state } = usePlaybackState();
+
+  const playWhenReady = usePlayWhenReady();
+  const isLoading = useDebouncedValue(state === State.Loading || state === State.Buffering, 250);
+  const isErrored = state === State.Error;
+  const isEnded = state === State.Ended;
+
+  const showPause = playWhenReady && !(isErrored || isEnded);
+  const showBuffering = playWhenReady && isLoading;
+
+  if (showBuffering) {
+    return <ActivityIndicator size="small" color={colors.tertiary} />;
+  } else if (showPause) {
+    return <PressableIcon iconSource={AppImages.ic_pause_mini} onIconClick={TrackPlayer.pause} />;
+  }
+  return <PressableIcon iconSource={AppImages.ic_play_mini} onIconClick={TrackPlayer.play} />;
+});
+
+const ProgressUi = memo(() => {
+  const { position, duration, buffered } = useProgress();
+  return (
+    <ProgressBar
+      height={2}
+      style={{ alignSelf: 'center' }}
+      unfilledColor={colors.white50}
+      color={colors.white}
+      borderWidth={0}
+      progress={duration !== 0 ? position / duration : 0}
+      width={styleConfig.width - styleConfig.smartWidthScale(32)}
+      useNativeDriver={true}
+      animationType="timing"
+      borderRadius={styleConfig.countPixelRatio(8)}
+    />
+  );
+});

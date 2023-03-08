@@ -17,6 +17,7 @@ const AppImages = {
   ic_backward: require('./ic_backward.png'),
   ic_more: require('./ic_more.png'),
   ic_back_arrow: require('./ic_back.png'),
+  ic_error: require('./ic_error.jpg'),
 };
 
 export default AppImages;

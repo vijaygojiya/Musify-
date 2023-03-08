@@ -1,4 +1,4 @@
-import { Linking, Platform, StatusBar, StyleSheet } from 'react-native';
+import { StyleSheet } from 'react-native';
 import React, { ReactNode, useEffect, useState } from 'react';
 import colors from '../../utils/colors';
 
@@ -6,10 +6,9 @@ import CommonGradientBg from '../../component/custom/commonGradientBg';
 import { TabView, TabBar, NavigationState, SceneRendererProps } from 'react-native-tab-view';
 import styleConfig from '../../utils/styleConfig';
 import CommonToolbar from '../../component/custom/commontoolbar';
-import { checkLocationPermission } from '../../utils/permission';
 
 import { RNAndroidAudioStore } from 'react-native-get-music-files';
-import TrackPlayer, { Event, State, useTrackPlayerEvents } from 'react-native-track-player';
+import TrackPlayer from 'react-native-track-player';
 import SongList from '../../utils/dummydata/song';
 import Songstab from './tabs/songstab';
 import ArtistsTab from './tabs/artiststab';
@@ -32,35 +31,15 @@ interface routeType {
 const MyMusicScreen = () => {
   const [index, setIndex] = useState(0);
   const [isLoading, setLoading] = useState(false);
-  const [isPlaying, setPlaying] = useState(false);
-  const [isModalOpen, setIsModalOpen] = useState(false);
+
   const [songIndex, setSongIndex] = useState(-1);
   const [songs, setSongs] = useState([]);
   const [musicFolders, setMusicFolders] = useState([]);
 
-  // const track = useActiveTrack();
-  const [isPlayerReady, setIsPlayerReady] = useState<boolean>(false);
-
   useEffect(() => {
-    checkLocationPermission(fetchAllSongs);
+    // checkLocationPermission(fetchAllSongs);
   }, []);
 
-  useTrackPlayerEvents([Event.PlaybackState], (item) => {
-    switch (item.state) {
-      // case State.Stopped:
-      //   if (songDetail) {
-      //     TrackPlayer.add(songDetail);
-      //   }
-      //   setPlaying(true);
-      //   break;
-      case State.Playing:
-        setPlaying(false);
-        break;
-      case State.Paused:
-        setPlaying(true);
-        break;
-    }
-  });
   const routes = [
     { key: 'Songs', title: 'Songs' },
     { key: 'Artists', title: 'Artists' },
