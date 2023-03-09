@@ -1,5 +1,5 @@
 import { SongType } from '.';
-import { capitalizeString } from '../utils/helper';
+import { capitalizeString, unescapeString } from '../utils/helper';
 import { getImageUrl } from '../utils/helpers';
 import { fetchSongDetails } from './fetchSongDetails';
 import CryptoJS from 'crypto-js';
@@ -28,9 +28,14 @@ export const formatSingleSongResponse = async (response: SongType) => {
     return {
       ...updateData,
       ...more_info,
+      title: unescapeString(response['title'].toString()),
       artist: formatArtistNames(more_info.artistMap),
-      subtitle: response?.description || response?.subtitle.toString(),
+      subtitle: unescapeString(response['description'] || response['subtitle'].toString()),
       album_artist: more_info.music || response.music,
+      count:
+        response['more_info']?.['song_pids'] == null
+          ? 0
+          : response['more_info']['song_pids'].toString().split(', ').length,
       language: capitalizeString(response.language),
       genre: capitalizeString(response.language),
       image: getImageUrl(response.image),

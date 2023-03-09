@@ -92,7 +92,6 @@ const HomeScreen = () => {
 
   return (
     <CommonGradientBg>
-      <CommonToolbar title="Home" containerStyle={styles.appBar} />
       <FlatList
         data={data.collections}
         renderItem={renderItem}

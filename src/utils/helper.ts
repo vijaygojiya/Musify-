@@ -1,17 +1,11 @@
-export const unescapeString = (serializedJsonString: string) => {
-  var deserializedJsonString = serializedJsonString
-    .replace(/(\\n)/g, '')
-    .replace(/(\\r)/g, '')
-    .replace(/(\\t)/g, '')
-    .replace(/(\\f)/g, '')
-    .replace(/(\\b)/g, '')
-    .replace(/(\")/g, '"')
-    .replace(/("{)/g, '{')
-    .replace(/(}")/g, '}')
-    .replace(/(\\)/g, '')
-    .replace(/(\/)/g, '/');
-  return JSON.parse(deserializedJsonString);
-};
+export function unescapeString(str: string): string {
+  return str
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'")
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&amp;/g, '&');
+}
 
 export const capitalizeString = (str: string) => {
   if (!str) {
