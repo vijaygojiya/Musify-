@@ -63,19 +63,7 @@ const HomeScreen = () => {
   const renderItem = useCallback(
     ({ item }) => {
       const { modules } = data;
-
-      const handlePlaySong = (item) => {
-        TrackPlayer.reset();
-        TrackPlayer.add([{ ...item, artwork: item.image }]);
-        TrackPlayer.play();
-      };
-      return (
-        <HomeListItem
-          playListData={data[`${item}`]}
-          title={modules[`${item}`]?.title}
-          handlerItemClick={handlePlaySong}
-        />
-      );
+      return <HomeListItem playListData={data[`${item}`]} title={modules[`${item}`]?.title} />;
     },
     [data]
   );

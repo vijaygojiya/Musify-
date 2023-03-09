@@ -18,7 +18,8 @@ const formatArtistNames = (artistMap: any) => {
   const primaryArtists = artistMap?.primary_artists?.map((artist) => artist.name) || [];
   const featuredArtists = artistMap?.featured_artists?.map((artist) => artist.name) || [];
   const artists = artistMap?.artists?.map((artist) => artist.id?.[0]?.name) || [];
-  return [...primaryArtists, ...featuredArtists, ...artists].join(', ') || 'Unknown';
+  const filter = artists.filter((item, index) => Boolean(item));
+  return [...primaryArtists, ...featuredArtists, ...filter].join(', ') || 'Unknown';
 };
 
 export const formatSingleSongResponse = async (response: SongType) => {

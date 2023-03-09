@@ -8,7 +8,6 @@ import styleConfig from '../../../../utils/styleConfig';
 const ITEM_WIDTH = styleConfig.smartWidthScale(8) + styleConfig.countPixelRatio(175);
 
 interface Props {
-  handlerItemClick: (i: object) => void;
   playListData: {
     image: string;
     type: mediaType;
@@ -16,16 +15,13 @@ interface Props {
   title: string;
 }
 
-const HomeListItem: FC<Props> = ({ playListData, title, handlerItemClick }) => {
+const HomeListItem: FC<Props> = ({ playListData, title }) => {
   const renderSubItem: ListRenderItem<{
     image: string;
     type: mediaType;
     title: string;
   }> = useCallback(({ item, index }) => {
-    const itemClickHandler = () => {
-      handlerItemClick(item);
-    };
-    return <PlayListItem {...item} index={index} handlerItemClick={itemClickHandler} />;
+    return <PlayListItem {...item} />;
   }, []);
 
   const getItemLayout = (data, index) => {

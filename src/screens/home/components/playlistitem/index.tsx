@@ -5,18 +5,18 @@ import { styles } from './styles';
 import styleConfig from '../../../../utils/styleConfig';
 import GS from '../../../../utils/styles';
 import { getSubTitle } from '../../../../utils/helper';
+import TrackPlayer from 'react-native-track-player';
 export type mediaType = 'charts' | 'radio_station' | 'playlist' | 'song' | 'mix' | 'show' | 'album';
 
 interface Props {
   image: string;
   title: string;
   type: mediaType;
-  handlerItemClick: () => void;
 }
 
 const AnimatedPressable = Animated.createAnimatedComponent(Pressable);
 
-const PlayListItem: FC<Props> = ({ handlerItemClick, ...item }) => {
+const PlayListItem: FC<Props> = (item) => {
   const { image, type, title } = item;
   const scale = useRef(new Animated.Value(1)).current;
   const opacity = useRef(new Animated.Value(1)).current;
@@ -52,7 +52,9 @@ const PlayListItem: FC<Props> = ({ handlerItemClick, ...item }) => {
 
   const itemClickHandler = () => {
     if (type === 'song') {
-      handlerItemClick();
+      TrackPlayer.reset();
+      TrackPlayer.add([{ ...item, artwork: image }]);
+      TrackPlayer.play();
     }
   };
   const songItemContainerStyle: StyleProp<ImageStyle> = useMemo(() => {
@@ -63,6 +65,11 @@ const PlayListItem: FC<Props> = ({ handlerItemClick, ...item }) => {
     }
     return {};
   }, [type]);
+
+  const subTitle: string = useMemo(() => {
+    return getSubTitle(item);
+  }, [item]);
+
   return (
     <AnimatedPressable
       onPressIn={handlePressIn}
@@ -85,7 +92,7 @@ const PlayListItem: FC<Props> = ({ handlerItemClick, ...item }) => {
         {title}
       </Text>
       <Text numberOfLines={1} style={[GS.text_white_regular, styles.subTitleText]}>
-        {getSubTitle(item)}
+        {subTitle}
       </Text>
     </AnimatedPressable>
   );
