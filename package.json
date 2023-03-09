@@ -22,7 +22,7 @@
     "crypto-js": "^4.1.1",
     "eslint-config-prettier": "^8.6.0",
     "react": "18.2.0",
-    "react-native": "0.71.3",
+    "react-native": "0.71.4",
     "react-native-gesture-handler": "^2.9.0",
     "react-native-get-music-files": "https://github.com/cinder92/react-native-get-music-files.git#master",
     "react-native-linear-gradient": "^2.6.2",
