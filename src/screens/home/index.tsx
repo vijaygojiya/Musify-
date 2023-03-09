@@ -6,7 +6,7 @@ import CommonGradientBg from '../../component/custom/commonGradientBg';
 import { apiEndPoints } from '../../api/ApiConst';
 import { getResponse } from '../../api/getResponse';
 import { formatHomePageData } from '../../api/format';
-import CommonToolbar from '../../component/custom/commontoolbar';
+
 import HomeListItem from './components/homeListItem';
 import styles from './styles';
 import { showToast } from '../../utils/tost';
@@ -15,12 +15,7 @@ import { SetupService } from '../../player/services';
 import SafeAreaView from 'react-native-safe-area-view';
 import styleConfig from '../../utils/styleConfig';
 
-const ITEM_HEIGHT =
-  styleConfig.smartScale(20) +
-  styleConfig.countPixelRatio(18) +
-  styleConfig.countPixelRatio(175) +
-  styleConfig.countPixelRatio(12) +
-  styleConfig.countPixelRatio(10);
+const ITEM_HEIGHT = styleConfig.smartScale(28) + styleConfig.countPixelRatio(219);
 
 const HomeScreen = () => {
   const [isPlayerReady, setIsPlayerReady] = useState<boolean>(false);

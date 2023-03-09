@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
@@ -12,7 +12,6 @@ import SearchScreen from '../screens/search';
 import ProfileScreen from '../screens/profile';
 import CustomTabBar from './customtabbar';
 import MiniPlayer from '../player/miniplayer';
-import { useActiveTrack } from 'react-native-track-player';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();

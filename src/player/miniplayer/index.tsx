@@ -21,6 +21,8 @@ import styleConfig from '../../utils/styleConfig';
 import GS from '../../utils/styles';
 import styles from './styles';
 
+const gradientColorLocation = [0.15, 0.6, 1.56];
+const gradientColors = [colors.dark_purple, colors.transparent, colors.transparent];
 const MiniPlayer = () => {
   const track = useActiveTrack();
 
@@ -35,13 +37,13 @@ const MiniPlayer = () => {
       <BlurView
         style={styles.borderStyle}
         overlayColor={colors.transparent}
-        blurAmount={10}
-        blurRadius={7}
+        blurAmount={18}
+        blurRadius={10}
       >
         <LinearGradient
           style={styles.borderStyle}
-          colors={[colors.secondaryBg, colors.darkGrey, colors.transparent]}
-          locations={[0.15, 0.6, 1.56]}
+          colors={gradientColors}
+          locations={gradientColorLocation}
           useAngle={true}
           angle={90}
         >

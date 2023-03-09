@@ -1,7 +1,5 @@
 import { StyleSheet } from 'react-native';
 import colors from '../../utils/colors';
-
-import Method from '../../utils/method';
 import styleConfig from '../../utils/styleConfig';
 import GS from '../../utils/styles';
 
@@ -14,18 +12,19 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     position: 'absolute',
     marginTop: styleConfig.smartScale(15),
-    marginBottom: styleConfig.smartScale(55),
+    marginBottom: styleConfig.smartScale(60),
     ...GS.shadowEffect,
   },
   infoRowContainer: {
     flexDirection: 'row',
-    marginVertical: styleConfig.smartScale(5),
-    marginHorizontal: styleConfig.smartWidthScale(5),
+    marginVertical: styleConfig.smartScale(8),
+    marginHorizontal: styleConfig.smartWidthScale(12),
   },
   artworkImage: {
     height: styleConfig.countPixelRatio(45),
     width: styleConfig.countPixelRatio(45),
     borderRadius: styleConfig.countPixelRatio(8),
+    backgroundColor: colors.darkGrey,
   },
   songDetailContainer: {
     flex: 1,

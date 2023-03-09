@@ -13,10 +13,11 @@ export const styles = StyleSheet.create({
     width: styleConfig.countPixelRatio(175),
   },
   titleText: {
-    fontSize: styleConfig.countPixelRatio(12),
+    fontSize: styleConfig.countPixelRatio(14),
+    marginVertical: styleConfig.smartScale(4),
   },
   subTitleText: {
-    fontSize: styleConfig.countPixelRatio(10),
+    fontSize: styleConfig.countPixelRatio(12),
     opacity: 0.7,
   },
 });
