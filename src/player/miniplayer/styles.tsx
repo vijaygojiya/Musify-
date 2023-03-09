@@ -38,6 +38,8 @@ const styles = StyleSheet.create({
     opacity: 0.7,
     fontSize: styleConfig.countPixelRatio(12),
   },
+  borderStyle: { borderRadius: styleConfig.countPixelRatio(8) },
+  progressBarContainer: { alignSelf: 'center' },
 });
 
 export default styles;
