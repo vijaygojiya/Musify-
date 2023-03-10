@@ -22,7 +22,7 @@ import GS from '../../utils/styles';
 import styles from './styles';
 
 const gradientColorLocation = [0.15, 0.6, 1.56];
-const gradientColors = [colors.dark_purple, colors.transparent, colors.transparent];
+const gradientColors = [colors.darkblue, colors.transparent, colors.transparent];
 const MiniPlayer = () => {
   const track = useActiveTrack();
 
@@ -34,21 +34,15 @@ const MiniPlayer = () => {
 
   return (
     <View style={[styles.container]}>
-      <BlurView
-        style={styles.borderStyle}
-        overlayColor={colors.transparent}
-        blurAmount={18}
-        blurRadius={10}
-      >
+      <BlurView overlayColor={colors.transparent} blurAmount={10} blurRadius={8}>
         <LinearGradient
-          style={styles.borderStyle}
           colors={gradientColors}
           locations={gradientColorLocation}
           useAngle={true}
           angle={90}
         >
           <View style={styles.infoRowContainer}>
-            <Image source={{ uri: artwork }} style={styles.artworkImage} />
+            <Image source={{ uri: artwork }} style={styles.artworkImage} resizeMode="contain" />
             <View style={styles.songDetailContainer}>
               <MarqueeText
                 style={[GS.text_white_medium, styles.titleTextStyle]}
@@ -107,7 +101,7 @@ const ProgressUi = memo(() => {
       color={colors.white}
       borderWidth={0}
       progress={duration !== 0 ? position / duration : 0}
-      width={styleConfig.width - styleConfig.smartWidthScale(32)}
+      width={styleConfig.width}
       useNativeDriver={true}
       animationType="timing"
       borderRadius={styleConfig.countPixelRatio(8)}

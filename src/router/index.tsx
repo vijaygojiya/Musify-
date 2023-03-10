@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
+import { NavigationContainer, Theme } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
@@ -12,10 +12,16 @@ import SearchScreen from '../screens/search';
 import ProfileScreen from '../screens/profile';
 import CustomTabBar from './customtabbar';
 import MiniPlayer from '../player/miniplayer';
+import colors from '../utils/colors';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
-
+const MyTheme = {
+  dark: false,
+  colors: {
+    background: colors.dark_blue,
+  },
+} as Theme;
 const TabNavigator = () => (
   <Tab.Navigator
     backBehavior="none"
@@ -36,7 +42,7 @@ const TabNavigator = () => (
 
 const AppContainer = () => {
   return (
-    <NavigationContainer>
+    <NavigationContainer theme={MyTheme}>
       <Stack.Navigator
         screenOptions={{
           headerShown: false,

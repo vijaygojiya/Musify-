@@ -1,16 +1,13 @@
 import { StyleSheet } from 'react-native';
+import colors from '../../utils/colors';
 import styleConfig from '../../utils/styleConfig';
 
 const styles = StyleSheet.create({
   screenContainer: {
     flex: 1,
-    backgroundColor: '#212121',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: colors.dark_blue,
   },
-  appBar: {
-    paddingHorizontal: styleConfig.smartWidthScale(20),
-  },
+
   greetingTextStyle: {
     fontSize: styleConfig.countPixelRatio(26),
     paddingHorizontal: styleConfig.smartWidthScale(20),
@@ -18,7 +15,7 @@ const styles = StyleSheet.create({
   },
 
   flMain: {
-    marginVertical: styleConfig.smartScale(10),
+    paddingTop: styleConfig.smartScale(24),
   },
   flContainer: {
     paddingBottom: styleConfig.smartScale(50),

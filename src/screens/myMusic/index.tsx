@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import React, { ReactNode, useEffect, useState } from 'react';
 import colors from '../../utils/colors';
 
@@ -122,7 +122,7 @@ const MyMusicScreen = () => {
     }
   };
   return (
-    <CommonGradientBg>
+    <View style={styles.screenContainer}>
       <CommonToolbar title="MyMusic" />
       <TabView
         lazy={true}
@@ -132,16 +132,16 @@ const MyMusicScreen = () => {
         renderTabBar={renderTabBar}
         onIndexChange={handleIndexChange}
       />
-    </CommonGradientBg>
+    </View>
   );
 };
 
 export default MyMusicScreen;
 
 const styles = StyleSheet.create({
-  container: {
+  screenContainer: {
     flex: 1,
-    backgroundColor: colors.primaryBg,
+    backgroundColor: colors.dark_blue,
   },
   tTabTitle: {
     color: colors.white,

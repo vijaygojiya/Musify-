@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
-import { StyleSheet } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { routes } from '../../../router/routes';
 import styleConfig from '../../../utils/styleConfig';
-import CommonGradientBg from '../../../component/custom/commonGradientBg';
 import Animated, { FadeIn, FadeOut } from 'react-native-reanimated';
 import GS from '../../../utils/styles';
+import colors from '../../../utils/colors';
 
 type SplashScreenProps = {
   navigation: any;
@@ -25,7 +25,7 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ navigation }) => {
   };
 
   return (
-    <CommonGradientBg containerStyle={styles.container}>
+    <View style={styles.container}>
       <Animated.Text
         entering={FadeIn}
         exiting={FadeOut}
@@ -33,7 +33,7 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ navigation }) => {
       >
         VM GOJIYA
       </Animated.Text>
-    </CommonGradientBg>
+    </View>
   );
 };
 
@@ -42,10 +42,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
+    backgroundColor: colors.dark_blue,
   },
   textStyle: {
     fontSize: styleConfig.countPixelRatio(24),
     alignSelf: 'center',
+    fontFamily: styleConfig.headingFontRegular,
     letterSpacing: styleConfig.countPixelRatio(5),
   },
 });

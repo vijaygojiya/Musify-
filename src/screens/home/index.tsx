@@ -1,4 +1,4 @@
-import { ActivityIndicator, FlatList, Text } from 'react-native';
+import { ActivityIndicator, FlatList, Text, View } from 'react-native';
 import React, { useCallback, useEffect, useState } from 'react';
 import GS from '../../utils/styles';
 import CommonGradientBg from '../../component/custom/commonGradientBg';
@@ -14,6 +14,7 @@ import TrackPlayer from 'react-native-track-player';
 import { SetupService } from '../../player/services';
 import SafeAreaView from 'react-native-safe-area-view';
 import styleConfig from '../../utils/styleConfig';
+import colors from '../../utils/colors';
 
 const ITEM_HEIGHT = styleConfig.smartScale(28) + styleConfig.countPixelRatio(219);
 
@@ -86,7 +87,7 @@ const HomeScreen = () => {
   };
 
   return (
-    <CommonGradientBg>
+    <View style={styles.screenContainer}>
       <FlatList
         data={data.collections}
         renderItem={renderItem}
@@ -102,7 +103,7 @@ const HomeScreen = () => {
         maxToRenderPerBatch={5}
         getItemLayout={getItemLayout}
       />
-    </CommonGradientBg>
+    </View>
   );
 };
 

@@ -27,7 +27,7 @@ const ItemTab: React.FC<{
   });
 
   const animatedStyle = useAnimatedStyle(() => {
-    const tintColor = interpolateColor(progress.value, [0, 1], [colors.white, colors.secondary]);
+    const tintColor = interpolateColor(progress.value, [0, 1], [colors.white50, colors.tertiary]);
     return {
       tintColor: tintColor,
       transform: [
@@ -54,6 +54,8 @@ const ItemTab: React.FC<{
 const styles = StyleSheet.create({
   toTabContainer: {
     width: styleConfig.width / 5,
+    paddingBottom: styleConfig.smartScale(10),
+    paddingTop: styleConfig.smartScale(15),
     justifyContent: 'center',
     alignItems: 'center',
   },

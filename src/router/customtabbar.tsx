@@ -9,6 +9,7 @@ import colors from '../utils/colors';
 import { Type_Of_TabBar } from '../utils/enum';
 import string from '../utils/string';
 import styleConfig from '../utils/styleConfig';
+
 import GS from '../utils/styles';
 import ItemTab from './itemtab';
 import { routes } from './routes';
@@ -89,68 +90,31 @@ const CustomTabBar = (props: { navigation: any }) => {
 
   return (
     <SafeAreaView forceInset={{ top: 'never', bottom: 'always' }} style={styles.saContainer}>
-      <BlurView
-        style={[styles.blurView]}
-        overlayColor={colors.transparent}
-        blurAmount={10}
-        blurRadius={7}
-      >
-        <LinearGradient
-          colors={[colors.transparent, colors.extraDarkGrey]}
-          style={[styles.gradientContainer]}
-          start={{ x: 0, y: 0 }}
-          end={{ x: 0, y: 1.5 }}
-        >
-          <View style={styles.container}>
-            <FlatList
-              horizontal={true}
-              overScrollMode="never"
-              showsHorizontalScrollIndicator={false}
-              bounces={false}
-              contentContainerStyle={styles.flTabContainer}
-              data={TabBarList}
-              renderItem={renderTabItem}
-              keyExtractor={(_, index) => index.toString()}
-            />
-          </View>
-        </LinearGradient>
-      </BlurView>
+      <FlatList
+        horizontal
+        overScrollMode="never"
+        showsHorizontalScrollIndicator={false}
+        bounces={false}
+        data={TabBarList}
+        renderItem={renderTabItem}
+        keyExtractor={(item, index) => index.toString()}
+      />
     </SafeAreaView>
   );
 };
 
-const absoluteStyle = {
-  position: 'absolute',
-  height: styleConfig.smartScale(50),
-  left: 0,
-  right: 0,
-  bottom: 0,
-  overflow: 'hidden',
-  borderRadius: styleConfig.countPixelRatio(17),
-} as ViewStyle;
-
 const styles = StyleSheet.create({
   saContainer: {
-    backgroundColor: colors.white,
-    borderRadius: styleConfig.countPixelRatio(17),
-    ...GS.shadowEffect,
-  },
-  flTabContainer: {
-    justifyContent: 'space-around',
-    flex: 1,
-  },
+    backgroundColor: colors.dark_blue,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 6,
+    },
+    shadowOpacity: 0.2,
+    shadowRadius: 20,
 
-  container: {
-    ...absoluteStyle,
-  },
-  item: {
-    flex: 1,
-  },
-  blurView: {
-    ...absoluteStyle,
-  },
-  gradientContainer: {
-    ...absoluteStyle,
+    elevation: 12,
   },
 });
 export default memo(CustomTabBar);

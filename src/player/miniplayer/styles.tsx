@@ -5,14 +5,12 @@ import GS from '../../utils/styles';
 
 const styles = StyleSheet.create({
   container: {
-    borderRadius: styleConfig.countPixelRatio(8),
-    // borderTopStartRadius: styleConfig.countPixelRatio(8),
     bottom: 0,
-    width: styleConfig.width - styleConfig.smartWidthScale(16),
+    width: styleConfig.width,
     alignSelf: 'center',
     position: 'absolute',
     marginTop: styleConfig.smartScale(15),
-    marginBottom: styleConfig.smartScale(60),
+    marginBottom: styleConfig.smartScale(43),
     ...GS.shadowEffect,
   },
   infoRowContainer: {
@@ -21,9 +19,9 @@ const styles = StyleSheet.create({
     marginHorizontal: styleConfig.smartWidthScale(12),
   },
   artworkImage: {
-    height: styleConfig.countPixelRatio(45),
-    width: styleConfig.countPixelRatio(45),
-    borderRadius: styleConfig.countPixelRatio(8),
+    height: styleConfig.countPixelRatio(48),
+    width: styleConfig.countPixelRatio(48),
+    borderRadius: styleConfig.countPixelRatio(5),
     backgroundColor: colors.darkGrey,
   },
   songDetailContainer: {
@@ -37,7 +35,7 @@ const styles = StyleSheet.create({
     opacity: 0.7,
     fontSize: styleConfig.countPixelRatio(12),
   },
-  borderStyle: { borderRadius: styleConfig.countPixelRatio(8) },
+  // borderStyle: { borderRadius: styleConfig.countPixelRatio(8) },
   progressBarContainer: { alignSelf: 'center' },
 });
 
