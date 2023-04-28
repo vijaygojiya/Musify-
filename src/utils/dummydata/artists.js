@@ -31,7 +31,8 @@ const ArtistsList = [
     singer: 'Shakira',
     count: '137,861',
     country: 'Colombia',
-    singer_url: 'https://sklktecdnems01.cdnsrv.jio.com/c.saavncdn.com/artists/Shakira_500x500.jpg',
+    singer_url:
+      'https://sklktecdnems01.cdnsrv.jio.com/c.saavncdn.com/artists/Shakira_500x500.jpg',
   },
   {
     singer: 'Justin Bieber',

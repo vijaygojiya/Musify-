@@ -1,9 +1,9 @@
-import { StyleSheet } from 'react-native';
+import {StyleSheet} from 'react-native';
 import colors from '../../../../utils/colors';
 import styleConfig from '../../../../utils/styleConfig';
 
 export const styles = StyleSheet.create({
-  container: { marginVertical: styleConfig.smartScale(10) },
+  container: {marginVertical: styleConfig.smartScale(10)},
   playlistTitle: {
     fontSize: styleConfig.countPixelRatio(18),
     fontFamily: styleConfig.headingFontBold,

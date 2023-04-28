@@ -1,6 +1,6 @@
-import { BlurView } from '@react-native-community/blur';
-import React, { memo } from 'react';
-import { ActivityIndicator, Image, Text, View } from 'react-native';
+import {BlurView} from '@react-native-community/blur';
+import React, {memo} from 'react';
+import {ActivityIndicator, Image, Text, View} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import TrackPlayer, {
   State,
@@ -14,7 +14,7 @@ import PressableIcon from '../../component/custom/pressableIcon';
 import MarqueeText from '../../component/MarqueeText';
 import ProgressBar from '../../component/ProgressBar';
 
-import { useDebouncedValue } from '../../hooks/useDebouncedValue';
+import {useDebouncedValue} from '../../hooks/useDebouncedValue';
 import colors from '../../utils/colors';
 
 import styleConfig from '../../utils/styleConfig';
@@ -22,7 +22,11 @@ import GS from '../../utils/styles';
 import styles from './styles';
 
 const gradientColorLocation = [0.15, 0.6, 1.56];
-const gradientColors = [colors.darkblue, colors.transparent, colors.transparent];
+const gradientColors = [
+  colors.darkblue,
+  colors.transparent,
+  colors.transparent,
+];
 const MiniPlayer = () => {
   const track = useActiveTrack();
 
@@ -30,30 +34,37 @@ const MiniPlayer = () => {
     return null;
   }
 
-  const { title, artist, artwork } = track;
+  const {title, artist, artwork} = track;
 
   return (
     <View style={[styles.container]}>
-      <BlurView overlayColor={colors.transparent} blurAmount={10} blurRadius={8}>
+      <BlurView
+        overlayColor={colors.transparent}
+        blurAmount={10}
+        blurRadius={8}>
         <LinearGradient
           colors={gradientColors}
           locations={gradientColorLocation}
           useAngle={true}
-          angle={90}
-        >
+          angle={90}>
           <View style={styles.infoRowContainer}>
-            <Image source={{ uri: artwork }} style={styles.artworkImage} resizeMode="contain" />
+            <Image
+              source={{uri: artwork}}
+              style={styles.artworkImage}
+              resizeMode="contain"
+            />
             <View style={styles.songDetailContainer}>
               <MarqueeText
                 style={[GS.text_white_medium, styles.titleTextStyle]}
                 speed={1}
                 marqueeOnStart={true}
                 loop={true}
-                delay={1000}
-              >
+                delay={1000}>
                 {title}
               </MarqueeText>
-              <Text numberOfLines={1} style={[GS.text_white_regular, styles.songArtist]}>
+              <Text
+                numberOfLines={1}
+                style={[GS.text_white_regular, styles.songArtist]}>
                 {artist}
               </Text>
             </View>
@@ -68,9 +79,12 @@ const MiniPlayer = () => {
 export default memo(MiniPlayer);
 
 const PlayPauseUi = memo(() => {
-  const { state } = usePlaybackState();
+  const {state} = usePlaybackState();
   const playWhenReady = usePlayWhenReady();
-  const isLoading = useDebouncedValue(state === State.Loading || state === State.Buffering, 250);
+  const isLoading = useDebouncedValue(
+    state === State.Loading || state === State.Buffering,
+    250,
+  );
   const isErrored = state === State.Error;
   const isEnded = state === State.Ended;
 
@@ -82,21 +96,27 @@ const PlayPauseUi = memo(() => {
       {showBuffering ? (
         <ActivityIndicator size="small" color={colors.tertiary} />
       ) : showPause ? (
-        <PressableIcon iconSource={AppImages.ic_pause_mini} onIconClick={TrackPlayer.pause} />
+        <PressableIcon
+          iconSource={AppImages.ic_pause_mini}
+          onIconClick={TrackPlayer.pause}
+        />
       ) : (
-        <PressableIcon iconSource={AppImages.ic_play_mini} onIconClick={TrackPlayer.play} />
+        <PressableIcon
+          iconSource={AppImages.ic_play_mini}
+          onIconClick={TrackPlayer.play}
+        />
       )}
     </>
   );
 });
 
 const ProgressUi = memo(() => {
-  const { position, duration, buffered } = useProgress();
+  const {position, duration, buffered} = useProgress();
 
   return (
     <ProgressBar
       height={2}
-      style={{ alignSelf: 'center' }}
+      style={{alignSelf: 'center'}}
       unfilledColor={colors.white50}
       color={colors.white}
       borderWidth={0}

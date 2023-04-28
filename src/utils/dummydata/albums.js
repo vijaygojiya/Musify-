@@ -8,7 +8,8 @@ const AlbumList = [
     primary_artists_id: '565990',
     albumid: '11880202',
     perma_url: 'https://www.jiosaavn.com/album/reputation/vYyO-THa1xo_',
-    image: 'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
+    image:
+      'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
     songs: [
       {
         id: 'e6LoQxIw',
@@ -24,7 +25,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Taylor Swift',
         starring: '',
-        image: 'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
         label: 'Big Machine Records, LLC',
         albumid: '11880202',
         language: 'english',
@@ -58,10 +60,12 @@ const AlbumList = [
         },
         release_date: '2017-11-17',
         vcode: '010912291154902',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291111358.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291111358.mp3',
         triller_available: false,
         label_url: '/label/big-machine-records-llc-albums/mem77Zy-PXo_',
-        media_url: 'https://aac.saavncdn.com/140/e5041ddb8af40fbf6eeb69f70fd4bc57_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/140/e5041ddb8af40fbf6eeb69f70fd4bc57_320.mp4',
       },
       {
         id: 'ywYcM5y0',
@@ -77,7 +81,8 @@ const AlbumList = [
         featured_artists_id: '578407, 576342',
         singers: 'Taylor Swift',
         starring: '',
-        image: 'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
         label: 'Big Machine Records, LLC',
         albumid: '11880202',
         language: 'english',
@@ -113,10 +118,12 @@ const AlbumList = [
         },
         release_date: '2017-11-17',
         vcode: '010912291162222',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291118778.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291118778.mp3',
         triller_available: false,
         label_url: '/label/big-machine-records-llc-albums/mem77Zy-PXo_',
-        media_url: 'https://aac.saavncdn.com/140/4310d280019504f5f96e8ede87734fab_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/140/4310d280019504f5f96e8ede87734fab_320.mp4',
       },
       {
         id: 'gMTqgK-l',
@@ -132,7 +139,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Taylor Swift',
         starring: '',
-        image: 'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
         label: 'Big Machine Records, LLC',
         albumid: '11880202',
         language: 'english',
@@ -149,7 +157,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/140/bbb504a0adf631b1c68e98e3e66c5d83_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/i-did-something-bad/FyU-QBN7Gl8',
+        perma_url:
+          'https://www.jiosaavn.com/song/i-did-something-bad/FyU-QBN7Gl8',
         album_url: 'https://www.jiosaavn.com/album/reputation/vYyO-THa1xo_',
         duration: '238',
         rights: {
@@ -166,10 +175,12 @@ const AlbumList = [
         },
         release_date: '2017-11-17',
         vcode: '010912291162223',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291118779.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291118779.mp3',
         triller_available: false,
         label_url: '/label/big-machine-records-llc-albums/mem77Zy-PXo_',
-        media_url: 'https://aac.saavncdn.com/140/bbb504a0adf631b1c68e98e3e66c5d83_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/140/bbb504a0adf631b1c68e98e3e66c5d83_320.mp4',
       },
       {
         id: 'S9Mkb_Js',
@@ -185,7 +196,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Taylor Swift',
         starring: '',
-        image: 'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
         label: 'Big Machine Records, LLC',
         albumid: '11880202',
         language: 'english',
@@ -202,7 +214,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/140/28cfe42a78a3adbf818b0fec0d1db7a6_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/don\u2019t-blame-me/I1EmWhZvfUA',
+        perma_url:
+          'https://www.jiosaavn.com/song/don\u2019t-blame-me/I1EmWhZvfUA',
         album_url: 'https://www.jiosaavn.com/album/reputation/vYyO-THa1xo_',
         duration: '236',
         rights: {
@@ -219,10 +232,12 @@ const AlbumList = [
         },
         release_date: '2017-11-17',
         vcode: '010912291162224',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291118780.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291118780.mp3',
         triller_available: false,
         label_url: '/label/big-machine-records-llc-albums/mem77Zy-PXo_',
-        media_url: 'https://aac.saavncdn.com/140/28cfe42a78a3adbf818b0fec0d1db7a6_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/140/28cfe42a78a3adbf818b0fec0d1db7a6_320.mp4',
       },
       {
         id: 'mLZbUw7g',
@@ -238,7 +253,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Taylor Swift',
         starring: '',
-        image: 'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
         label: 'Big Machine Records, LLC',
         albumid: '11880202',
         language: 'english',
@@ -272,10 +288,12 @@ const AlbumList = [
         },
         release_date: '2017-11-17',
         vcode: '010912291162225',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291118781.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291118781.mp3',
         triller_available: false,
         label_url: '/label/big-machine-records-llc-albums/mem77Zy-PXo_',
-        media_url: 'https://aac.saavncdn.com/140/8d9d76e20b121528afe1089ea131275d_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/140/8d9d76e20b121528afe1089ea131275d_320.mp4',
       },
       {
         id: 'ZzKwRSRy',
@@ -291,7 +309,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Taylor Swift',
         starring: '',
-        image: 'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
         label: 'Big Machine Records, LLC',
         albumid: '11880202',
         language: 'english',
@@ -308,7 +327,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/140/95f7ab35760059bb270b4c801f3726ad_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/look-what-you-made-me-do/KhIgRiZjZUo',
+        perma_url:
+          'https://www.jiosaavn.com/song/look-what-you-made-me-do/KhIgRiZjZUo',
         album_url: 'https://www.jiosaavn.com/album/reputation/vYyO-THa1xo_',
         duration: '211',
         rights: {
@@ -325,10 +345,12 @@ const AlbumList = [
         },
         release_date: '2017-11-17',
         vcode: '010912291154937',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291111393.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291111393.mp3',
         triller_available: false,
         label_url: '/label/big-machine-records-llc-albums/mem77Zy-PXo_',
-        media_url: 'https://aac.saavncdn.com/140/95f7ab35760059bb270b4c801f3726ad_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/140/95f7ab35760059bb270b4c801f3726ad_320.mp4',
       },
       {
         id: 'Sfln62vi',
@@ -344,7 +366,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Taylor Swift',
         starring: '',
-        image: 'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
         label: 'Big Machine Records, LLC',
         albumid: '11880202',
         language: 'english',
@@ -378,10 +401,12 @@ const AlbumList = [
         },
         release_date: '2017-11-17',
         vcode: '010912291162226',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291118782.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291118782.mp3',
         triller_available: false,
         label_url: '/label/big-machine-records-llc-albums/mem77Zy-PXo_',
-        media_url: 'https://aac.saavncdn.com/140/aedaa6ab644d1fbe1507bf91244dfc86_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/140/aedaa6ab644d1fbe1507bf91244dfc86_320.mp4',
       },
       {
         id: '_SCpUCQ2',
@@ -397,7 +422,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Taylor Swift',
         starring: '',
-        image: 'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
         label: 'Big Machine Records, LLC',
         albumid: '11880202',
         language: 'english',
@@ -431,10 +457,12 @@ const AlbumList = [
         },
         release_date: '2017-11-17',
         vcode: '010912291154901',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291111357.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291111357.mp3',
         triller_available: false,
         label_url: '/label/big-machine-records-llc-albums/mem77Zy-PXo_',
-        media_url: 'https://aac.saavncdn.com/140/ae89e78487a4028868feb14986daae56_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/140/ae89e78487a4028868feb14986daae56_320.mp4',
       },
       {
         id: 'GI0Ei11w',
@@ -450,7 +478,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Taylor Swift',
         starring: '',
-        image: 'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
         label: 'Big Machine Records, LLC',
         albumid: '11880202',
         language: 'english',
@@ -484,10 +513,12 @@ const AlbumList = [
         },
         release_date: '2017-11-17',
         vcode: '010912291162227',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291118783.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291118783.mp3',
         triller_available: false,
         label_url: '/label/big-machine-records-llc-albums/mem77Zy-PXo_',
-        media_url: 'https://aac.saavncdn.com/140/09a51460858ea0d822c8acdd0b473f6f_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/140/09a51460858ea0d822c8acdd0b473f6f_320.mp4',
       },
       {
         id: '0rsBL6d9',
@@ -503,7 +534,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Taylor Swift',
         starring: '',
-        image: 'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
         label: 'Big Machine Records, LLC',
         albumid: '11880202',
         language: 'english',
@@ -537,10 +569,12 @@ const AlbumList = [
         },
         release_date: '2017-11-17',
         vcode: '010912291162228',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291118784.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291118784.mp3',
         triller_available: false,
         label_url: '/label/big-machine-records-llc-albums/mem77Zy-PXo_',
-        media_url: 'https://aac.saavncdn.com/140/6aa0698ab39bc7cb51e2748d07f8a261_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/140/6aa0698ab39bc7cb51e2748d07f8a261_320.mp4',
       },
       {
         id: 'thhrRaI3',
@@ -556,7 +590,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Taylor Swift',
         starring: '',
-        image: 'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
         label: 'Big Machine Records, LLC',
         albumid: '11880202',
         language: 'english',
@@ -573,7 +608,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/140/dafb8d0f8a9dbdbfbc752f8d01eb6439_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/dancing-with-our-hands-tied/BAADQyZRfgA',
+        perma_url:
+          'https://www.jiosaavn.com/song/dancing-with-our-hands-tied/BAADQyZRfgA',
         album_url: 'https://www.jiosaavn.com/album/reputation/vYyO-THa1xo_',
         duration: '211',
         rights: {
@@ -590,10 +626,12 @@ const AlbumList = [
         },
         release_date: '2017-11-17',
         vcode: '010912291162229',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291118785.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291118785.mp3',
         triller_available: false,
         label_url: '/label/big-machine-records-llc-albums/mem77Zy-PXo_',
-        media_url: 'https://aac.saavncdn.com/140/dafb8d0f8a9dbdbfbc752f8d01eb6439_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/140/dafb8d0f8a9dbdbfbc752f8d01eb6439_320.mp4',
       },
       {
         id: 'GkIYbStC',
@@ -609,7 +647,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Taylor Swift',
         starring: '',
-        image: 'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
         label: 'Big Machine Records, LLC',
         albumid: '11880202',
         language: 'english',
@@ -643,10 +682,12 @@ const AlbumList = [
         },
         release_date: '2017-11-17',
         vcode: '010912291162230',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291118786.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291118786.mp3',
         triller_available: false,
         label_url: '/label/big-machine-records-llc-albums/mem77Zy-PXo_',
-        media_url: 'https://aac.saavncdn.com/140/a7ede138eed4c1029f5c906799f77ddc_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/140/a7ede138eed4c1029f5c906799f77ddc_320.mp4',
       },
       {
         id: '0K86r8fi',
@@ -662,7 +703,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Taylor Swift',
         starring: '',
-        image: 'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
         label: 'Big Machine Records, LLC',
         albumid: '11880202',
         language: 'english',
@@ -679,7 +721,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/140/1a379f3508d4934194856cf7f3eb41cc_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/this-is-why-we-cant-have-nice-things/QCNTBwYIUVo',
+        perma_url:
+          'https://www.jiosaavn.com/song/this-is-why-we-cant-have-nice-things/QCNTBwYIUVo',
         album_url: 'https://www.jiosaavn.com/album/reputation/vYyO-THa1xo_',
         duration: '207',
         rights: {
@@ -696,10 +739,12 @@ const AlbumList = [
         },
         release_date: '2017-11-17',
         vcode: '010912291162231',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291118787.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291118787.mp3',
         triller_available: false,
         label_url: '/label/big-machine-records-llc-albums/mem77Zy-PXo_',
-        media_url: 'https://aac.saavncdn.com/140/1a379f3508d4934194856cf7f3eb41cc_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/140/1a379f3508d4934194856cf7f3eb41cc_320.mp4',
       },
       {
         id: 'ksdnzZy-',
@@ -715,7 +760,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Taylor Swift',
         starring: '',
-        image: 'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
         label: 'Big Machine Records, LLC',
         albumid: '11880202',
         language: 'english',
@@ -732,7 +778,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/140/f0b8928b5113937d672fe75d95e961fb_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/call-it-what-you-want/GxsPXw5qTh4',
+        perma_url:
+          'https://www.jiosaavn.com/song/call-it-what-you-want/GxsPXw5qTh4',
         album_url: 'https://www.jiosaavn.com/album/reputation/vYyO-THa1xo_',
         duration: '203',
         rights: {
@@ -749,10 +796,12 @@ const AlbumList = [
         },
         release_date: '2017-11-17',
         vcode: '010912291154900',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291111356.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291111356.mp3',
         triller_available: false,
         label_url: '/label/big-machine-records-llc-albums/mem77Zy-PXo_',
-        media_url: 'https://aac.saavncdn.com/140/f0b8928b5113937d672fe75d95e961fb_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/140/f0b8928b5113937d672fe75d95e961fb_320.mp4',
       },
       {
         id: 'D0yvLuhH',
@@ -768,7 +817,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Taylor Swift',
         starring: '',
-        image: 'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg',
         label: 'Big Machine Records, LLC',
         albumid: '11880202',
         language: 'english',
@@ -785,7 +835,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/140/507e01b0b1ab924009270e91a3da1e93_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/new-year\u2019s-day/NFgSRzhFX3s',
+        perma_url:
+          'https://www.jiosaavn.com/song/new-year\u2019s-day/NFgSRzhFX3s',
         album_url: 'https://www.jiosaavn.com/album/reputation/vYyO-THa1xo_',
         duration: '235',
         rights: {
@@ -802,10 +853,12 @@ const AlbumList = [
         },
         release_date: '2017-11-17',
         vcode: '010912291162232',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291118788.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291118788.mp3',
         triller_available: false,
         label_url: '/label/big-machine-records-llc-albums/mem77Zy-PXo_',
-        media_url: 'https://aac.saavncdn.com/140/507e01b0b1ab924009270e91a3da1e93_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/140/507e01b0b1ab924009270e91a3da1e93_320.mp4',
       },
     ],
   },
@@ -818,7 +871,8 @@ const AlbumList = [
     primary_artists_id: '568565',
     albumid: '1194336',
     perma_url: 'https://www.jiosaavn.com/album/my-world-2.0/vXJ-NsuJF4c_',
-    image: 'https://c.saavncdn.com/728/My-World-2-0-English-2010-20200606003742-500x500.jpg',
+    image:
+      'https://c.saavncdn.com/728/My-World-2-0-English-2010-20200606003742-500x500.jpg',
     songs: [
       {
         id: 'H0IRhlNT',
@@ -834,7 +888,8 @@ const AlbumList = [
         featured_artists_id: '487008',
         singers: 'Justin Bieber',
         starring: '',
-        image: 'https://c.saavncdn.com/728/My-World-2-0-English-2010-20200606003742-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/728/My-World-2-0-English-2010-20200606003742-500x500.jpg',
         label: 'RBMG/Def Jam',
         albumid: '1194336',
         language: 'english',
@@ -869,10 +924,12 @@ const AlbumList = [
         },
         release_date: '2010-03-23',
         vcode: '010912291155887',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291112317.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291112317.mp3',
         triller_available: false,
         label_url: '/label/rbmgdef-jam-albums/AzoOWboyzgA_',
-        media_url: 'https://aac.saavncdn.com/728/94485509c750427c19faa074404292c8_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/728/94485509c750427c19faa074404292c8_320.mp4',
       },
       {
         id: 'Cx5YjW2i',
@@ -888,7 +945,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Justin Bieber',
         starring: '',
-        image: 'https://c.saavncdn.com/728/My-World-2-0-English-2010-20200606003742-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/728/My-World-2-0-English-2010-20200606003742-500x500.jpg',
         label: 'RBMG/Def Jam',
         albumid: '1194336',
         language: 'english',
@@ -922,10 +980,12 @@ const AlbumList = [
         },
         release_date: '2010-03-23',
         vcode: '010912291155891',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291112321.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291112321.mp3',
         triller_available: false,
         label_url: '/label/rbmgdef-jam-albums/AzoOWboyzgA_',
-        media_url: 'https://aac.saavncdn.com/728/18f87bff82bf6d961c5599b30dd42dc9_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/728/18f87bff82bf6d961c5599b30dd42dc9_320.mp4',
       },
       {
         id: 'k_13AJjm',
@@ -941,7 +1001,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Justin Bieber',
         starring: '',
-        image: 'https://c.saavncdn.com/728/My-World-2-0-English-2010-20200606003742-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/728/My-World-2-0-English-2010-20200606003742-500x500.jpg',
         label: 'RBMG/Def Jam',
         albumid: '1194336',
         language: 'english',
@@ -958,7 +1019,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/728/47f447dc76087361bedadb568252a9f4_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/stuck-in-the-moment-album-version/GzdaAjV6XV4',
+        perma_url:
+          'https://www.jiosaavn.com/song/stuck-in-the-moment-album-version/GzdaAjV6XV4',
         album_url: 'https://www.jiosaavn.com/album/my-world-2.0/vXJ-NsuJF4c_',
         duration: '222',
         rights: {
@@ -976,7 +1038,8 @@ const AlbumList = [
         release_date: '2010-03-23',
         triller_available: false,
         label_url: '/label/rbmgdef-jam-albums/AzoOWboyzgA_',
-        media_url: 'https://aac.saavncdn.com/728/47f447dc76087361bedadb568252a9f4_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/728/47f447dc76087361bedadb568252a9f4_320.mp4',
       },
       {
         id: 'pZiT73ri',
@@ -992,7 +1055,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Justin Bieber',
         starring: '',
-        image: 'https://c.saavncdn.com/728/My-World-2-0-English-2010-20200606003742-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/728/My-World-2-0-English-2010-20200606003742-500x500.jpg',
         label: 'RBMG/Def Jam',
         albumid: '1194336',
         language: 'english',
@@ -1009,7 +1073,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/728/68ba4b0f87818a02c8914c41a8822d90_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/u-smile-album-version/ADICZUMDRVo',
+        perma_url:
+          'https://www.jiosaavn.com/song/u-smile-album-version/ADICZUMDRVo',
         album_url: 'https://www.jiosaavn.com/album/my-world-2.0/vXJ-NsuJF4c_',
         duration: '196',
         rights: {
@@ -1027,7 +1092,8 @@ const AlbumList = [
         release_date: '2010-03-23',
         triller_available: false,
         label_url: '/label/rbmgdef-jam-albums/AzoOWboyzgA_',
-        media_url: 'https://aac.saavncdn.com/728/68ba4b0f87818a02c8914c41a8822d90_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/728/68ba4b0f87818a02c8914c41a8822d90_320.mp4',
       },
       {
         id: 'mO5rrhB-',
@@ -1043,7 +1109,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Justin Bieber',
         starring: '',
-        image: 'https://c.saavncdn.com/728/My-World-2-0-English-2010-20200606003742-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/728/My-World-2-0-English-2010-20200606003742-500x500.jpg',
         label: 'RBMG/Def Jam',
         albumid: '1194336',
         language: 'english',
@@ -1060,7 +1127,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/728/78fadff414c6b08213cfc32bd13ae7a2_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/runaway-love-album-version/HSdeQwZYdR4',
+        perma_url:
+          'https://www.jiosaavn.com/song/runaway-love-album-version/HSdeQwZYdR4',
         album_url: 'https://www.jiosaavn.com/album/my-world-2.0/vXJ-NsuJF4c_',
         duration: '212',
         rights: {
@@ -1078,7 +1146,8 @@ const AlbumList = [
         release_date: '2010-03-23',
         triller_available: false,
         label_url: '/label/rbmgdef-jam-albums/AzoOWboyzgA_',
-        media_url: 'https://aac.saavncdn.com/728/78fadff414c6b08213cfc32bd13ae7a2_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/728/78fadff414c6b08213cfc32bd13ae7a2_320.mp4',
       },
       {
         id: '4xgAtj7D',
@@ -1094,7 +1163,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Justin Bieber',
         starring: '',
-        image: 'https://c.saavncdn.com/728/My-World-2-0-English-2010-20200606003742-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/728/My-World-2-0-English-2010-20200606003742-500x500.jpg',
         label: 'RBMG/Def Jam',
         albumid: '1194336',
         language: 'english',
@@ -1129,7 +1199,8 @@ const AlbumList = [
         release_date: '2010-03-23',
         triller_available: false,
         label_url: '/label/rbmgdef-jam-albums/AzoOWboyzgA_',
-        media_url: 'https://aac.saavncdn.com/728/a6626bc2d5824c12d849b365e168be4b_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/728/a6626bc2d5824c12d849b365e168be4b_320.mp4',
       },
       {
         id: '0tk9ey-Y',
@@ -1145,7 +1216,8 @@ const AlbumList = [
         featured_artists_id: '1912902',
         singers: 'Justin Bieber',
         starring: '',
-        image: 'https://c.saavncdn.com/728/My-World-2-0-English-2010-20200606003742-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/728/My-World-2-0-English-2010-20200606003742-500x500.jpg',
         label: 'RBMG/Def Jam',
         albumid: '1194336',
         language: 'english',
@@ -1162,7 +1234,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/728/2fa9000fa44cb32a9830e263a151e8d7_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/overboard-album-version/QBwACBFJGmo',
+        perma_url:
+          'https://www.jiosaavn.com/song/overboard-album-version/QBwACBFJGmo',
         album_url: 'https://www.jiosaavn.com/album/my-world-2.0/vXJ-NsuJF4c_',
         duration: '251',
         rights: {
@@ -1181,7 +1254,8 @@ const AlbumList = [
         release_date: '2010-03-23',
         triller_available: false,
         label_url: '/label/rbmgdef-jam-albums/AzoOWboyzgA_',
-        media_url: 'https://aac.saavncdn.com/728/2fa9000fa44cb32a9830e263a151e8d7_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/728/2fa9000fa44cb32a9830e263a151e8d7_320.mp4',
       },
       {
         id: 'bPoytiqh',
@@ -1197,7 +1271,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Justin Bieber, Sean Kingston',
         starring: '',
-        image: 'https://c.saavncdn.com/728/My-World-2-0-English-2010-20200606003742-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/728/My-World-2-0-English-2010-20200606003742-500x500.jpg',
         label: 'RBMG/Def Jam',
         albumid: '1194336',
         language: 'english',
@@ -1214,7 +1289,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/728/969fdc45b49aaea1b73679d5d91fdf07_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/eenie-meenie-album-version/EjgESABZRls',
+        perma_url:
+          'https://www.jiosaavn.com/song/eenie-meenie-album-version/EjgESABZRls',
         album_url: 'https://www.jiosaavn.com/album/my-world-2.0/vXJ-NsuJF4c_',
         duration: '202',
         rights: {
@@ -1232,10 +1308,12 @@ const AlbumList = [
         },
         release_date: '2010-03-23',
         vcode: '010912291155884',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291112314.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291112314.mp3',
         triller_available: false,
         label_url: '/label/rbmgdef-jam-albums/AzoOWboyzgA_',
-        media_url: 'https://aac.saavncdn.com/728/969fdc45b49aaea1b73679d5d91fdf07_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/728/969fdc45b49aaea1b73679d5d91fdf07_320.mp4',
       },
       {
         id: 'yIUUYFiI',
@@ -1251,7 +1329,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Justin Bieber',
         starring: '',
-        image: 'https://c.saavncdn.com/728/My-World-2-0-English-2010-20200606003742-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/728/My-World-2-0-English-2010-20200606003742-500x500.jpg',
         label: 'RBMG/Def Jam',
         albumid: '1194336',
         language: 'english',
@@ -1286,7 +1365,8 @@ const AlbumList = [
         release_date: '2010-03-23',
         triller_available: false,
         label_url: '/label/rbmgdef-jam-albums/AzoOWboyzgA_',
-        media_url: 'https://aac.saavncdn.com/728/f48d457777074e2dafc243de4cdb2b57_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/728/f48d457777074e2dafc243de4cdb2b57_320.mp4',
       },
       {
         id: 'xSa1rASY',
@@ -1302,7 +1382,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Justin Bieber',
         starring: '',
-        image: 'https://c.saavncdn.com/728/My-World-2-0-English-2010-20200606003742-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/728/My-World-2-0-English-2010-20200606003742-500x500.jpg',
         label: 'RBMG/Def Jam',
         albumid: '1194336',
         language: 'english',
@@ -1319,7 +1400,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/728/ebd651a3abc60be386963ffdcc309949_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/that-should-be-me/CDsKAAZxZGo',
+        perma_url:
+          'https://www.jiosaavn.com/song/that-should-be-me/CDsKAAZxZGo',
         album_url: 'https://www.jiosaavn.com/album/my-world-2.0/vXJ-NsuJF4c_',
         duration: '232',
         rights: {
@@ -1337,7 +1419,8 @@ const AlbumList = [
         release_date: '2010-03-23',
         triller_available: false,
         label_url: '/label/rbmgdef-jam-albums/AzoOWboyzgA_',
-        media_url: 'https://aac.saavncdn.com/728/ebd651a3abc60be386963ffdcc309949_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/728/ebd651a3abc60be386963ffdcc309949_320.mp4',
       },
     ],
   },
@@ -1350,7 +1433,8 @@ const AlbumList = [
     primary_artists_id: '568163',
     albumid: '1592722',
     perma_url: 'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
-    image: 'https://c.saavncdn.com/145/Delirium-Deluxe--English-2015-20190420045244-500x500.jpg',
+    image:
+      'https://c.saavncdn.com/145/Delirium-Deluxe--English-2015-20190420045244-500x500.jpg',
     songs: [
       {
         id: 'fQatWDR6',
@@ -1385,7 +1469,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/145/ab9d352f35824188d3254d29188deefe_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/intro-delirium/FjkKRSN0ZQU',
-        album_url: 'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
+        album_url:
+          'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
         duration: '117',
         rights: {
           code: 1,
@@ -1402,7 +1487,8 @@ const AlbumList = [
         release_date: '2015-11-06',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/145/ab9d352f35824188d3254d29188deefe_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/145/ab9d352f35824188d3254d29188deefe_320.mp4',
       },
       {
         id: 'YY4A-9dN',
@@ -1437,7 +1523,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/145/1d7c7a587a651f9ebfdb652dfb1f3e18_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/aftertaste/KTFfcFkJU30',
-        album_url: 'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
+        album_url:
+          'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
         duration: '227',
         rights: {
           code: 1,
@@ -1454,7 +1541,8 @@ const AlbumList = [
         release_date: '2015-11-06',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/145/1d7c7a587a651f9ebfdb652dfb1f3e18_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/145/1d7c7a587a651f9ebfdb652dfb1f3e18_320.mp4',
       },
       {
         id: '-G-wUptD',
@@ -1488,8 +1576,10 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/145/45b18a6ef73487738aa0fc28f4c30828_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/something-in-the-way-you-move/XS9GRiFAQ3c',
-        album_url: 'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
+        perma_url:
+          'https://www.jiosaavn.com/song/something-in-the-way-you-move/XS9GRiFAQ3c',
+        album_url:
+          'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
         duration: '227',
         rights: {
           code: 1,
@@ -1505,10 +1595,12 @@ const AlbumList = [
         },
         release_date: '2015-11-06',
         vcode: '010912291165029',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291121747.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291121747.mp3',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/145/45b18a6ef73487738aa0fc28f4c30828_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/145/45b18a6ef73487738aa0fc28f4c30828_320.mp4',
       },
       {
         id: 'q6MRm6OL',
@@ -1543,7 +1635,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/145/db99a2b0a13fc1adde9849deafcc8822_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/keep-on-dancin/AV4mYxkGeH8',
-        album_url: 'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
+        album_url:
+          'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
         duration: '226',
         rights: {
           code: 1,
@@ -1560,7 +1653,8 @@ const AlbumList = [
         release_date: '2015-11-06',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/145/db99a2b0a13fc1adde9849deafcc8822_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/145/db99a2b0a13fc1adde9849deafcc8822_320.mp4',
       },
       {
         id: '6fegk6hv',
@@ -1595,7 +1689,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/145/7c897f566c4db98a22c098ea1d870ff6_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/on-my-mind/Rg4OVh8GX0U',
-        album_url: 'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
+        album_url:
+          'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
         duration: '215',
         rights: {
           code: 1,
@@ -1612,7 +1707,8 @@ const AlbumList = [
         release_date: '2015-11-06',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/145/7c897f566c4db98a22c098ea1d870ff6_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/145/7c897f566c4db98a22c098ea1d870ff6_320.mp4',
       },
       {
         id: '5T5ZqWjo',
@@ -1647,7 +1743,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/145/980e027741f9fa4fdb01c61b742455ba_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/around-u/RTxeawVnXVw',
-        album_url: 'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
+        album_url:
+          'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
         duration: '197',
         rights: {
           code: 1,
@@ -1664,7 +1761,8 @@ const AlbumList = [
         release_date: '2015-11-06',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/145/980e027741f9fa4fdb01c61b742455ba_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/145/980e027741f9fa4fdb01c61b742455ba_320.mp4',
       },
       {
         id: 'fhAyNqA1',
@@ -1699,7 +1797,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/145/7673dee0af1ba396235519f5b88d8c36_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/codes/FgAqSDpBdgI',
-        album_url: 'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
+        album_url:
+          'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
         duration: '196',
         rights: {
           code: 1,
@@ -1716,7 +1815,8 @@ const AlbumList = [
         release_date: '2015-11-06',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/145/7673dee0af1ba396235519f5b88d8c36_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/145/7673dee0af1ba396235519f5b88d8c36_320.mp4',
       },
       {
         id: 'SmFbRBWp',
@@ -1751,8 +1851,10 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/145/c0104f0d01e9c2f6d451f353f170ad48_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/holding-on-for-life/IwUtUyZyYEM',
-        album_url: 'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
+        perma_url:
+          'https://www.jiosaavn.com/song/holding-on-for-life/IwUtUyZyYEM',
+        album_url:
+          'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
         duration: '255',
         rights: {
           code: 1,
@@ -1777,7 +1879,8 @@ const AlbumList = [
         release_date: '2015-11-06',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/145/c0104f0d01e9c2f6d451f353f170ad48_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/145/c0104f0d01e9c2f6d451f353f170ad48_320.mp4',
       },
       {
         id: 'Hn6sXB2G',
@@ -1813,7 +1916,8 @@ const AlbumList = [
           'https://preview.saavncdn.com/145/36681b6bef69706129b532072b2186d3_96_p.mp4',
         perma_url:
           'https://www.jiosaavn.com/song/love-me-like-you-do-from-fifty-shades-of-grey/OAZdQixyBXQ',
-        album_url: 'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
+        album_url:
+          'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
         duration: '252',
         rights: {
           code: 1,
@@ -1829,10 +1933,12 @@ const AlbumList = [
         },
         release_date: '2015-11-06',
         vcode: '010912291165027',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291121745.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291121745.mp3',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/145/36681b6bef69706129b532072b2186d3_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/145/36681b6bef69706129b532072b2186d3_320.mp4',
       },
       {
         id: 'Tap0SLSa',
@@ -1867,7 +1973,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/145/ce8db55c2323ad885743c8a46d7fe264_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/dont-need-nobody/JAkbASd8ZFI',
-        album_url: 'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
+        album_url:
+          'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
         duration: '214',
         rights: {
           code: 1,
@@ -1884,7 +1991,8 @@ const AlbumList = [
         release_date: '2015-11-06',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/145/ce8db55c2323ad885743c8a46d7fe264_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/145/ce8db55c2323ad885743c8a46d7fe264_320.mp4',
       },
       {
         id: 'H4-rCGvl',
@@ -1919,7 +2027,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/145/20a1936a13b71c2a711303db24ee2b7a_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/dont-panic/OFxGQzd3QV8',
-        album_url: 'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
+        album_url:
+          'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
         duration: '196',
         rights: {
           code: 1,
@@ -1936,7 +2045,8 @@ const AlbumList = [
         release_date: '2015-11-06',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/145/20a1936a13b71c2a711303db24ee2b7a_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/145/20a1936a13b71c2a711303db24ee2b7a_320.mp4',
       },
       {
         id: 'ZiRCDxPE',
@@ -1970,8 +2080,10 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/145/2cbf708fd03dde61b6371b5e8dd5b161_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/we-cant-move-to-this/KgE5cjBIZ3Y',
-        album_url: 'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
+        perma_url:
+          'https://www.jiosaavn.com/song/we-cant-move-to-this/KgE5cjBIZ3Y',
+        album_url:
+          'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
         duration: '208',
         rights: {
           code: 1,
@@ -1988,7 +2100,8 @@ const AlbumList = [
         release_date: '2015-11-06',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/145/2cbf708fd03dde61b6371b5e8dd5b161_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/145/2cbf708fd03dde61b6371b5e8dd5b161_320.mp4',
       },
       {
         id: 'tgZBDrzm',
@@ -2023,7 +2136,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/145/900bace5e27bcdc9509b6f9fedc9c0d4_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/army/BA8xczBCTV4',
-        album_url: 'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
+        album_url:
+          'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
         duration: '237',
         rights: {
           code: 1,
@@ -2040,7 +2154,8 @@ const AlbumList = [
         release_date: '2015-11-06',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/145/900bace5e27bcdc9509b6f9fedc9c0d4_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/145/900bace5e27bcdc9509b6f9fedc9c0d4_320.mp4',
       },
       {
         id: 'OSpD809f',
@@ -2075,7 +2190,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/145/b8def65acf1a13555de111a5dbec15ed_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/lost-and-found/PzsbdUwADlU',
-        album_url: 'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
+        album_url:
+          'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
         duration: '216',
         rights: {
           code: 1,
@@ -2092,7 +2208,8 @@ const AlbumList = [
         release_date: '2015-11-06',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/145/b8def65acf1a13555de111a5dbec15ed_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/145/b8def65acf1a13555de111a5dbec15ed_320.mp4',
       },
       {
         id: 'aEp49YmT',
@@ -2127,7 +2244,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/145/63d1ea42ff1c1a965b3475f8fff9fe67_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/devotion/ES0bBU1pWmc',
-        album_url: 'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
+        album_url:
+          'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
         duration: '226',
         rights: {
           code: 1,
@@ -2144,7 +2262,8 @@ const AlbumList = [
         release_date: '2015-11-06',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/145/63d1ea42ff1c1a965b3475f8fff9fe67_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/145/63d1ea42ff1c1a965b3475f8fff9fe67_320.mp4',
       },
       {
         id: 'bpLBEAtS',
@@ -2180,7 +2299,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/145/3f3760cc39d96ee2c74b7298f1ec0c67_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/scream-it-out/EhgnczFxQ2A',
-        album_url: 'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
+        album_url:
+          'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
         duration: '189',
         rights: {
           code: 1,
@@ -2205,7 +2325,8 @@ const AlbumList = [
         release_date: '2015-11-06',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/145/3f3760cc39d96ee2c74b7298f1ec0c67_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/145/3f3760cc39d96ee2c74b7298f1ec0c67_320.mp4',
       },
       {
         id: '0nW7bJdu',
@@ -2241,7 +2362,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/145/0c04c6d5042532a0eb153de42dad4e80_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/the-greatest/QAY8BhZ6U0Y',
-        album_url: 'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
+        album_url:
+          'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
         duration: '211',
         rights: {
           code: 1,
@@ -2266,7 +2388,8 @@ const AlbumList = [
         release_date: '2015-11-06',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/145/0c04c6d5042532a0eb153de42dad4e80_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/145/0c04c6d5042532a0eb153de42dad4e80_320.mp4',
       },
       {
         id: 'i27Yas09',
@@ -2301,7 +2424,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/145/3913d629606350508383a29c9797114a_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/i-do-what-i-love/GVpcaBVDBwo',
-        album_url: 'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
+        album_url:
+          'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
         duration: '171',
         rights: {
           code: 1,
@@ -2318,7 +2442,8 @@ const AlbumList = [
         release_date: '2015-11-06',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/145/3913d629606350508383a29c9797114a_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/145/3913d629606350508383a29c9797114a_320.mp4',
       },
       {
         id: 'wG71GCEq',
@@ -2353,7 +2478,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/145/09a5453b70fa2f5b382f133114840d56_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/paradise/By9cADNzckI',
-        album_url: 'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
+        album_url:
+          'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
         duration: '224',
         rights: {
           code: 1,
@@ -2370,7 +2496,8 @@ const AlbumList = [
         release_date: '2015-11-06',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/145/09a5453b70fa2f5b382f133114840d56_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/145/09a5453b70fa2f5b382f133114840d56_320.mp4',
       },
       {
         id: 'GMQ5jq-3',
@@ -2405,7 +2532,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/145/74c26887d2e371fc295005ee701c14f9_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/winner/NyU6BB5BGgA',
-        album_url: 'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
+        album_url:
+          'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
         duration: '200',
         rights: {
           code: 1,
@@ -2422,7 +2550,8 @@ const AlbumList = [
         release_date: '2015-11-06',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/145/74c26887d2e371fc295005ee701c14f9_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/145/74c26887d2e371fc295005ee701c14f9_320.mp4',
       },
       {
         id: 'LfoPz_ww',
@@ -2457,7 +2586,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/145/b4d782d97b434e60a514730e590910fa_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/heal/PA4EYQ5vQEQ',
-        album_url: 'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
+        album_url:
+          'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
         duration: '292',
         rights: {
           code: 1,
@@ -2474,7 +2604,8 @@ const AlbumList = [
         release_date: '2015-11-06',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/145/b4d782d97b434e60a514730e590910fa_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/145/b4d782d97b434e60a514730e590910fa_320.mp4',
       },
       {
         id: '7UbcJS1T',
@@ -2507,7 +2638,8 @@ const AlbumList = [
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyid+GF4lOym+JxFsZdidwexeeBu8ZMrDiKr/zpia0sMRnMsgxfaHDgxw7tS9a8Gtq',
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         perma_url: 'https://www.jiosaavn.com/song/outside/Rz0JUj5jBmc',
-        album_url: 'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
+        album_url:
+          'https://www.jiosaavn.com/album/delirium-deluxe/xcrShP77jw8_',
         duration: '226',
         rights: {
           code: 1,
@@ -2524,10 +2656,12 @@ const AlbumList = [
         },
         release_date: '2015-11-06',
         vcode: '010910140238404',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140251048.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140251048.mp3',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/145/34d5ff009fb94c39dd684907f921ab0b_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/145/34d5ff009fb94c39dd684907f921ab0b_320.mp4',
       },
     ],
   },
@@ -2539,7 +2673,8 @@ const AlbumList = [
     primary_artists: 'A.R. Rahman',
     primary_artists_id: '456269',
     albumid: '1131452',
-    perma_url: 'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
+    perma_url:
+      'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
     image: 'https://c.saavncdn.com/741/A-R-Rehman-Forever-2013-500x500.jpg',
     songs: [
       {
@@ -2550,7 +2685,8 @@ const AlbumList = [
         year: '2013',
         music: 'A.R. Rahman',
         music_id: '456269',
-        primary_artists: 'A.R. Rahman, Hariharan, Sadhana Sargam, Benny Dayal, Naresh Iyer',
+        primary_artists:
+          'A.R. Rahman, Hariharan, Sadhana Sargam, Benny Dayal, Naresh Iyer',
         primary_artists_id: '456269, 455162, 455324, 456521, 457548',
         featured_artists: '',
         featured_artists_id: '',
@@ -2570,11 +2706,13 @@ const AlbumList = [
         lyrics_snippet: 'Tana Perunu vinte keertini kante',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyMPYbLEwW77WfI6wBj1a1uKDO/XG1FhqDcR33GQyfj7RIS+MjYOdF8Rw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/FjXyNGs1EfY6wEtaRrRafJUVB/0D8ZzB42Sm9xkxQ6QKBO2Sw+5n4nO',
+        encrypted_media_path:
+          'NMKyboFo/FjXyNGs1EfY6wEtaRrRafJUVB/0D8ZzB42Sm9xkxQ6QKBO2Sw+5n4nO',
         media_preview_url:
           'https://preview.saavncdn.com/741/a005e2cede67721c2325a9f101aee5f7_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/arima-arima/AAopUjx1ZXY',
-        album_url: 'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
+        album_url:
+          'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
         duration: '320',
         rights: {
           code: 0,
@@ -2596,7 +2734,8 @@ const AlbumList = [
         release_date: '2013-02-21',
         triller_available: false,
         label_url: '/label/venus-albums/9MsNTY3VWGc_',
-        media_url: 'https://aac.saavncdn.com/741/a005e2cede67721c2325a9f101aee5f7_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/741/a005e2cede67721c2325a9f101aee5f7_320.mp4',
       },
       {
         id: 'iPhbPpj5',
@@ -2626,11 +2765,13 @@ const AlbumList = [
         lyrics_snippet: '',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDy0j6VWegDbhZkFByE+hPxZYo3r2FEbr/v4YLwoiKycAuv+pY9vMGADhw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/FjCCmcGvFGCfsZfBivxO4ROj2OkXfh93BDRCypEwoqeZAx1lkb16Mbv',
+        encrypted_media_path:
+          'NMKyboFo/FjCCmcGvFGCfsZfBivxO4ROj2OkXfh93BDRCypEwoqeZAx1lkb16Mbv',
         media_preview_url:
           'https://preview.saavncdn.com/741/76706ed3cb47854b73de81429a5696e2_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/chaiyya-chaiyya/GTgDUyRAXQY',
-        album_url: 'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
+        album_url:
+          'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
         duration: '418',
         rights: {
           code: 0,
@@ -2647,10 +2788,12 @@ const AlbumList = [
         },
         release_date: '2013-02-21',
         vcode: '010912020993238',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912020948968.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912020948968.mp3',
         triller_available: false,
         label_url: '/label/venus-albums/9MsNTY3VWGc_',
-        media_url: 'https://aac.saavncdn.com/741/76706ed3cb47854b73de81429a5696e2_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/741/76706ed3cb47854b73de81429a5696e2_320.mp4',
       },
       {
         id: '5jUoo47p',
@@ -2680,11 +2823,13 @@ const AlbumList = [
         lyrics_snippet: '',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyfFa4RkN+yQ+6KQX4QhZyv7crt/elFxgo0QXrvYTH5WsfTb1wgs9wRxw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/FhVegxCatS5CDO/TqLTkiJfpXmf6dogiWe4Cexnc5n5y4DCAMrzoDaU',
+        encrypted_media_path:
+          'NMKyboFo/FhVegxCatS5CDO/TqLTkiJfpXmf6dogiWe4Cexnc5n5y4DCAMrzoDaU',
         media_preview_url:
           'https://preview.saavncdn.com/741/0c9101ed6b0f2283abf9158cb1e0c0d0_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/dil-se-re/RQI,XhsEAEM',
-        album_url: 'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
+        album_url:
+          'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
         duration: '405',
         rights: {
           code: 0,
@@ -2701,10 +2846,12 @@ const AlbumList = [
         },
         release_date: '2013-02-21',
         vcode: '010912020993240',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912020948970.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912020948970.mp3',
         triller_available: false,
         label_url: '/label/venus-albums/9MsNTY3VWGc_',
-        media_url: 'https://aac.saavncdn.com/741/0c9101ed6b0f2283abf9158cb1e0c0d0_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/741/0c9101ed6b0f2283abf9158cb1e0c0d0_320.mp4',
       },
       {
         id: 'WZQJvXFT',
@@ -2734,11 +2881,13 @@ const AlbumList = [
         lyrics_snippet: '',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyRqrOgZldKlJIFdQuAeBQUCsOKffD0oLFOujcDbmlKidw7DctxBmrORw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/FgcuzhB3bgdcC4Oy6Y/tq9LRDbXQRnoPpVZYRyh+3vTZ0ia4pQWReaW',
+        encrypted_media_path:
+          'NMKyboFo/FgcuzhB3bgdcC4Oy6Y/tq9LRDbXQRnoPpVZYRyh+3vTZ0ia4pQWReaW',
         media_preview_url:
           'https://preview.saavncdn.com/741/193b748075d6db1de1c8c54f69be54de_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/fanaa/JzI6ewJocWc',
-        album_url: 'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
+        album_url:
+          'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
         duration: '281',
         rights: {
           code: 0,
@@ -2757,10 +2906,12 @@ const AlbumList = [
         },
         release_date: '2013-02-21',
         vcode: '010912020993144',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912020948867.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912020948867.mp3',
         triller_available: false,
         label_url: '/label/venus-albums/9MsNTY3VWGc_',
-        media_url: 'https://aac.saavncdn.com/741/193b748075d6db1de1c8c54f69be54de_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/741/193b748075d6db1de1c8c54f69be54de_320.mp4',
       },
       {
         id: 'OA3pSkJ7',
@@ -2790,11 +2941,13 @@ const AlbumList = [
         lyrics_snippet: 'Dekha nahin hai tujhko kal se',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyVvOyiusRrVB/mwTzvrlYwaOmbWUUfPs5TEUCVb1bZBuA2b6nwKNs8Bw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/FgKyuKZJKFhh58P5DaJIpRdl9acXDjOQn+2a5jz9gtcUxpdH+j3am6U',
+        encrypted_media_path:
+          'NMKyboFo/FgKyuKZJKFhh58P5DaJIpRdl9acXDjOQn+2a5jz9gtcUxpdH+j3am6U',
         media_preview_url:
           'https://preview.saavncdn.com/741/2ca36334930524607be7d1edb8686575_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/jaana-jaana/PylYQSdbfQQ',
-        album_url: 'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
+        album_url:
+          'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
         duration: '341',
         rights: {
           code: 0,
@@ -2812,7 +2965,8 @@ const AlbumList = [
         release_date: '2013-02-21',
         triller_available: false,
         label_url: '/label/venus-albums/9MsNTY3VWGc_',
-        media_url: 'https://aac.saavncdn.com/741/2ca36334930524607be7d1edb8686575_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/741/2ca36334930524607be7d1edb8686575_320.mp4',
       },
       {
         id: 'OdSpV3uw',
@@ -2839,14 +2993,17 @@ const AlbumList = [
         is_dolby_content: false,
         explicit_content: 0,
         has_lyrics: 'true',
-        lyrics_snippet: 'jiya jaale jaan jaale nainon tale dhuaan chale dhuaan chale',
+        lyrics_snippet:
+          'jiya jaale jaan jaale nainon tale dhuaan chale dhuaan chale',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyxu6PP4vdYzm5EZQfjq1STyrczpDsXlm71NlbfM0CXEEzDtssMs5vuBw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/FgKyuKZJKFhh7D3i6QdOsLPXZdFoH67LmumjkUOS6bXdlzADpoe1j7i',
+        encrypted_media_path:
+          'NMKyboFo/FgKyuKZJKFhh7D3i6QdOsLPXZdFoH67LmumjkUOS6bXdlzADpoe1j7i',
         media_preview_url:
           'https://preview.saavncdn.com/741/2aeed6271792c3fe750842fba7929031_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/jiya-jale/Pww4QSIDQkQ',
-        album_url: 'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
+        album_url:
+          'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
         duration: '309',
         rights: {
           code: 0,
@@ -2864,10 +3021,12 @@ const AlbumList = [
         },
         release_date: '2013-02-21',
         vcode: '010912020993239',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912020948969.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912020948969.mp3',
         triller_available: false,
         label_url: '/label/venus-albums/9MsNTY3VWGc_',
-        media_url: 'https://aac.saavncdn.com/741/2aeed6271792c3fe750842fba7929031_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/741/2aeed6271792c3fe750842fba7929031_320.mp4',
       },
       {
         id: 'HArA7rcw',
@@ -2897,11 +3056,13 @@ const AlbumList = [
         lyrics_snippet: '',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDykuokx+EURBtImXqRPTyRZVg4OR0aSCs8je3CT5mhgrKesqzJS/34MBw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/FgcuzhB3bgdcI/lC3VvcxxiJNUK+kMPEQBC7xTcXA07nw/LWlapQb5u',
+        encrypted_media_path:
+          'NMKyboFo/FgcuzhB3bgdcI/lC3VvcxxiJNUK+kMPEQBC7xTcXA07nw/LWlapQb5u',
         media_preview_url:
           'https://preview.saavncdn.com/741/1ff68434fc56b5ab40869d41926050d7_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/kay-sera-sera/OCkZcENCVEQ',
-        album_url: 'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
+        album_url:
+          'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
         duration: '421',
         rights: {
           code: 0,
@@ -2919,10 +3080,12 @@ const AlbumList = [
         },
         release_date: '2013-02-21',
         vcode: '010912020992951',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912020948674.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912020948674.mp3',
         triller_available: false,
         label_url: '/label/venus-albums/9MsNTY3VWGc_',
-        media_url: 'https://aac.saavncdn.com/741/1ff68434fc56b5ab40869d41926050d7_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/741/1ff68434fc56b5ab40869d41926050d7_320.mp4',
       },
       {
         id: 'y4ZSGUqN',
@@ -2952,11 +3115,14 @@ const AlbumList = [
         lyrics_snippet: 'Ghoomte phirte milte hai',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyKPNufxAgh8z6yrENAh7YR7rhlssBJ1QeLGWoUolSOULW+5mbO1h7+Rw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/FhVegxCatS5CFolc2F2CDWMEvFWj5QPyf3kg7/M5FZ9QhVEY4OWEqzL',
+        encrypted_media_path:
+          'NMKyboFo/FhVegxCatS5CFolc2F2CDWMEvFWj5QPyf3kg7/M5FZ9QhVEY4OWEqzL',
         media_preview_url:
           'https://preview.saavncdn.com/741/046a6e88db861fd3b2be4642c06db55f_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/khuda-hafiz-anjaani-anjaana/CVwxYjNlRn0',
-        album_url: 'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
+        perma_url:
+          'https://www.jiosaavn.com/song/khuda-hafiz-anjaani-anjaana/CVwxYjNlRn0',
+        album_url:
+          'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
         duration: '302',
         rights: {
           code: 0,
@@ -2976,10 +3142,12 @@ const AlbumList = [
         },
         release_date: '2013-02-21',
         vcode: '010912020993140',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912020948863.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912020948863.mp3',
         triller_available: false,
         label_url: '/label/venus-albums/9MsNTY3VWGc_',
-        media_url: 'https://aac.saavncdn.com/741/046a6e88db861fd3b2be4642c06db55f_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/741/046a6e88db861fd3b2be4642c06db55f_320.mp4',
       },
       {
         id: '0oXNRioc',
@@ -2989,7 +3157,8 @@ const AlbumList = [
         year: '2013',
         music: 'A.R. Rahman',
         music_id: '456269',
-        primary_artists: 'A.R. Rahman, Javed Ali, Chinmayi Sripada, Clinton Cerejo',
+        primary_artists:
+          'A.R. Rahman, Javed Ali, Chinmayi Sripada, Clinton Cerejo',
         primary_artists_id: '456269, 455926, 1984879, 456051',
         featured_artists: '',
         featured_artists_id: '',
@@ -3009,11 +3178,13 @@ const AlbumList = [
         lyrics_snippet: 'Chek Chek Yo Anta Vanneladi',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyc0pJxYPTqSyc8D5HOjULH3uhBJPgY1IF2Cq/35B1cNEXhnP9l9QOFxw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/FiuS2J6V5ajxCwP39QVKVC8UQBGHBniDOP4Kv39+wt6jWbMb8OlqxtK',
+        encrypted_media_path:
+          'NMKyboFo/FiuS2J6V5ajxCwP39QVKVC8UQBGHBniDOP4Kv39+wt6jWbMb8OlqxtK',
         media_preview_url:
           'https://preview.saavncdn.com/741/85bbd6b6dbab7875a969787cb66d22a3_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/kilimanjaro/QAczfyZZWFA',
-        album_url: 'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
+        album_url:
+          'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
         duration: '330',
         rights: {
           code: 0,
@@ -3034,7 +3205,8 @@ const AlbumList = [
         release_date: '2013-02-21',
         triller_available: false,
         label_url: '/label/venus-albums/9MsNTY3VWGc_',
-        media_url: 'https://aac.saavncdn.com/741/85bbd6b6dbab7875a969787cb66d22a3_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/741/85bbd6b6dbab7875a969787cb66d22a3_320.mp4',
       },
       {
         id: 'N-VJVkfr',
@@ -3064,11 +3236,14 @@ const AlbumList = [
         lyrics_snippet: 'munh kaala  muqaabala laila  o-ho laila',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyzJrxfrdvffMLmi6ZmPIwkOyc1F9EmodoP62RN/dR1GyDPKNGiPV2pBw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/Fj3FkUq54sqrxMf2MGosaxQTKCqPLIsV0nqSHifhxcfChA0bQQgQ3A+',
+        encrypted_media_path:
+          'NMKyboFo/Fj3FkUq54sqrxMf2MGosaxQTKCqPLIsV0nqSHifhxcfChA0bQQgQ3A+',
         media_preview_url:
           'https://preview.saavncdn.com/741/4afa231583998d77b8eda57f41a0c3d0_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/muqabala-muqabala/PkU9eyJbUUE',
-        album_url: 'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
+        perma_url:
+          'https://www.jiosaavn.com/song/muqabala-muqabala/PkU9eyJbUUE',
+        album_url:
+          'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
         duration: '329',
         rights: {
           code: 0,
@@ -3085,10 +3260,12 @@ const AlbumList = [
         },
         release_date: '2013-02-21',
         vcode: '010912020992764',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912020948487.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912020948487.mp3',
         triller_available: false,
         label_url: '/label/venus-albums/9MsNTY3VWGc_',
-        media_url: 'https://aac.saavncdn.com/741/4afa231583998d77b8eda57f41a0c3d0_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/741/4afa231583998d77b8eda57f41a0c3d0_320.mp4',
       },
       {
         id: 'Iiqs61ml',
@@ -3118,11 +3295,13 @@ const AlbumList = [
         lyrics_snippet: '',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyAjzUveivoeL/5F1agQTZwULMBbZJVvIAkczwaZY6cFvg/h83sbX0sBw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/FhkBNGdBFTdmxx5K58gXe73VwqNqznXp0Ih8dJH9vWhyyF//6V4bCdV',
+        encrypted_media_path:
+          'NMKyboFo/FhkBNGdBFTdmxx5K58gXe73VwqNqznXp0Ih8dJH9vWhyyF//6V4bCdV',
         media_preview_url:
           'https://preview.saavncdn.com/741/fbb8944038993ab3a88c9cd55feaa08f_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/mustafa-mustafa/OQEaQkIBWl8',
-        album_url: 'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
+        album_url:
+          'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
         duration: '363',
         rights: {
           code: 0,
@@ -3139,7 +3318,8 @@ const AlbumList = [
         release_date: '2013-02-21',
         triller_available: false,
         label_url: '/label/venus-albums/9MsNTY3VWGc_',
-        media_url: 'https://aac.saavncdn.com/741/fbb8944038993ab3a88c9cd55feaa08f_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/741/fbb8944038993ab3a88c9cd55feaa08f_320.mp4',
       },
       {
         id: 'L-nGBzxz',
@@ -3169,11 +3349,13 @@ const AlbumList = [
         lyrics_snippet: '',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDypKo0E5MEn/I3nUbZJbsXQ64/pEqqtlJZmqIALK8HTQtEWZ6yl+gfNBw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/FhbSKy/u1CIxhdUdw2ns8ytgLdd/++5BMcVx3iGWiXDVgzJs5URW7G4',
+        encrypted_media_path:
+          'NMKyboFo/FhbSKy/u1CIxhdUdw2ns8ytgLdd/++5BMcVx3iGWiXDVgzJs5URW7G4',
         media_preview_url:
           'https://preview.saavncdn.com/741/6685e4747f3b5defae861b00b4238173_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/naina-miley/PEUFdjZKT0k',
-        album_url: 'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
+        album_url:
+          'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
         duration: '316',
         rights: {
           code: 0,
@@ -3194,7 +3376,8 @@ const AlbumList = [
         release_date: '2013-02-21',
         triller_available: false,
         label_url: '/label/venus-albums/9MsNTY3VWGc_',
-        media_url: 'https://aac.saavncdn.com/741/6685e4747f3b5defae861b00b4238173_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/741/6685e4747f3b5defae861b00b4238173_320.mp4',
       },
       {
         id: 'YcM-1zbu',
@@ -3224,11 +3407,13 @@ const AlbumList = [
         lyrics_snippet: 'Oh Baby, Oh Baby, Mehak Teri Phool Gulabi',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyoypwRZCaAh9o5M2+tph8nrv2y8Nb9LLRCA5ZLY+38A4rudbwQLBXBxw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/FiuS2J6V5ajxLrlw9YnjA5itP8kZ4YzKzmvbJwzFNb7Ot7qXJlk9eCN',
+        encrypted_media_path:
+          'NMKyboFo/FiuS2J6V5ajxLrlw9YnjA5itP8kZ4YzKzmvbJwzFNb7Ot7qXJlk9eCN',
         media_preview_url:
           'https://preview.saavncdn.com/741/81d9458f081525008546deb5bf47d4d4_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/pagal-anukan/KQsmHEVKVUY',
-        album_url: 'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
+        album_url:
+          'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
         duration: '346',
         rights: {
           code: 0,
@@ -3248,7 +3433,8 @@ const AlbumList = [
         release_date: '2013-02-21',
         triller_available: false,
         label_url: '/label/venus-albums/9MsNTY3VWGc_',
-        media_url: 'https://aac.saavncdn.com/741/81d9458f081525008546deb5bf47d4d4_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/741/81d9458f081525008546deb5bf47d4d4_320.mp4',
       },
       {
         id: 'fcInrSmO',
@@ -3258,7 +3444,8 @@ const AlbumList = [
         year: '2013',
         music: 'A.R. Rahman',
         music_id: '456269',
-        primary_artists: 'A.R. Rahman, Udit Narayan, Kavita Krishnamurthy, Swarnalatha',
+        primary_artists:
+          'A.R. Rahman, Udit Narayan, Kavita Krishnamurthy, Swarnalatha',
         primary_artists_id: '456269, 455127, 455158, 455558',
         featured_artists: '',
         featured_artists_id: '',
@@ -3278,11 +3465,14 @@ const AlbumList = [
         lyrics_snippet: 'dil-o-jaan se chaahoon tujko yaaraa dilruba',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyhScM3qNe5w1LFSvOv+wQam64JwqOLAAHhqdKLOC38Cq8idlSlWc9JBw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/FhI3H6FFkSMC98WjqpZZhIbOaHG45Hj4A8FDePipm/53s+zgzBRZQxh',
+        encrypted_media_path:
+          'NMKyboFo/FhI3H6FFkSMC98WjqpZZhIbOaHG45Hj4A8FDePipm/53s+zgzBRZQxh',
         media_preview_url:
           'https://preview.saavncdn.com/741/d42d2ee96919693140a0c4e3b78fdf96_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/sunta-hai-mera-khuda/FgsiXwZjWnw',
-        album_url: 'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
+        perma_url:
+          'https://www.jiosaavn.com/song/sunta-hai-mera-khuda/FgsiXwZjWnw',
+        album_url:
+          'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
         duration: '394',
         rights: {
           code: 0,
@@ -3301,10 +3491,12 @@ const AlbumList = [
         },
         release_date: '2013-02-21',
         vcode: '010912020992952',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912020948675.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912020948675.mp3',
         triller_available: false,
         label_url: '/label/venus-albums/9MsNTY3VWGc_',
-        media_url: 'https://aac.saavncdn.com/741/d42d2ee96919693140a0c4e3b78fdf96_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/741/d42d2ee96919693140a0c4e3b78fdf96_320.mp4',
       },
       {
         id: 'Venyp2Ey',
@@ -3334,11 +3526,13 @@ const AlbumList = [
         lyrics_snippet: 'Urvashi Urvashi take it easy Urvashi',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyWw8to5YUsE9DZEx2C5h7xo8xp/qjWk3X9CMRCqvm5ikhvkDR/yryQhw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/Fgg3N67/QH6Fh7mkKP2OZzZ+A5OJ10iECKDzsDQhl/HlZSWhHw4jcAh',
+        encrypted_media_path:
+          'NMKyboFo/Fgg3N67/QH6Fh7mkKP2OZzZ+A5OJ10iECKDzsDQhl/HlZSWhHw4jcAh',
         media_preview_url:
           'https://preview.saavncdn.com/741/9117ee8a6afee0a9e1657fe614cb15ba_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/urvashi-urvashi/Jg0FSAQCcko',
-        album_url: 'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
+        album_url:
+          'https://www.jiosaavn.com/album/a.r.-rehman-forever/gq0rCN7aXUc_',
         duration: '381',
         rights: {
           code: 0,
@@ -3355,10 +3549,12 @@ const AlbumList = [
         },
         release_date: '2013-02-21',
         vcode: '010912020992772',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912020948495.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912020948495.mp3',
         triller_available: false,
         label_url: '/label/venus-albums/9MsNTY3VWGc_',
-        media_url: 'https://aac.saavncdn.com/741/9117ee8a6afee0a9e1657fe614cb15ba_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/741/9117ee8a6afee0a9e1657fe614cb15ba_320.mp4',
       },
     ],
   },
@@ -3371,7 +3567,8 @@ const AlbumList = [
     primary_artists_id: '566404',
     albumid: '16232863',
     perma_url: 'https://www.jiosaavn.com/album/24k-magic/ZUPzYwnCXhQ_',
-    image: 'https://c.saavncdn.com/126/24K-Magic-English-2016-20190607043506-500x500.jpg',
+    image:
+      'https://c.saavncdn.com/126/24K-Magic-English-2016-20190607043506-500x500.jpg',
     songs: [
       {
         id: 'XwjHszPI',
@@ -3387,7 +3584,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Bruno Mars',
         starring: '',
-        image: 'https://c.saavncdn.com/126/24K-Magic-English-2016-20190607043506-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/126/24K-Magic-English-2016-20190607043506-500x500.jpg',
         label: 'Atlantic Records',
         albumid: '16232863',
         language: 'english',
@@ -3422,7 +3620,8 @@ const AlbumList = [
         release_date: '2016-11-18',
         triller_available: false,
         label_url: '/label/atlantic-records-albums/moT3cDqfUuo_',
-        media_url: 'https://aac.saavncdn.com/126/c2e63e8d3bfb0bfb52663f31197ef242_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/126/c2e63e8d3bfb0bfb52663f31197ef242_320.mp4',
       },
       {
         id: 'SMsL8wda',
@@ -3438,7 +3637,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Bruno Mars',
         starring: '',
-        image: 'https://c.saavncdn.com/126/24K-Magic-English-2016-20190607043506-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/126/24K-Magic-English-2016-20190607043506-500x500.jpg',
         label: 'Atlantic Records',
         albumid: '16232863',
         language: 'english',
@@ -3473,7 +3673,8 @@ const AlbumList = [
         release_date: '2016-11-18',
         triller_available: false,
         label_url: '/label/atlantic-records-albums/moT3cDqfUuo_',
-        media_url: 'https://aac.saavncdn.com/126/6eb1cce2e3cbcb90ebfe793f1bd75148_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/126/6eb1cce2e3cbcb90ebfe793f1bd75148_320.mp4',
       },
       {
         id: 'PfErQbpz',
@@ -3489,7 +3690,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Bruno Mars',
         starring: '',
-        image: 'https://c.saavncdn.com/126/24K-Magic-English-2016-20190607043506-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/126/24K-Magic-English-2016-20190607043506-500x500.jpg',
         label: 'Atlantic Records',
         albumid: '16232863',
         language: 'english',
@@ -3524,7 +3726,8 @@ const AlbumList = [
         release_date: '2016-11-18',
         triller_available: false,
         label_url: '/label/atlantic-records-albums/moT3cDqfUuo_',
-        media_url: 'https://aac.saavncdn.com/126/5e816ced1b48475171754d82a86cded1_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/126/5e816ced1b48475171754d82a86cded1_320.mp4',
       },
       {
         id: 'ues2MtP_',
@@ -3540,7 +3743,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Bruno Mars',
         starring: '',
-        image: 'https://c.saavncdn.com/126/24K-Magic-English-2016-20190607043506-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/126/24K-Magic-English-2016-20190607043506-500x500.jpg',
         label: 'Atlantic Records',
         albumid: '16232863',
         language: 'english',
@@ -3557,7 +3761,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/126/92f8cfeb935049da436424e9ab72faca_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/thats-what-i-like/BQ0YAzlEZ2w',
+        perma_url:
+          'https://www.jiosaavn.com/song/thats-what-i-like/BQ0YAzlEZ2w',
         album_url: 'https://www.jiosaavn.com/album/24k-magic/ZUPzYwnCXhQ_',
         duration: '206',
         rights: {
@@ -3574,10 +3779,12 @@ const AlbumList = [
         },
         release_date: '2016-11-18',
         vcode: '010910140662856',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140629316.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140629316.mp3',
         triller_available: false,
         label_url: '/label/atlantic-records-albums/moT3cDqfUuo_',
-        media_url: 'https://aac.saavncdn.com/126/92f8cfeb935049da436424e9ab72faca_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/126/92f8cfeb935049da436424e9ab72faca_320.mp4',
       },
       {
         id: '3PEj0D_T',
@@ -3593,7 +3800,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Bruno Mars',
         starring: '',
-        image: 'https://c.saavncdn.com/126/24K-Magic-English-2016-20190607043506-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/126/24K-Magic-English-2016-20190607043506-500x500.jpg',
         label: 'Atlantic Records',
         albumid: '16232863',
         language: 'english',
@@ -3610,7 +3818,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/126/3cb4a647840e04915232a08662e8e643_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/versace-on-the-floor/QzguW0R0aGc',
+        perma_url:
+          'https://www.jiosaavn.com/song/versace-on-the-floor/QzguW0R0aGc',
         album_url: 'https://www.jiosaavn.com/album/24k-magic/ZUPzYwnCXhQ_',
         duration: '261',
         rights: {
@@ -3628,7 +3837,8 @@ const AlbumList = [
         release_date: '2016-11-18',
         triller_available: false,
         label_url: '/label/atlantic-records-albums/moT3cDqfUuo_',
-        media_url: 'https://aac.saavncdn.com/126/3cb4a647840e04915232a08662e8e643_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/126/3cb4a647840e04915232a08662e8e643_320.mp4',
       },
       {
         id: 'HVa2YtkF',
@@ -3644,7 +3854,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Bruno Mars',
         starring: '',
-        image: 'https://c.saavncdn.com/126/24K-Magic-English-2016-20190607043506-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/126/24K-Magic-English-2016-20190607043506-500x500.jpg',
         label: 'Atlantic Records',
         albumid: '16232863',
         language: 'english',
@@ -3661,7 +3872,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/126/5b95b72a241a1f3f694fbb7a53819ff6_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/straight-up--down/OD4KAy1EXHU',
+        perma_url:
+          'https://www.jiosaavn.com/song/straight-up--down/OD4KAy1EXHU',
         album_url: 'https://www.jiosaavn.com/album/24k-magic/ZUPzYwnCXhQ_',
         duration: '198',
         rights: {
@@ -3679,7 +3891,8 @@ const AlbumList = [
         release_date: '2016-11-18',
         triller_available: false,
         label_url: '/label/atlantic-records-albums/moT3cDqfUuo_',
-        media_url: 'https://aac.saavncdn.com/126/5b95b72a241a1f3f694fbb7a53819ff6_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/126/5b95b72a241a1f3f694fbb7a53819ff6_320.mp4',
       },
       {
         id: 'hmikSlQw',
@@ -3695,7 +3908,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Bruno Mars',
         starring: '',
-        image: 'https://c.saavncdn.com/126/24K-Magic-English-2016-20190607043506-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/126/24K-Magic-English-2016-20190607043506-500x500.jpg',
         label: 'Atlantic Records',
         albumid: '16232863',
         language: 'english',
@@ -3712,7 +3926,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/126/5fcc0ba90166bd672e94c0cab9bf607e_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/calling-all-my-lovelies/GAUCWidcZkQ',
+        perma_url:
+          'https://www.jiosaavn.com/song/calling-all-my-lovelies/GAUCWidcZkQ',
         album_url: 'https://www.jiosaavn.com/album/24k-magic/ZUPzYwnCXhQ_',
         duration: '250',
         rights: {
@@ -3730,7 +3945,8 @@ const AlbumList = [
         release_date: '2016-11-18',
         triller_available: false,
         label_url: '/label/atlantic-records-albums/moT3cDqfUuo_',
-        media_url: 'https://aac.saavncdn.com/126/5fcc0ba90166bd672e94c0cab9bf607e_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/126/5fcc0ba90166bd672e94c0cab9bf607e_320.mp4',
       },
       {
         id: 'yoTKbIcB',
@@ -3746,7 +3962,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Bruno Mars',
         starring: '',
-        image: 'https://c.saavncdn.com/126/24K-Magic-English-2016-20190607043506-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/126/24K-Magic-English-2016-20190607043506-500x500.jpg',
         label: 'Atlantic Records',
         albumid: '16232863',
         language: 'english',
@@ -3781,7 +3998,8 @@ const AlbumList = [
         release_date: '2016-11-18',
         triller_available: false,
         label_url: '/label/atlantic-records-albums/moT3cDqfUuo_',
-        media_url: 'https://aac.saavncdn.com/126/7755464d7438556f363266c14076d7b3_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/126/7755464d7438556f363266c14076d7b3_320.mp4',
       },
       {
         id: 'UpTZyMIZ',
@@ -3797,7 +4015,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Bruno Mars',
         starring: '',
-        image: 'https://c.saavncdn.com/126/24K-Magic-English-2016-20190607043506-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/126/24K-Magic-English-2016-20190607043506-500x500.jpg',
         label: 'Atlantic Records',
         albumid: '16232863',
         language: 'english',
@@ -3814,7 +4033,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/126/84d6b7e5bd26169b047a9b72a7b0a345_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/too-good-to-say-goodbye/JRg-aw19fmk',
+        perma_url:
+          'https://www.jiosaavn.com/song/too-good-to-say-goodbye/JRg-aw19fmk',
         album_url: 'https://www.jiosaavn.com/album/24k-magic/ZUPzYwnCXhQ_',
         duration: '281',
         rights: {
@@ -3832,7 +4052,8 @@ const AlbumList = [
         release_date: '2016-11-18',
         triller_available: false,
         label_url: '/label/atlantic-records-albums/moT3cDqfUuo_',
-        media_url: 'https://aac.saavncdn.com/126/84d6b7e5bd26169b047a9b72a7b0a345_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/126/84d6b7e5bd26169b047a9b72a7b0a345_320.mp4',
       },
     ],
   },
@@ -3845,7 +4066,8 @@ const AlbumList = [
     primary_artists_id: '1342580',
     albumid: '18191836',
     perma_url: 'https://www.jiosaavn.com/album/romance/w5IYOb6oWWA_',
-    image: 'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
+    image:
+      'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
     songs: [
       {
         id: '-6pVdT2X',
@@ -3862,7 +4084,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Camila Cabello',
         starring: '',
-        image: 'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
         label: 'Syco Music/Epic',
         albumid: '18191836',
         language: 'english',
@@ -3902,10 +4125,12 @@ const AlbumList = [
         },
         release_date: '2019-12-06',
         vcode: '010910141100352',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910141056965.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910141056965.mp3',
         triller_available: false,
         label_url: '/label/syco-musicepic-albums/6h73aZVyXKw_',
-        media_url: 'https://aac.saavncdn.com/220/23797369d6539017c6b330851499353f_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/220/23797369d6539017c6b330851499353f_320.mp4',
       },
       {
         id: 'jfd7jJCM',
@@ -3913,7 +4138,8 @@ const AlbumList = [
         song: 'Living Proof',
         album: 'Romance',
         year: '2019',
-        music: 'Camila Cabello, Mattias Larsson, Robin Fredriksson, Justin Tranter, Ali Tamposi',
+        music:
+          'Camila Cabello, Mattias Larsson, Robin Fredriksson, Justin Tranter, Ali Tamposi',
         music_id: '1342580, 634862, 683491, 633532, 566701',
         primary_artists: 'Camila Cabello',
         primary_artists_id: '1342580',
@@ -3921,7 +4147,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Camila Cabello',
         starring: '',
-        image: 'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
         label: 'Syco Music/Epic',
         albumid: '18191836',
         language: 'english',
@@ -3960,10 +4187,12 @@ const AlbumList = [
         },
         release_date: '2019-12-06',
         vcode: '010910141100349',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910141056962.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910141056962.mp3',
         triller_available: false,
         label_url: '/label/syco-musicepic-albums/6h73aZVyXKw_',
-        media_url: 'https://aac.saavncdn.com/220/43a86c99616b163ba89df3ec6b5b677f_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/220/43a86c99616b163ba89df3ec6b5b677f_320.mp4',
       },
       {
         id: 'UdZR0IcX',
@@ -3980,7 +4209,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Camila Cabello',
         starring: '',
-        image: 'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
         label: 'Syco Music/Epic',
         albumid: '18191836',
         language: 'english',
@@ -4021,10 +4251,12 @@ const AlbumList = [
         },
         release_date: '2019-12-06',
         vcode: '010910141100348',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910141056961.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910141056961.mp3',
         triller_available: false,
         label_url: '/label/syco-musicepic-albums/6h73aZVyXKw_',
-        media_url: 'https://aac.saavncdn.com/220/9afefebf379719095321e2f799937247_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/220/9afefebf379719095321e2f799937247_320.mp4',
       },
       {
         id: '7eEGr_tj',
@@ -4041,7 +4273,8 @@ const AlbumList = [
         featured_artists_id: '2436622',
         singers: 'Camila Cabello, DaBaby',
         starring: '',
-        image: 'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
         label: 'Syco Music/Epic',
         albumid: '18191836',
         language: 'english',
@@ -4083,10 +4316,12 @@ const AlbumList = [
         },
         release_date: '2019-12-06',
         vcode: '010910141100355',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910141056968.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910141056968.mp3',
         triller_available: false,
         label_url: '/label/syco-musicepic-albums/6h73aZVyXKw_',
-        media_url: 'https://aac.saavncdn.com/220/d2cc69b2970f17c0e65e33b313adc65b_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/220/d2cc69b2970f17c0e65e33b313adc65b_320.mp4',
       },
       {
         id: 'cbDC36U3',
@@ -4096,20 +4331,23 @@ const AlbumList = [
         year: '2019',
         music:
           'Shawn Mendes, Camila Cabello, Andrew Wotman, Benjamin Levin, Ali Tamposi, Charlotte Emma Aitchison, Jack Patterson, Magnus August H\u00c3\u00b8iberg',
-        music_id: '739614, 1342580, 1256966, 566441, 566701, 843304, 746039, 841154',
+        music_id:
+          '739614, 1342580, 1256966, 566441, 566701, 843304, 746039, 841154',
         primary_artists: 'Shawn Mendes, Camila Cabello',
         primary_artists_id: '739614, 1342580',
         featured_artists: '',
         featured_artists_id: '',
         singers: 'Shawn Mendes, Camila Cabello, Shawn Mendes & Camila Cabello',
         starring: '',
-        image: 'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
         label: 'Syco Music/Epic',
         albumid: '18191836',
         language: 'english',
         origin: 'album',
         play_count: '91391157',
-        copyright_text: '(P) 2019 Island Records, a division of UMG Recordings, Inc',
+        copyright_text:
+          '(P) 2019 Island Records, a division of UMG Recordings, Inc',
         '320kbps': 'true',
         is_dolby_content: false,
         explicit_content: 1,
@@ -4145,10 +4383,12 @@ const AlbumList = [
         },
         release_date: '2019-12-06',
         vcode: '010910141100346',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910141056959.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910141056959.mp3',
         triller_available: false,
         label_url: '/label/syco-musicepic-albums/6h73aZVyXKw_',
-        media_url: 'https://aac.saavncdn.com/220/142c6e8c72153d716af4ac0b5ed59fe3_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/220/142c6e8c72153d716af4ac0b5ed59fe3_320.mp4',
       },
       {
         id: 'JlApYPfn',
@@ -4166,7 +4406,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Camila Cabello',
         starring: '',
-        image: 'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
         label: 'Syco Music/Epic',
         albumid: '18191836',
         language: 'english',
@@ -4211,10 +4452,12 @@ const AlbumList = [
         },
         release_date: '2019-12-06',
         vcode: '010910141100353',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910141056966.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910141056966.mp3',
         triller_available: false,
         label_url: '/label/syco-musicepic-albums/6h73aZVyXKw_',
-        media_url: 'https://aac.saavncdn.com/220/5792d23f3371d092b7aa85c9bba5c855_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/220/5792d23f3371d092b7aa85c9bba5c855_320.mp4',
       },
       {
         id: 'FnzZA-Zh',
@@ -4224,14 +4467,16 @@ const AlbumList = [
         year: '2019',
         music:
           'Camila Cabello, Philip Constable, Ali Tamposi, Lindsay Gilbert, Crystal Nicole, Jordan K. Johnson, Stefan Johnson, Oliver Peterhof',
-        music_id: '1342580, 888170, 566701, 888174, 712124, 1825828, 672854, 1825829',
+        music_id:
+          '1342580, 888170, 566701, 888174, 712124, 1825828, 672854, 1825829',
         primary_artists: 'Camila Cabello',
         primary_artists_id: '1342580',
         featured_artists: '',
         featured_artists_id: '',
         singers: 'Camila Cabello',
         starring: '',
-        image: 'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
         label: 'Syco Music/Epic',
         albumid: '18191836',
         language: 'english',
@@ -4249,7 +4494,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/220/fe94ea9c01cc60e4976bd40fd33b2f67_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/bad-kind-of-butterflies/NgYRazUdbVs',
+        perma_url:
+          'https://www.jiosaavn.com/song/bad-kind-of-butterflies/NgYRazUdbVs',
         album_url: 'https://www.jiosaavn.com/album/romance/w5IYOb6oWWA_',
         duration: '169',
         rights: {
@@ -4273,10 +4519,12 @@ const AlbumList = [
         },
         release_date: '2019-12-06',
         vcode: '010910141103056',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910141057017.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910141057017.mp3',
         triller_available: false,
         label_url: '/label/syco-musicepic-albums/6h73aZVyXKw_',
-        media_url: 'https://aac.saavncdn.com/220/fe94ea9c01cc60e4976bd40fd33b2f67_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/220/fe94ea9c01cc60e4976bd40fd33b2f67_320.mp4',
       },
       {
         id: 'QdJnvGJx',
@@ -4293,7 +4541,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Camila Cabello',
         starring: '',
-        image: 'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
         label: 'Syco Music/Epic',
         albumid: '18191836',
         language: 'english',
@@ -4334,10 +4583,12 @@ const AlbumList = [
         },
         release_date: '2019-12-06',
         vcode: '010910141100351',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910141056964.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910141056964.mp3',
         triller_available: false,
         label_url: '/label/syco-musicepic-albums/6h73aZVyXKw_',
-        media_url: 'https://aac.saavncdn.com/220/deed7506981823e683f578059bee541f_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/220/deed7506981823e683f578059bee541f_320.mp4',
       },
       {
         id: 'To1KsEHY',
@@ -4354,7 +4605,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Camila Cabello',
         starring: '',
-        image: 'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
         label: 'Syco Music/Epic',
         albumid: '18191836',
         language: 'english',
@@ -4394,10 +4646,12 @@ const AlbumList = [
         },
         release_date: '2019-12-06',
         vcode: '010910141100354',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910141056967.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910141056967.mp3',
         triller_available: false,
         label_url: '/label/syco-musicepic-albums/6h73aZVyXKw_',
-        media_url: 'https://aac.saavncdn.com/220/5137b18ee1abe6ec5dc53fd5f8af3564_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/220/5137b18ee1abe6ec5dc53fd5f8af3564_320.mp4',
       },
       {
         id: 'drHgFXG6',
@@ -4405,7 +4659,8 @@ const AlbumList = [
         song: 'Dream of You',
         album: 'Romance',
         year: '2019',
-        music: 'Camila Cabello, Mattias Larsson, Robin Fredriksson, Justin Tranter',
+        music:
+          'Camila Cabello, Mattias Larsson, Robin Fredriksson, Justin Tranter',
         music_id: '1342580, 634862, 683491, 633532',
         primary_artists: 'Camila Cabello',
         primary_artists_id: '1342580',
@@ -4413,7 +4668,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Camila Cabello',
         starring: '',
-        image: 'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
         label: 'Syco Music/Epic',
         albumid: '18191836',
         language: 'english',
@@ -4451,10 +4707,12 @@ const AlbumList = [
         },
         release_date: '2019-12-06',
         vcode: '010910141103057',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910141057018.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910141057018.mp3',
         triller_available: false,
         label_url: '/label/syco-musicepic-albums/6h73aZVyXKw_',
-        media_url: 'https://aac.saavncdn.com/220/a431e40632c2bb3f9695a5d4a59c315e_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/220/a431e40632c2bb3f9695a5d4a59c315e_320.mp4',
       },
       {
         id: 'mR7p-EdU',
@@ -4470,7 +4728,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Camila Cabello',
         starring: '',
-        image: 'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
         label: 'Syco Music/Epic',
         albumid: '18191836',
         language: 'english',
@@ -4508,10 +4767,12 @@ const AlbumList = [
         },
         release_date: '2019-12-06',
         vcode: '010910141036254',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140992709.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140992709.mp3',
         triller_available: false,
         label_url: '/label/syco-musicepic-albums/6h73aZVyXKw_',
-        media_url: 'https://aac.saavncdn.com/220/4a8847f190c04e1785ae1db2090f8084_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/220/4a8847f190c04e1785ae1db2090f8084_320.mp4',
       },
       {
         id: 'T7jFJCBY',
@@ -4519,7 +4780,8 @@ const AlbumList = [
         song: 'This Love',
         album: 'Romance',
         year: '2019',
-        music: 'Camila Cabello, Sam Roman, Dayyon Alexander Drinkard, Jeff Shum',
+        music:
+          'Camila Cabello, Sam Roman, Dayyon Alexander Drinkard, Jeff Shum',
         music_id: '1342580, 740810, 7338157, 4736962',
         primary_artists: 'Camila Cabello',
         primary_artists_id: '1342580',
@@ -4527,7 +4789,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Camila Cabello',
         starring: '',
-        image: 'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
         label: 'Syco Music/Epic',
         albumid: '18191836',
         language: 'english',
@@ -4566,7 +4829,8 @@ const AlbumList = [
         release_date: '2019-12-06',
         triller_available: false,
         label_url: '/label/syco-musicepic-albums/6h73aZVyXKw_',
-        media_url: 'https://aac.saavncdn.com/220/e6f0e8380a11681864b671443b109b91_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/220/e6f0e8380a11681864b671443b109b91_320.mp4',
       },
       {
         id: 'VrDYNZd-',
@@ -4582,7 +4846,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Camila Cabello',
         starring: '',
-        image: 'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
         label: 'Syco Music/Epic',
         albumid: '18191836',
         language: 'english',
@@ -4619,10 +4884,12 @@ const AlbumList = [
         },
         release_date: '2019-12-06',
         vcode: '010910141103055',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910141057016.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910141057016.mp3',
         triller_available: false,
         label_url: '/label/syco-musicepic-albums/6h73aZVyXKw_',
-        media_url: 'https://aac.saavncdn.com/220/7ed71a7e4f09bf3b783ca66699ef301b_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/220/7ed71a7e4f09bf3b783ca66699ef301b_320.mp4',
       },
       {
         id: 'loe19Z_a',
@@ -4638,7 +4905,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Camila Cabello',
         starring: '',
-        image: 'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/220/Romance-English-2019-20191206160920-500x500.jpg',
         label: 'Syco Music/Epic',
         albumid: '18191836',
         language: 'english',
@@ -4675,10 +4943,12 @@ const AlbumList = [
         },
         release_date: '2019-12-06',
         vcode: '010910141100347',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910141056960.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910141056960.mp3',
         triller_available: false,
         label_url: '/label/syco-musicepic-albums/6h73aZVyXKw_',
-        media_url: 'https://aac.saavncdn.com/220/0d34eddca5886d92a413fc063154cca3_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/220/0d34eddca5886d92a413fc063154cca3_320.mp4',
       },
     ],
   },
@@ -4691,7 +4961,8 @@ const AlbumList = [
     primary_artists_id: '568163',
     albumid: '21460647',
     perma_url: 'https://www.jiosaavn.com/album/brightest-blue/sZ0MdsXlwvM_',
-    image: 'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
+    image:
+      'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
     songs: [
       {
         id: 'JUzvRT1T',
@@ -4707,7 +4978,8 @@ const AlbumList = [
         featured_artists_id: '1904614',
         singers: 'Ellie Goulding',
         starring: '',
-        image: 'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
         label: 'Polydor Records',
         albumid: '21460647',
         language: 'english',
@@ -4746,7 +5018,8 @@ const AlbumList = [
         release_date: '2020-07-17',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/687/3d6fc504df0567899a0076f8486cb3ac_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/687/3d6fc504df0567899a0076f8486cb3ac_320.mp4',
       },
       {
         id: 'RSZmzWbH',
@@ -4762,7 +5035,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ellie Goulding',
         starring: '',
-        image: 'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
         label: 'Polydor Records',
         albumid: '21460647',
         language: 'english',
@@ -4798,7 +5072,8 @@ const AlbumList = [
         release_date: '2020-07-17',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/687/f84a8a07d1eee0f520bb4704f23ce52d_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/687/f84a8a07d1eee0f520bb4704f23ce52d_320.mp4',
       },
       {
         id: 'J3G7YL8I',
@@ -4815,7 +5090,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ellie Goulding',
         starring: '',
-        image: 'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
         label: 'Polydor Records',
         albumid: '21460647',
         language: 'english',
@@ -4855,10 +5131,12 @@ const AlbumList = [
         },
         release_date: '2020-07-17',
         vcode: '010912291165817',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291122237.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291122237.mp3',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/687/ca5284a067e7b67def620a9fe2687f46_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/687/ca5284a067e7b67def620a9fe2687f46_320.mp4',
       },
       {
         id: 'WyRS87MI',
@@ -4866,7 +5144,8 @@ const AlbumList = [
         song: 'Worry About Me',
         album: 'Brightest Blue',
         year: '2020',
-        music: 'Ellie Goulding, Peter Svensson, Savan Kotecha, Ilya Salmanzadeh, Matthew Musto',
+        music:
+          'Ellie Goulding, Peter Svensson, Savan Kotecha, Ilya Salmanzadeh, Matthew Musto',
         music_id: '568163, 560365, 531606, 598916, 606413',
         primary_artists: 'Ellie Goulding, Blackbear',
         primary_artists_id: '568163, 780397',
@@ -4874,7 +5153,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ellie Goulding, Blackbear',
         starring: '',
-        image: 'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
         label: 'Polydor Records',
         albumid: '21460647',
         language: 'english',
@@ -4914,7 +5194,8 @@ const AlbumList = [
         release_date: '2020-07-17',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/687/b9672cbc8fc009159395d123d05b425a_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/687/b9672cbc8fc009159395d123d05b425a_320.mp4',
       },
       {
         id: 'MU8-xBLu',
@@ -4930,7 +5211,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ellie Goulding',
         starring: '',
-        image: 'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
         label: 'Polydor Records',
         albumid: '21460647',
         language: 'english',
@@ -4947,7 +5229,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/687/ce478c98583b97b4be8fa6afec53b926_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/how-deep-is-too-deep/PT1THAxye0Y',
+        perma_url:
+          'https://www.jiosaavn.com/song/how-deep-is-too-deep/PT1THAxye0Y',
         album_url: 'https://www.jiosaavn.com/album/brightest-blue/sZ0MdsXlwvM_',
         duration: '205',
         rights: {
@@ -4967,7 +5250,8 @@ const AlbumList = [
         release_date: '2020-07-17',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/687/ce478c98583b97b4be8fa6afec53b926_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/687/ce478c98583b97b4be8fa6afec53b926_320.mp4',
       },
       {
         id: 'qKED1CP-',
@@ -4975,7 +5259,8 @@ const AlbumList = [
         song: 'Slow Grenade',
         album: 'Brightest Blue',
         year: '2020',
-        music: 'Oscar G\u00c3\u00b6rres, Joe Kearns, Ellie Goulding, Brett Mclaughlin, Ari Leff',
+        music:
+          'Oscar G\u00c3\u00b6rres, Joe Kearns, Ellie Goulding, Brett Mclaughlin, Ari Leff',
         music_id: '707687, 1302441, 568163, 574333, 2452047',
         primary_artists: 'Ellie Goulding, Lauv',
         primary_artists_id: '568163, 1171890',
@@ -4983,7 +5268,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ellie Goulding, Lauv',
         starring: '',
-        image: 'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
         label: 'Polydor Records',
         albumid: '21460647',
         language: 'english',
@@ -5022,10 +5308,12 @@ const AlbumList = [
         },
         release_date: '2020-07-17',
         vcode: '010912291170739',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291126947.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291126947.mp3',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/687/ef76ad237bc78acb6d8c550d99936d1c_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/687/ef76ad237bc78acb6d8c550d99936d1c_320.mp4',
       },
       {
         id: '0TP4T_gh',
@@ -5042,7 +5330,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ellie Goulding, Diplo, Swae Lee',
         starring: '',
-        image: 'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
         label: 'Polydor Records',
         albumid: '21460647',
         language: 'english',
@@ -5084,7 +5373,8 @@ const AlbumList = [
         release_date: '2020-07-17',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/687/7c5124d93e4b49b9dd63f6bb161ce852_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/687/7c5124d93e4b49b9dd63f6bb161ce852_320.mp4',
       },
       {
         id: 'q_S52Em7',
@@ -5100,7 +5390,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ellie Goulding',
         starring: '',
-        image: 'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
         label: 'Polydor Records',
         albumid: '21460647',
         language: 'english',
@@ -5138,7 +5429,8 @@ const AlbumList = [
         release_date: '2020-07-17',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/687/dba543b42b7e230dbd4a3ff88f8bc34e_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/687/dba543b42b7e230dbd4a3ff88f8bc34e_320.mp4',
       },
       {
         id: 'IqPJ7hFH',
@@ -5154,7 +5446,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ellie Goulding',
         starring: '',
-        image: 'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
         label: 'Polydor Records',
         albumid: '21460647',
         language: 'english',
@@ -5171,7 +5464,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/687/c5216ba0242aa81c362ef02f0e3c2dca_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/love-i\u2019m-given/ORk7e0NYcXs',
+        perma_url:
+          'https://www.jiosaavn.com/song/love-i\u2019m-given/ORk7e0NYcXs',
         album_url: 'https://www.jiosaavn.com/album/brightest-blue/sZ0MdsXlwvM_',
         duration: '209',
         rights: {
@@ -5191,7 +5485,8 @@ const AlbumList = [
         release_date: '2020-07-17',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/687/c5216ba0242aa81c362ef02f0e3c2dca_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/687/c5216ba0242aa81c362ef02f0e3c2dca_320.mp4',
       },
       {
         id: 'XRSzdW_E',
@@ -5201,14 +5496,16 @@ const AlbumList = [
         year: '2020',
         music:
           "Jason Evigan, Ellie Goulding, Brittany 'Starrah' Hazzard, Jordan K. Johnson, Stefan Johnson, Marcus Lomax, Andrew Wotman, Jarad Higgins",
-        music_id: '591993, 568163, 6756742, 1825828, 672854, 573803, 1256966, 5237853',
+        music_id:
+          '591993, 568163, 6756742, 1825828, 672854, 573803, 1256966, 5237853',
         primary_artists: 'Ellie Goulding, Juice WRLD',
         primary_artists_id: '568163, 4693310',
         featured_artists: '',
         featured_artists_id: '',
         singers: 'Ellie Goulding, Juice WRLD',
         starring: '',
-        image: 'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
         label: 'Polydor Records',
         albumid: '21460647',
         language: 'english',
@@ -5250,10 +5547,12 @@ const AlbumList = [
         },
         release_date: '2020-07-17',
         vcode: '010912291152083',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291108359.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291108359.mp3',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/687/5eba132f0191939bb6446f864140dada_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/687/5eba132f0191939bb6446f864140dada_320.mp4',
       },
       {
         id: 'BJB2qQef',
@@ -5269,7 +5568,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ellie Goulding',
         starring: '',
-        image: 'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
         label: 'Polydor Records',
         albumid: '21460647',
         language: 'english',
@@ -5307,7 +5607,8 @@ const AlbumList = [
         release_date: '2020-07-17',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/687/845bb94596a9f232078edaac87c7238f_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/687/845bb94596a9f232078edaac87c7238f_320.mp4',
       },
       {
         id: 'iUwk4Kuu',
@@ -5323,7 +5624,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ellie Goulding',
         starring: '',
-        image: 'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
         label: 'Polydor Records',
         albumid: '21460647',
         language: 'english',
@@ -5360,10 +5662,12 @@ const AlbumList = [
         },
         release_date: '2020-07-17',
         vcode: '010912291152087',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291108363.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291108363.mp3',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/687/71c770ae1c11c8f1f9159f9b9680ca40_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/687/71c770ae1c11c8f1f9159f9b9680ca40_320.mp4',
       },
       {
         id: 'DbA0_l94',
@@ -5379,7 +5683,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ellie Goulding',
         starring: '',
-        image: 'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
         label: 'Polydor Records',
         albumid: '21460647',
         language: 'english',
@@ -5415,7 +5720,8 @@ const AlbumList = [
         release_date: '2020-07-17',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/687/9b02832f12bcf0792cd01b8c260a0228_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/687/9b02832f12bcf0792cd01b8c260a0228_320.mp4',
       },
       {
         id: 'M6s-iful',
@@ -5431,7 +5737,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ellie Goulding',
         starring: '',
-        image: 'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
         label: 'Polydor Records',
         albumid: '21460647',
         language: 'english',
@@ -5469,7 +5776,8 @@ const AlbumList = [
         release_date: '2020-07-17',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/687/6c4107c9f966d3bf7327bd7105e70fe1_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/687/6c4107c9f966d3bf7327bd7105e70fe1_320.mp4',
       },
       {
         id: 'fkQHPSdm',
@@ -5485,7 +5793,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ellie Goulding',
         starring: '',
-        image: 'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
         label: 'Polydor Records',
         albumid: '21460647',
         language: 'english',
@@ -5522,7 +5831,8 @@ const AlbumList = [
         release_date: '2020-07-17',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/687/c24813008454c221bacc97d607a5e7b2_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/687/c24813008454c221bacc97d607a5e7b2_320.mp4',
       },
       {
         id: 'ic-Yh_UQ',
@@ -5538,7 +5848,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ellie Goulding',
         starring: '',
-        image: 'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
         label: 'Polydor Records',
         albumid: '21460647',
         language: 'english',
@@ -5574,7 +5885,8 @@ const AlbumList = [
         release_date: '2020-07-17',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/687/3b64723e99fba6435aa2c999b9fb560b_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/687/3b64723e99fba6435aa2c999b9fb560b_320.mp4',
       },
       {
         id: 'LkMeAw8N',
@@ -5590,7 +5902,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ellie Goulding',
         starring: '',
-        image: 'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
         label: 'Polydor Records',
         albumid: '21460647',
         language: 'english',
@@ -5626,7 +5939,8 @@ const AlbumList = [
         release_date: '2020-07-17',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/687/3622d218e426d25a087ead133514951d_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/687/3622d218e426d25a087ead133514951d_320.mp4',
       },
       {
         id: 'VBEXHeWk',
@@ -5642,7 +5956,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ellie Goulding',
         starring: '',
-        image: 'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
         label: 'Polydor Records',
         albumid: '21460647',
         language: 'english',
@@ -5678,10 +5993,12 @@ const AlbumList = [
         },
         release_date: '2020-07-17',
         vcode: '010912291152121',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010912291108397.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010912291108397.mp3',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/687/01744079bdbe8f72745d62fd8c81782f_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/687/01744079bdbe8f72745d62fd8c81782f_320.mp4',
       },
       {
         id: 'jstfnipL',
@@ -5697,7 +6014,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ellie Goulding',
         starring: '',
-        image: 'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/687/Brightest-Blue-English-2020-20200716005611-500x500.jpg',
         label: 'Polydor Records',
         albumid: '21460647',
         language: 'english',
@@ -5734,7 +6052,8 @@ const AlbumList = [
         release_date: '2020-07-17',
         triller_available: false,
         label_url: '/label/polydor-records-albums/CbDxnnVlPIA_',
-        media_url: 'https://aac.saavncdn.com/687/2bec0e93dea005e3bc6519b8b0503205_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/687/2bec0e93dea005e3bc6519b8b0503205_320.mp4',
       },
     ],
   },
@@ -5782,7 +6101,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/354/237899373ca55111d5982bba0a0a7853_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/never-an-absolution/SSpYQAZiW1U',
+        perma_url:
+          'https://www.jiosaavn.com/song/never-an-absolution/SSpYQAZiW1U',
         album_url: 'https://www.jiosaavn.com/album/titanic/L6Og1jHcsz4_',
         duration: '183',
         rights: {
@@ -5802,10 +6122,12 @@ const AlbumList = [
         },
         release_date: '2004-07-26',
         vcode: '010910140726602',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140686000.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140686000.mp3',
         triller_available: false,
         label_url: '/label/sony-classical-albums/Pm0uJ5OrFHQ_',
-        media_url: 'https://aac.saavncdn.com/354/237899373ca55111d5982bba0a0a7853_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/354/237899373ca55111d5982bba0a0a7853_320.mp4',
       },
       {
         id: '-PJifJ4B',
@@ -5859,10 +6181,12 @@ const AlbumList = [
         },
         release_date: '2004-07-26',
         vcode: '010910140726604',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140686002.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140686002.mp3',
         triller_available: false,
         label_url: '/label/sony-classical-albums/Pm0uJ5OrFHQ_',
-        media_url: 'https://aac.saavncdn.com/354/e2ce6c3a755681a0de879d230ec1f061_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/354/e2ce6c3a755681a0de879d230ec1f061_320.mp4',
       },
       {
         id: 'gZzTaAho',
@@ -5916,10 +6240,12 @@ const AlbumList = [
         },
         release_date: '2004-07-26',
         vcode: '010910140726606',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140686004.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140686004.mp3',
         triller_available: false,
         label_url: '/label/sony-classical-albums/Pm0uJ5OrFHQ_',
-        media_url: 'https://aac.saavncdn.com/354/8ff3de3a0818db6d7054f36a6d3e773b_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/354/8ff3de3a0818db6d7054f36a6d3e773b_320.mp4',
       },
       {
         id: 'jUFAGXjj',
@@ -5973,10 +6299,12 @@ const AlbumList = [
         },
         release_date: '2004-07-26',
         vcode: '010910140726608',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140686006.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140686006.mp3',
         triller_available: false,
         label_url: '/label/sony-classical-albums/Pm0uJ5OrFHQ_',
-        media_url: 'https://aac.saavncdn.com/354/0674ff377ddedd98e9e15c1be977494b_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/354/0674ff377ddedd98e9e15c1be977494b_320.mp4',
       },
       {
         id: 'dIiWQWzR',
@@ -6030,10 +6358,12 @@ const AlbumList = [
         },
         release_date: '2004-07-26',
         vcode: '010910140726610',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140686008.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140686008.mp3',
         triller_available: false,
         label_url: '/label/sony-classical-albums/Pm0uJ5OrFHQ_',
-        media_url: 'https://aac.saavncdn.com/354/290c03796d3ec842909bed6861e9383c_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/354/290c03796d3ec842909bed6861e9383c_320.mp4',
       },
       {
         id: 'F8AScQJJ',
@@ -6067,7 +6397,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/354/bd66339b927d50be7b75f6972a269941_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/take-her-to-sea-mr.-murdoch/NlAqYhdhfXk',
+        perma_url:
+          'https://www.jiosaavn.com/song/take-her-to-sea-mr.-murdoch/NlAqYhdhfXk',
         album_url: 'https://www.jiosaavn.com/album/titanic/L6Og1jHcsz4_',
         duration: '271',
         rights: {
@@ -6087,10 +6418,12 @@ const AlbumList = [
         },
         release_date: '2004-07-26',
         vcode: '010910140726612',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140686010.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140686010.mp3',
         triller_available: false,
         label_url: '/label/sony-classical-albums/Pm0uJ5OrFHQ_',
-        media_url: 'https://aac.saavncdn.com/354/bd66339b927d50be7b75f6972a269941_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/354/bd66339b927d50be7b75f6972a269941_320.mp4',
       },
       {
         id: 'lq3Oy4bE',
@@ -6124,7 +6457,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/354/710dcab04e43b1c2e2cc500614623d5d_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/hard-to-starboard/HBlYfg0EVXY',
+        perma_url:
+          'https://www.jiosaavn.com/song/hard-to-starboard/HBlYfg0EVXY',
         album_url: 'https://www.jiosaavn.com/album/titanic/L6Og1jHcsz4_',
         duration: '412',
         rights: {
@@ -6144,10 +6478,12 @@ const AlbumList = [
         },
         release_date: '2004-07-26',
         vcode: '010910140726614',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140686012.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140686012.mp3',
         triller_available: false,
         label_url: '/label/sony-classical-albums/Pm0uJ5OrFHQ_',
-        media_url: 'https://aac.saavncdn.com/354/710dcab04e43b1c2e2cc500614623d5d_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/354/710dcab04e43b1c2e2cc500614623d5d_320.mp4',
       },
       {
         id: '_hsAMlMO',
@@ -6181,7 +6517,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/354/48be9a49816889aa370c1945a534518f_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/unable-to-stay-unwilling-to-leave/LwAYcDlcenw',
+        perma_url:
+          'https://www.jiosaavn.com/song/unable-to-stay-unwilling-to-leave/LwAYcDlcenw',
         album_url: 'https://www.jiosaavn.com/album/titanic/L6Og1jHcsz4_',
         duration: '237',
         rights: {
@@ -6201,10 +6538,12 @@ const AlbumList = [
         },
         release_date: '2004-07-26',
         vcode: '010910140726616',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140686014.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140686014.mp3',
         triller_available: false,
         label_url: '/label/sony-classical-albums/Pm0uJ5OrFHQ_',
-        media_url: 'https://aac.saavncdn.com/354/48be9a49816889aa370c1945a534518f_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/354/48be9a49816889aa370c1945a534518f_320.mp4',
       },
       {
         id: 'n2TG_K3W',
@@ -6258,10 +6597,12 @@ const AlbumList = [
         },
         release_date: '2004-07-26',
         vcode: '010910140726618',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140686016.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140686016.mp3',
         triller_available: false,
         label_url: '/label/sony-classical-albums/Pm0uJ5OrFHQ_',
-        media_url: 'https://aac.saavncdn.com/354/6c336de214a9b2457b7f927fe2dcb35e_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/354/6c336de214a9b2457b7f927fe2dcb35e_320.mp4',
       },
       {
         id: 'ahu89oNo',
@@ -6315,10 +6656,12 @@ const AlbumList = [
         },
         release_date: '2004-07-26',
         vcode: '010910140726620',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140686018.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140686018.mp3',
         triller_available: false,
         label_url: '/label/sony-classical-albums/Pm0uJ5OrFHQ_',
-        media_url: 'https://aac.saavncdn.com/354/759c4a72764d765c2796051b897cb91a_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/354/759c4a72764d765c2796051b897cb91a_320.mp4',
       },
       {
         id: 'KLDmh_o_',
@@ -6372,10 +6715,12 @@ const AlbumList = [
         },
         release_date: '2004-07-26',
         vcode: '010910140726622',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140686020.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140686020.mp3',
         triller_available: false,
         label_url: '/label/sony-classical-albums/Pm0uJ5OrFHQ_',
-        media_url: 'https://aac.saavncdn.com/354/215a6a65fcf256704e4a870dc81d7ae7_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/354/215a6a65fcf256704e4a870dc81d7ae7_320.mp4',
       },
       {
         id: '_wPYoNM0',
@@ -6409,7 +6754,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/354/17eed7ec037ce8b3809a07ba492f4839_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/a-life-so-changed/Lx87aBt,egM',
+        perma_url:
+          'https://www.jiosaavn.com/song/a-life-so-changed/Lx87aBt,egM',
         album_url: 'https://www.jiosaavn.com/album/titanic/L6Og1jHcsz4_',
         duration: '133',
         rights: {
@@ -6429,10 +6775,12 @@ const AlbumList = [
         },
         release_date: '2004-07-26',
         vcode: '010910140726624',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140686022.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140686022.mp3',
         triller_available: false,
         label_url: '/label/sony-classical-albums/Pm0uJ5OrFHQ_',
-        media_url: 'https://aac.saavncdn.com/354/17eed7ec037ce8b3809a07ba492f4839_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/354/17eed7ec037ce8b3809a07ba492f4839_320.mp4',
       },
       {
         id: 'H-egr6X4',
@@ -6466,7 +6814,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/354/4347b927eb08657d31e3fa0ec750df25_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/an-ocean-of-memories/OEUOVgYGbwc',
+        perma_url:
+          'https://www.jiosaavn.com/song/an-ocean-of-memories/OEUOVgYGbwc',
         album_url: 'https://www.jiosaavn.com/album/titanic/L6Og1jHcsz4_',
         duration: '478',
         rights: {
@@ -6486,10 +6835,12 @@ const AlbumList = [
         },
         release_date: '2004-07-26',
         vcode: '010910140726626',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140686024.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140686024.mp3',
         triller_available: false,
         label_url: '/label/sony-classical-albums/Pm0uJ5OrFHQ_',
-        media_url: 'https://aac.saavncdn.com/354/4347b927eb08657d31e3fa0ec750df25_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/354/4347b927eb08657d31e3fa0ec750df25_320.mp4',
       },
       {
         id: 'u9JOL8p3',
@@ -6545,7 +6896,8 @@ const AlbumList = [
         release_date: '2004-07-26',
         triller_available: false,
         label_url: '/label/sony-classical-albums/Pm0uJ5OrFHQ_',
-        media_url: 'https://aac.saavncdn.com/354/ca436a1345b0e2c51d84ffd667c3b5d9_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/354/ca436a1345b0e2c51d84ffd667c3b5d9_320.mp4',
       },
       {
         id: 'ozh1cnNQ',
@@ -6599,10 +6951,12 @@ const AlbumList = [
         },
         release_date: '2004-07-26',
         vcode: '010910140726628',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140686026.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140686026.mp3',
         triller_available: false,
         label_url: '/label/sony-classical-albums/Pm0uJ5OrFHQ_',
-        media_url: 'https://aac.saavncdn.com/354/a1d50d158d106c59be54d7d0681f5ec7_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/354/a1d50d158d106c59be54d7d0681f5ec7_320.mp4',
       },
     ],
   },
@@ -6614,7 +6968,8 @@ const AlbumList = [
     primary_artists: 'A.R. Rahman',
     primary_artists_id: '456269',
     albumid: '1049174',
-    perma_url: 'https://www.jiosaavn.com/album/slumdog-millionaire/VUYuvCcn8ss_',
+    perma_url:
+      'https://www.jiosaavn.com/album/slumdog-millionaire/VUYuvCcn8ss_',
     image: 'https://c.saavncdn.com/174/Slumdog-Millionaire-2009-500x500.jpg',
     songs: [
       {
@@ -6631,7 +6986,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'A.R. Rahman, M.I.A',
         starring: 'Anil Kapoor, Irrfan Khan, Prem Kumar',
-        image: 'https://c.saavncdn.com/174/Slumdog-Millionaire-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/174/Slumdog-Millionaire-2009-500x500.jpg',
         label: '',
         albumid: '1049174',
         language: 'hindi',
@@ -6645,11 +7001,13 @@ const AlbumList = [
         lyrics_snippet: '',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyovHc5h4ttPmW+tIA6fQ0Ag0ab6rMvgLC7vKhI4v8rHUK3HcLH+8Aehw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/Fj1BWIedLMA/WRZWTQIkSioO35c4MWto24gy0DsSt+f+Mps1X3jo+1a',
+        encrypted_media_path:
+          'NMKyboFo/Fj1BWIedLMA/WRZWTQIkSioO35c4MWto24gy0DsSt+f+Mps1X3jo+1a',
         media_preview_url:
           'https://preview.saavncdn.com/174/a37e3dd25fafbba20ea5f9331e7fba34_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/o-saya/B1tGZQxielQ',
-        album_url: 'https://www.jiosaavn.com/album/slumdog-millionaire/VUYuvCcn8ss_',
+        album_url:
+          'https://www.jiosaavn.com/album/slumdog-millionaire/VUYuvCcn8ss_',
         duration: '215',
         rights: {
           code: 0,
@@ -6667,10 +7025,12 @@ const AlbumList = [
         },
         release_date: '',
         vcode: '010910090045412',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910090052482.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910090052482.mp3',
         triller_available: false,
         label_url: '/label/-albums/6DLuXO3VoTo_',
-        media_url: 'https://aac.saavncdn.com/174/a37e3dd25fafbba20ea5f9331e7fba34_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/174/a37e3dd25fafbba20ea5f9331e7fba34_320.mp4',
       },
       {
         id: 'N1oVGpMa',
@@ -6687,7 +7047,8 @@ const AlbumList = [
         singers: 'A.R. Rahman',
         starring:
           'Anil Kapoor, Irrfan Khan, Prem Kumar, Dev Patel, Freida Pinto, Imran Hasnee, Madhur Mittal',
-        image: 'https://c.saavncdn.com/174/Slumdog-Millionaire-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/174/Slumdog-Millionaire-2009-500x500.jpg',
         label: '',
         albumid: '1049174',
         language: 'hindi',
@@ -6701,11 +7062,13 @@ const AlbumList = [
         lyrics_snippet: '',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyjY26drFz0OTNMkhqYPZ2yyZXwuBF2dRzOfxp0mTXkLZSobBHZSCyxBw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/Fj3VtBGo7LtAX5JlIj9qspt1djxI8UQNLRkoFD74J4HzO9AoDew/35W',
+        encrypted_media_path:
+          'NMKyboFo/Fj3VtBGo7LtAX5JlIj9qspt1djxI8UQNLRkoFD74J4HzO9AoDew/35W',
         media_preview_url:
           'https://preview.saavncdn.com/174/ec573612bf8c809137d45c8a31ab81b9_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/riots/PlkEZzNAelI',
-        album_url: 'https://www.jiosaavn.com/album/slumdog-millionaire/VUYuvCcn8ss_',
+        album_url:
+          'https://www.jiosaavn.com/album/slumdog-millionaire/VUYuvCcn8ss_',
         duration: '121',
         rights: {
           code: 0,
@@ -6726,10 +7089,12 @@ const AlbumList = [
         },
         release_date: '',
         vcode: '010910090045414',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910090052486.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910090052486.mp3',
         triller_available: false,
         label_url: '/label/-albums/6DLuXO3VoTo_',
-        media_url: 'https://aac.saavncdn.com/174/ec573612bf8c809137d45c8a31ab81b9_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/174/ec573612bf8c809137d45c8a31ab81b9_320.mp4',
       },
       {
         id: 'mkl6IMEa',
@@ -6745,7 +7110,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'A.R. Rahman',
         starring: 'Anil Kapoor, Irrfan Khan, Prem Kumar',
-        image: 'https://c.saavncdn.com/174/Slumdog-Millionaire-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/174/Slumdog-Millionaire-2009-500x500.jpg',
         label: '',
         albumid: '1049174',
         language: 'hindi',
@@ -6759,11 +7125,14 @@ const AlbumList = [
         lyrics_snippet: '',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDygMs3AekXdlQCmpjy9NmZY5DZaR81Ok3gPTUdr7NTWY50tqeKZOQaFxw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/Fg+tB+TIJq3TzA6bs7WiQu/at9P0lAjevS3SWBwpvY9+rtpRAb7g8wp',
+        encrypted_media_path:
+          'NMKyboFo/Fg+tB+TIJq3TzA6bs7WiQu/at9P0lAjevS3SWBwpvY9+rtpRAb7g8wp',
         media_preview_url:
           'https://preview.saavncdn.com/174/f8e7435b5c6031fc022eb671bbb50ea5_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/mausam-and-escape/HQMHBz19clI',
-        album_url: 'https://www.jiosaavn.com/album/slumdog-millionaire/VUYuvCcn8ss_',
+        perma_url:
+          'https://www.jiosaavn.com/song/mausam-and-escape/HQMHBz19clI',
+        album_url:
+          'https://www.jiosaavn.com/album/slumdog-millionaire/VUYuvCcn8ss_',
         duration: '234',
         rights: {
           code: 0,
@@ -6781,7 +7150,8 @@ const AlbumList = [
         release_date: '',
         triller_available: false,
         label_url: '/label/-albums/6DLuXO3VoTo_',
-        media_url: 'https://aac.saavncdn.com/174/f8e7435b5c6031fc022eb671bbb50ea5_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/174/f8e7435b5c6031fc022eb671bbb50ea5_320.mp4',
       },
       {
         id: '2_q0vFxK',
@@ -6797,7 +7167,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Alka Yagnik, Ila Arun',
         starring: 'Anil Kapoor, Irrfan Khan, Prem Kumar',
-        image: 'https://c.saavncdn.com/174/Slumdog-Millionaire-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/174/Slumdog-Millionaire-2009-500x500.jpg',
         label: '',
         albumid: '1049174',
         language: 'hindi',
@@ -6811,11 +7182,13 @@ const AlbumList = [
         lyrics_snippet: '',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyZiljkrVLDZFgbUwAE+uIaZDlLPbgcCM5pGTFT0Dwyz1rCs9O+3znshw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/FjnKt3lOTnBgFkfUYfvJ1QBeqaK4+WRuU7raVGLwHz85fl372NjFm+a',
+        encrypted_media_path:
+          'NMKyboFo/FjnKt3lOTnBgFkfUYfvJ1QBeqaK4+WRuU7raVGLwHz85fl372NjFm+a',
         media_preview_url:
           'https://preview.saavncdn.com/174/3549b88e03b7708c41e62e95597a2a87_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/ringa-ringa/QjcaAQJ2T3g',
-        album_url: 'https://www.jiosaavn.com/album/slumdog-millionaire/VUYuvCcn8ss_',
+        album_url:
+          'https://www.jiosaavn.com/album/slumdog-millionaire/VUYuvCcn8ss_',
         duration: '257',
         rights: {
           code: 0,
@@ -6834,10 +7207,12 @@ const AlbumList = [
         },
         release_date: '',
         vcode: '010910090045413',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910090052484.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910090052484.mp3',
         triller_available: false,
         label_url: '/label/-albums/6DLuXO3VoTo_',
-        media_url: 'https://aac.saavncdn.com/174/3549b88e03b7708c41e62e95597a2a87_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/174/3549b88e03b7708c41e62e95597a2a87_320.mp4',
       },
       {
         id: '7Cy9aazz',
@@ -6853,7 +7228,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Swapna Madhuri, Palakkad Sriram',
         starring: 'Anil Kapoor, Irrfan Khan, Prem Kumar',
-        image: 'https://c.saavncdn.com/174/Slumdog-Millionaire-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/174/Slumdog-Millionaire-2009-500x500.jpg',
         label: '',
         albumid: '1049174',
         language: 'hindi',
@@ -6867,11 +7243,13 @@ const AlbumList = [
         lyrics_snippet: '',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDy+7Q3ePON8wQ/HO4V/gJgN4IkXeheFUYrfL+CGJwwCWzU7LuMHsN1hhw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/FhGG3/UhkcTRecWCaWGVrwEAzl+QUVFiWJ8swUmMcpG4nWUvSpw8fWj',
+        encrypted_media_path:
+          'NMKyboFo/FhGG3/UhkcTRecWCaWGVrwEAzl+QUVFiWJ8swUmMcpG4nWUvSpw8fWj',
         media_preview_url:
           'https://preview.saavncdn.com/174/cc5527511e512a370cd0b229d6f1bf32_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/liquid-dance/RysSCBVRTUk',
-        album_url: 'https://www.jiosaavn.com/album/slumdog-millionaire/VUYuvCcn8ss_',
+        album_url:
+          'https://www.jiosaavn.com/album/slumdog-millionaire/VUYuvCcn8ss_',
         duration: '180',
         rights: {
           code: 0,
@@ -6890,10 +7268,12 @@ const AlbumList = [
         },
         release_date: '',
         vcode: '010910090045409',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910090052477.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910090052477.mp3',
         triller_available: false,
         label_url: '/label/-albums/6DLuXO3VoTo_',
-        media_url: 'https://aac.saavncdn.com/174/cc5527511e512a370cd0b229d6f1bf32_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/174/cc5527511e512a370cd0b229d6f1bf32_320.mp4',
       },
       {
         id: 'm0jC8aJw',
@@ -6909,7 +7289,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Suzanne',
         starring: 'Anil Kapoor, Irrfan Khan, Prem Kumar',
-        image: 'https://c.saavncdn.com/174/Slumdog-Millionaire-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/174/Slumdog-Millionaire-2009-500x500.jpg',
         label: '',
         albumid: '1049174',
         language: 'hindi',
@@ -6923,11 +7304,13 @@ const AlbumList = [
         lyrics_snippet: '',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyarbcMMV++x20jbTqCVseM19PPfoXDdr3dX4/xIMFE4ZfYfmYYVEwUhw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/FjtdgsQzVU1BIj+EYdDusYMCVLMm8xBPFOstdeZHob6tXmNUEQ5fE4o',
+        encrypted_media_path:
+          'NMKyboFo/FjtdgsQzVU1BIj+EYdDusYMCVLMm8xBPFOstdeZHob6tXmNUEQ5fE4o',
         media_preview_url:
           'https://preview.saavncdn.com/174/194c76837e3154cd798f78fa09a2db9e_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/latikas-theme/HVgBckxRfUQ',
-        album_url: 'https://www.jiosaavn.com/album/slumdog-millionaire/VUYuvCcn8ss_',
+        album_url:
+          'https://www.jiosaavn.com/album/slumdog-millionaire/VUYuvCcn8ss_',
         duration: '190',
         rights: {
           code: 0,
@@ -6945,10 +7328,12 @@ const AlbumList = [
         },
         release_date: '',
         vcode: '010910090356635',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910090363600.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910090363600.mp3',
         triller_available: false,
         label_url: '/label/-albums/6DLuXO3VoTo_',
-        media_url: 'https://aac.saavncdn.com/174/194c76837e3154cd798f78fa09a2db9e_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/174/194c76837e3154cd798f78fa09a2db9e_320.mp4',
       },
       {
         id: 'hpiW9Ckx',
@@ -6964,7 +7349,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Swapna Madhuri',
         starring: 'Anil Kapoor, Irrfan Khan, Prem Kumar',
-        image: 'https://c.saavncdn.com/174/Slumdog-Millionaire-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/174/Slumdog-Millionaire-2009-500x500.jpg',
         label: '',
         albumid: '1049174',
         language: 'hindi',
@@ -6978,11 +7364,13 @@ const AlbumList = [
         lyrics_snippet: '',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyRWi+9abbeL9YMPORymZacS90QcgE88abACXi1574zPNyIWytHkYX3Rw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/Fj4XvhTXFWgzlwYiB/N4gc799J0Oqbs1ChVDaL3y0qnwXzs3mk4Vd7Z',
+        encrypted_media_path:
+          'NMKyboFo/Fj4XvhTXFWgzlwYiB/N4gc799J0Oqbs1ChVDaL3y0qnwXzs3mk4Vd7Z',
         media_preview_url:
           'https://preview.saavncdn.com/174/24c968f508e6055815e59d311f57fb58_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/millionaire/GBgCZk1zXEs',
-        album_url: 'https://www.jiosaavn.com/album/slumdog-millionaire/VUYuvCcn8ss_',
+        album_url:
+          'https://www.jiosaavn.com/album/slumdog-millionaire/VUYuvCcn8ss_',
         duration: '166',
         rights: {
           code: 0,
@@ -7000,10 +7388,12 @@ const AlbumList = [
         },
         release_date: '',
         vcode: '010910090045411',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910090052480.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910090052480.mp3',
         triller_available: false,
         label_url: '/label/-albums/6DLuXO3VoTo_',
-        media_url: 'https://aac.saavncdn.com/174/24c968f508e6055815e59d311f57fb58_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/174/24c968f508e6055815e59d311f57fb58_320.mp4',
       },
       {
         id: 'Cp-h-3nJ',
@@ -7019,7 +7409,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Blaaze, Tanvi Shah',
         starring: 'Anil Kapoor, Irrfan Khan, Prem Kumar',
-        image: 'https://c.saavncdn.com/174/Slumdog-Millionaire-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/174/Slumdog-Millionaire-2009-500x500.jpg',
         label: '',
         albumid: '1049174',
         language: 'hindi',
@@ -7033,11 +7424,13 @@ const AlbumList = [
         lyrics_snippet: '',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyW4gHDsYz27fsl74WN5KW6td0Wqoqo58GFtz2Ilzs1c2RivvJa/L+Wxw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/Fj4FqmZHYfAERX/VKi1/LSwR2HjPssne1Isl/VXKbcgCChmqOA+WJqL',
+        encrypted_media_path:
+          'NMKyboFo/Fj4FqmZHYfAERX/VKi1/LSwR2HjPssne1Isl/VXKbcgCChmqOA+WJqL',
         media_preview_url:
           'https://preview.saavncdn.com/174/6bfcd7b29151a2d149b51b1fd671681c_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/gangsta-blues/MxhGWVkDWXk',
-        album_url: 'https://www.jiosaavn.com/album/slumdog-millionaire/VUYuvCcn8ss_',
+        album_url:
+          'https://www.jiosaavn.com/album/slumdog-millionaire/VUYuvCcn8ss_',
         duration: '223',
         rights: {
           code: 0,
@@ -7056,10 +7449,12 @@ const AlbumList = [
         },
         release_date: '',
         vcode: '010910090045407',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910090052472.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910090052472.mp3',
         triller_available: false,
         label_url: '/label/-albums/6DLuXO3VoTo_',
-        media_url: 'https://aac.saavncdn.com/174/6bfcd7b29151a2d149b51b1fd671681c_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/174/6bfcd7b29151a2d149b51b1fd671681c_320.mp4',
       },
       {
         id: 'FKUE0Xj4',
@@ -7074,9 +7469,11 @@ const AlbumList = [
         primary_artists_id: '456269, 455251, 459588, 455636, 464748',
         featured_artists: '',
         featured_artists_id: '',
-        singers: 'Mahalakshmi Iyer, Vijay Prakash, Sukhwinder Singh, Tanvi Shah',
+        singers:
+          'Mahalakshmi Iyer, Vijay Prakash, Sukhwinder Singh, Tanvi Shah',
         starring: 'Anil Kapoor, Irrfan Khan, Prem Kumar',
-        image: 'https://c.saavncdn.com/174/Slumdog-Millionaire-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/174/Slumdog-Millionaire-2009-500x500.jpg',
         label: '',
         albumid: '1049174',
         language: 'hindi',
@@ -7090,11 +7487,13 @@ const AlbumList = [
         lyrics_snippet: 'Ahora conmigo, t\u00fa, baila para hoy',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyCr1FF7ePQPzi5wpTdp2HVoI9k3re+u8aHmCkMq6N6IdnDHh0tFTo2xw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/FimaGz36ewKf88F5IerSqWKsHbRhekQZfRHYe9+7mDc7HAHbC1L+wh3',
+        encrypted_media_path:
+          'NMKyboFo/FimaGz36ewKf88F5IerSqWKsHbRhekQZfRHYe9+7mDc7HAHbC1L+wh3',
         media_preview_url:
           'https://preview.saavncdn.com/174/958b8ebe2f0f693fda7d3e57a664a526_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/jai-ho/NiM,dERoXQc',
-        album_url: 'https://www.jiosaavn.com/album/slumdog-millionaire/VUYuvCcn8ss_',
+        album_url:
+          'https://www.jiosaavn.com/album/slumdog-millionaire/VUYuvCcn8ss_',
         duration: '320',
         rights: {
           code: 0,
@@ -7115,10 +7514,12 @@ const AlbumList = [
         },
         release_date: '',
         vcode: '010910090314227',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910090376358.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910090376358.mp3',
         triller_available: false,
         label_url: '/label/-albums/6DLuXO3VoTo_',
-        media_url: 'https://aac.saavncdn.com/174/958b8ebe2f0f693fda7d3e57a664a526_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/174/958b8ebe2f0f693fda7d3e57a664a526_320.mp4',
       },
       {
         id: '2_N9WvQB',
@@ -7134,7 +7535,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Suzanne',
         starring: 'Anil Kapoor, Irrfan Khan, Prem Kumar',
-        image: 'https://c.saavncdn.com/174/Slumdog-Millionaire-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/174/Slumdog-Millionaire-2009-500x500.jpg',
         label: '',
         albumid: '1049174',
         language: 'hindi',
@@ -7148,11 +7550,13 @@ const AlbumList = [
         lyrics_snippet: '',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyj/raDDfQ8iakvx9Tq+V3PfVY01QpwWwqEn5hqu+9RfmFec76wfXw/xw7tS9a8Gtq',
-        encrypted_media_path: 'NMKyboFo/Fjg3oOXtPpcVpFCfv+8EqyVW6cxAPd9iV2EF4452IyipST2iSMPdeeG',
+        encrypted_media_path:
+          'NMKyboFo/Fjg3oOXtPpcVpFCfv+8EqyVW6cxAPd9iV2EF4452IyipST2iSMPdeeG',
         media_preview_url:
           'https://preview.saavncdn.com/174/b04379d6b086c26aaab89ec6546c167a_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/dreams-on-fire/QjclCCNGZnE',
-        album_url: 'https://www.jiosaavn.com/album/slumdog-millionaire/VUYuvCcn8ss_',
+        album_url:
+          'https://www.jiosaavn.com/album/slumdog-millionaire/VUYuvCcn8ss_',
         duration: '247',
         rights: {
           code: 0,
@@ -7170,10 +7574,12 @@ const AlbumList = [
         },
         release_date: '',
         vcode: '010910090045406',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910090052470.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910090052470.mp3',
         triller_available: false,
         label_url: '/label/-albums/6DLuXO3VoTo_',
-        media_url: 'https://aac.saavncdn.com/174/b04379d6b086c26aaab89ec6546c167a_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/174/b04379d6b086c26aaab89ec6546c167a_320.mp4',
       },
     ],
   },
@@ -7185,8 +7591,10 @@ const AlbumList = [
     primary_artists: 'Union Of Sound',
     primary_artists_id: '1669095',
     albumid: '2893211',
-    perma_url: 'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
-    image: 'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
+    perma_url:
+      'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
+    image:
+      'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
     songs: [
       {
         id: 'jmb0ur7F',
@@ -7202,7 +7610,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Union Of Sound',
         starring: '',
-        image: 'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
         label: 'Yellow Dot',
         albumid: '2893211',
         language: 'english',
@@ -7218,7 +7627,8 @@ const AlbumList = [
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyd39nbCVTDihoI/5EybdSnhkQLUclRdI424WDvf2Q5p0CkzbYOTeRxhw7tS9a8Gtq',
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         perma_url: 'https://www.jiosaavn.com/song/hound-dog/GgUJAQFCAHU',
-        album_url: 'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
+        album_url:
+          'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
         duration: '138',
         rights: {
           code: 1,
@@ -7235,7 +7645,8 @@ const AlbumList = [
         release_date: '2009-08-17',
         triller_available: false,
         label_url: '/label/yellow-dot-albums/nPwaHFVK62Y_',
-        media_url: 'https://aac.saavncdn.com/052/da21a0fdec92008bc0df9f2d489eb922_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/052/da21a0fdec92008bc0df9f2d489eb922_320.mp4',
       },
       {
         id: '4RFVpYfs',
@@ -7251,7 +7662,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Union Of Sound',
         starring: '',
-        image: 'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
         label: 'Yellow Dot',
         albumid: '2893211',
         language: 'english',
@@ -7266,8 +7678,10 @@ const AlbumList = [
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDynA8/lCM+riUM7271YfYmEMTpG2AmsivuaGY2JpRpYcfGnrZb4tL2Ihw7tS9a8Gtq',
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
-        perma_url: 'https://www.jiosaavn.com/song/i-dont-know-why-but-i-do/RDotZwRpUUA',
-        album_url: 'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
+        perma_url:
+          'https://www.jiosaavn.com/song/i-dont-know-why-but-i-do/RDotZwRpUUA',
+        album_url:
+          'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
         duration: '155',
         rights: {
           code: 1,
@@ -7284,7 +7698,8 @@ const AlbumList = [
         release_date: '2009-08-17',
         triller_available: false,
         label_url: '/label/yellow-dot-albums/nPwaHFVK62Y_',
-        media_url: 'https://aac.saavncdn.com/052/179fbad842d2f845544882ac96396318_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/052/179fbad842d2f845544882ac96396318_320.mp4',
       },
       {
         id: 'JsFl6oUd',
@@ -7300,7 +7715,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Union Of Sound',
         starring: '',
-        image: 'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
         label: 'Yellow Dot',
         albumid: '2893211',
         language: 'english',
@@ -7315,8 +7731,10 @@ const AlbumList = [
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyYdyJywz9C7ipYYUv6Pnah7Qf2JN0ybmKUWsX4ljwCypVZGHoCr2ngBw7tS9a8Gtq',
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
-        perma_url: 'https://www.jiosaavn.com/song/land-of-a-1000-dances/OhstXUJfYlc',
-        album_url: 'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
+        perma_url:
+          'https://www.jiosaavn.com/song/land-of-a-1000-dances/OhstXUJfYlc',
+        album_url:
+          'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
         duration: '142',
         rights: {
           code: 1,
@@ -7333,7 +7751,8 @@ const AlbumList = [
         release_date: '2009-08-17',
         triller_available: false,
         label_url: '/label/yellow-dot-albums/nPwaHFVK62Y_',
-        media_url: 'https://aac.saavncdn.com/052/85b776df8788a612e7a7d302b8e8f9ce_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/052/85b776df8788a612e7a7d302b8e8f9ce_320.mp4',
       },
       {
         id: 'mUnAP0Zc',
@@ -7349,7 +7768,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Union Of Sound',
         starring: '',
-        image: 'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
         label: 'Yellow Dot',
         albumid: '2893211',
         language: 'english',
@@ -7365,7 +7785,8 @@ const AlbumList = [
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyDedk+uznZqKvDAmuQCI2C6GpqxmMxrHLCwiX9BHqn7BOLcOkAeZUSBw7tS9a8Gtq',
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         perma_url: 'https://www.jiosaavn.com/song/fortunate-son/HT0FcCQAbVA',
-        album_url: 'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
+        album_url:
+          'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
         duration: '138',
         rights: {
           code: 1,
@@ -7382,7 +7803,8 @@ const AlbumList = [
         release_date: '2009-08-17',
         triller_available: false,
         label_url: '/label/yellow-dot-albums/nPwaHFVK62Y_',
-        media_url: 'https://aac.saavncdn.com/052/89895e3908deee4267e8f1f6f1ffc462_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/052/89895e3908deee4267e8f1f6f1ffc462_320.mp4',
       },
       {
         id: '-y37sJqd',
@@ -7398,7 +7820,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Union Of Sound',
         starring: '',
-        image: 'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
         label: 'Yellow Dot',
         albumid: '2893211',
         language: 'english',
@@ -7413,8 +7836,10 @@ const AlbumList = [
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyh7nEyXXTSkpjMPNMzdx+Sf9An5zkth3grKc3mEger0zlt+cYwK2mCBw7tS9a8Gtq',
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
-        perma_url: 'https://www.jiosaavn.com/song/i-cant-help-myself/XRFYBgd6Rlc',
-        album_url: 'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
+        perma_url:
+          'https://www.jiosaavn.com/song/i-cant-help-myself/XRFYBgd6Rlc',
+        album_url:
+          'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
         duration: '167',
         rights: {
           code: 1,
@@ -7431,7 +7856,8 @@ const AlbumList = [
         release_date: '2009-08-17',
         triller_available: false,
         label_url: '/label/yellow-dot-albums/nPwaHFVK62Y_',
-        media_url: 'https://aac.saavncdn.com/052/ac6340a700da4e4f7d60791108861903_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/052/ac6340a700da4e4f7d60791108861903_320.mp4',
       },
       {
         id: 'lisU4qi1',
@@ -7447,7 +7873,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Union Of Sound',
         starring: '',
-        image: 'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
         label: 'Yellow Dot',
         albumid: '2893211',
         language: 'english',
@@ -7458,12 +7885,14 @@ const AlbumList = [
         is_dolby_content: false,
         explicit_content: 0,
         has_lyrics: 'true',
-        lyrics_snippet: 'Ou les gens d\u00e8s le matin bavardent de tout et de rien',
+        lyrics_snippet:
+          'Ou les gens d\u00e8s le matin bavardent de tout et de rien',
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyAHTwQgKDQ1Zo/AF+0cSv6XW1NVK24OXeIQE0/uNJ94x89nTZ0PD2GBw7tS9a8Gtq',
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         perma_url: 'https://www.jiosaavn.com/song/respect/HAEYZEBBXgI',
-        album_url: 'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
+        album_url:
+          'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
         duration: '143',
         rights: {
           code: 1,
@@ -7480,7 +7909,8 @@ const AlbumList = [
         release_date: '2009-08-17',
         triller_available: false,
         label_url: '/label/yellow-dot-albums/nPwaHFVK62Y_',
-        media_url: 'https://aac.saavncdn.com/052/455622dfffe76a13cd7c01843b34132a_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/052/455622dfffe76a13cd7c01843b34132a_320.mp4',
       },
       {
         id: 'EKQOONAh',
@@ -7496,7 +7926,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Union Of Sound',
         starring: '',
-        image: 'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
         label: 'Yellow Dot',
         albumid: '2893211',
         language: 'english',
@@ -7511,8 +7942,10 @@ const AlbumList = [
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyWRI8UghJUXwnUGDjwDxrZ5vdreY5q4dSqrakoyzs6A0Q8YORkFh0Vxw7tS9a8Gtq',
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
-        perma_url: 'https://www.jiosaavn.com/song/rainy-day-women-12--35/NSM6fjt,dls',
-        album_url: 'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
+        perma_url:
+          'https://www.jiosaavn.com/song/rainy-day-women-12--35/NSM6fjt,dls',
+        album_url:
+          'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
         duration: '275',
         rights: {
           code: 1,
@@ -7529,7 +7962,8 @@ const AlbumList = [
         release_date: '2009-08-17',
         triller_available: false,
         label_url: '/label/yellow-dot-albums/nPwaHFVK62Y_',
-        media_url: 'https://aac.saavncdn.com/052/a9348123d09b14b7c348c7eee7a95e3a_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/052/a9348123d09b14b7c348c7eee7a95e3a_320.mp4',
       },
       {
         id: 'PQLBxa0l',
@@ -7545,7 +7979,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Union Of Sound',
         starring: '',
-        image: 'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
         label: 'Yellow Dot',
         albumid: '2893211',
         language: 'english',
@@ -7561,7 +7996,8 @@ const AlbumList = [
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyJCG4Flf16gc/N2os0TATgllea+dX3fk4EoCf38Ht9F0w4ZZo8rvZkxw7tS9a8Gtq',
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         perma_url: 'https://www.jiosaavn.com/song/sloop-john-b/IDkncwxRB18',
-        album_url: 'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
+        album_url:
+          'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
         duration: '188',
         rights: {
           code: 1,
@@ -7578,7 +8014,8 @@ const AlbumList = [
         release_date: '2009-08-17',
         triller_available: false,
         label_url: '/label/yellow-dot-albums/nPwaHFVK62Y_',
-        media_url: 'https://aac.saavncdn.com/052/b47bd742f56167905c8e6f24adfcf235_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/052/b47bd742f56167905c8e6f24adfcf235_320.mp4',
       },
       {
         id: 'N3sYT4NA',
@@ -7594,7 +8031,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Union Of Sound',
         starring: '',
-        image: 'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
         label: 'Yellow Dot',
         albumid: '2893211',
         language: 'english',
@@ -7609,8 +8047,10 @@ const AlbumList = [
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDy1WvDq3jlIXsJYIBowU1WJmBhXepIVyS4sQloDB66/a+Qpx+TC1g/XBw7tS9a8Gtq',
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
-        perma_url: 'https://www.jiosaavn.com/song/california-dreamin/PlsYaCAEeXI',
-        album_url: 'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
+        perma_url:
+          'https://www.jiosaavn.com/song/california-dreamin/PlsYaCAEeXI',
+        album_url:
+          'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
         duration: '158',
         rights: {
           code: 1,
@@ -7627,7 +8067,8 @@ const AlbumList = [
         release_date: '2009-08-17',
         triller_available: false,
         label_url: '/label/yellow-dot-albums/nPwaHFVK62Y_',
-        media_url: 'https://aac.saavncdn.com/052/b514c43fc2aa900b47ca854fc795eb47_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/052/b514c43fc2aa900b47ca854fc795eb47_320.mp4',
       },
       {
         id: 'XJMU2iZd',
@@ -7643,7 +8084,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Union Of Sound',
         starring: '',
-        image: 'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
         label: 'Yellow Dot',
         albumid: '2893211',
         language: 'english',
@@ -7658,8 +8100,10 @@ const AlbumList = [
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDy9qb/ve0j4eZzuX4Rm+GSHnO8qD6dgI7jaGIL37Q4OxEk0oaK4p4M+Bw7tS9a8Gtq',
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
-        perma_url: 'https://www.jiosaavn.com/song/for-what-its-worth/KCImZEZZbVc',
-        album_url: 'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
+        perma_url:
+          'https://www.jiosaavn.com/song/for-what-its-worth/KCImZEZZbVc',
+        album_url:
+          'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
         duration: '163',
         rights: {
           code: 1,
@@ -7676,7 +8120,8 @@ const AlbumList = [
         release_date: '2009-08-17',
         triller_available: false,
         label_url: '/label/yellow-dot-albums/nPwaHFVK62Y_',
-        media_url: 'https://aac.saavncdn.com/052/247b8a205b6626268ea346e68558dc46_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/052/247b8a205b6626268ea346e68558dc46_320.mp4',
       },
       {
         id: '7d9GWm85',
@@ -7692,7 +8137,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Union Of Sound',
         starring: '',
-        image: 'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
         label: 'Yellow Dot',
         albumid: '2893211',
         language: 'english',
@@ -7707,8 +8153,10 @@ const AlbumList = [
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDy7QLIUY5/MaXB2hxGzLBA3wmuix8Jxbkj2nmbZHbZBn6mEDe7l1Ohwhw7tS9a8Gtq',
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
-        perma_url: 'https://www.jiosaavn.com/song/what-the-world-needs-now-is-love/RwxSdiNdDwY',
-        album_url: 'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
+        perma_url:
+          'https://www.jiosaavn.com/song/what-the-world-needs-now-is-love/RwxSdiNdDwY',
+        album_url:
+          'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
         duration: '196',
         rights: {
           code: 1,
@@ -7725,7 +8173,8 @@ const AlbumList = [
         release_date: '2009-08-17',
         triller_available: false,
         label_url: '/label/yellow-dot-albums/nPwaHFVK62Y_',
-        media_url: 'https://aac.saavncdn.com/052/ef3818f8e59b00036f36b6a0531c3a64_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/052/ef3818f8e59b00036f36b6a0531c3a64_320.mp4',
       },
       {
         id: 'BotPFFpK',
@@ -7741,7 +8190,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Union Of Sound',
         starring: '',
-        image: 'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
         label: 'Yellow Dot',
         albumid: '2893211',
         language: 'english',
@@ -7757,7 +8207,8 @@ const AlbumList = [
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDymHe0uhmx55gGq85hXk0q+k0qKltAABgVxjWem8D663Vk41u4GzoVphw7tS9a8Gtq',
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         perma_url: 'https://www.jiosaavn.com/song/break-on-through/MgcfYTJ2R3g',
-        album_url: 'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
+        album_url:
+          'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
         duration: '149',
         rights: {
           code: 1,
@@ -7774,7 +8225,8 @@ const AlbumList = [
         release_date: '2009-08-17',
         triller_available: false,
         label_url: '/label/yellow-dot-albums/nPwaHFVK62Y_',
-        media_url: 'https://aac.saavncdn.com/052/bc31d57ee1bc179b3d0262bcc0f845c8_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/052/bc31d57ee1bc179b3d0262bcc0f845c8_320.mp4',
       },
       {
         id: 'Kf7fyZsU',
@@ -7790,7 +8242,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Union Of Sound',
         starring: '',
-        image: 'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
         label: 'Yellow Dot',
         albumid: '2893211',
         language: 'english',
@@ -7806,7 +8259,8 @@ const AlbumList = [
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDy1JbiC+4aMKh69BI2UKMoK98A932819KT5EBNw+U6MS6xtX/fvNcIYhw7tS9a8Gtq',
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         perma_url: 'https://www.jiosaavn.com/song/mrs-robinson/Ow5cVw1qRGY',
-        album_url: 'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
+        album_url:
+          'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
         duration: '265',
         rights: {
           code: 1,
@@ -7823,7 +8277,8 @@ const AlbumList = [
         release_date: '2009-08-17',
         triller_available: false,
         label_url: '/label/yellow-dot-albums/nPwaHFVK62Y_',
-        media_url: 'https://aac.saavncdn.com/052/3d1f1abd280a8f0f04d481a51ba23e52_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/052/3d1f1abd280a8f0f04d481a51ba23e52_320.mp4',
       },
       {
         id: 'Co_pNo-Q',
@@ -7839,7 +8294,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Union Of Sound',
         starring: '',
-        image: 'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
         label: 'Yellow Dot',
         albumid: '2893211',
         language: 'english',
@@ -7856,7 +8312,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         perma_url:
           'https://www.jiosaavn.com/song/turn!-turn!-turn!-to-everything-there-is-a-season/Mwc0QTpfGmI',
-        album_url: 'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
+        album_url:
+          'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
         duration: '228',
         rights: {
           code: 1,
@@ -7873,7 +8330,8 @@ const AlbumList = [
         release_date: '2009-08-17',
         triller_available: false,
         label_url: '/label/yellow-dot-albums/nPwaHFVK62Y_',
-        media_url: 'https://aac.saavncdn.com/052/949bca8dc38fde487cf8cb7d60d44ca4_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/052/949bca8dc38fde487cf8cb7d60d44ca4_320.mp4',
       },
       {
         id: 'h9h3zdeO',
@@ -7889,7 +8347,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Union Of Sound',
         starring: '',
-        image: 'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
         label: 'Yellow Dot',
         albumid: '2893211',
         language: 'english',
@@ -7905,7 +8364,8 @@ const AlbumList = [
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyoB5stkh2FPMI4qYAfFgKWnLWQ/DqXH+CYc/l8D3/QlKv/gaqkcTovRw7tS9a8Gtq',
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         perma_url: 'https://www.jiosaavn.com/song/joy-to-the-world/GFEDAg5UUnw',
-        album_url: 'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
+        album_url:
+          'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
         duration: '217',
         rights: {
           code: 1,
@@ -7922,7 +8382,8 @@ const AlbumList = [
         release_date: '2009-08-17',
         triller_available: false,
         label_url: '/label/yellow-dot-albums/nPwaHFVK62Y_',
-        media_url: 'https://aac.saavncdn.com/052/36451d6942b6ff3fb05b0fb80435f42c_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/052/36451d6942b6ff3fb05b0fb80435f42c_320.mp4',
       },
       {
         id: 'eajFG58G',
@@ -7938,7 +8399,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Union Of Sound',
         starring: '',
-        image: 'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
         label: 'Yellow Dot',
         albumid: '2893211',
         language: 'english',
@@ -7954,7 +8416,8 @@ const AlbumList = [
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDysBXKTuqkhdlgC1XSR+XH6VlUPBaX5vHdaatEk+YbQUG9McfSF+6wRxw7tS9a8Gtq',
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         perma_url: 'https://www.jiosaavn.com/song/stoned-love/FQkBdzMFD3Q',
-        album_url: 'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
+        album_url:
+          'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
         duration: '209',
         rights: {
           code: 1,
@@ -7971,7 +8434,8 @@ const AlbumList = [
         release_date: '2009-08-17',
         triller_available: false,
         label_url: '/label/yellow-dot-albums/nPwaHFVK62Y_',
-        media_url: 'https://aac.saavncdn.com/052/ad46dcd0e69b83da66d30302d8f86d6b_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/052/ad46dcd0e69b83da66d30302d8f86d6b_320.mp4',
       },
       {
         id: 'tsUCxLqH',
@@ -7987,7 +8451,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Union Of Sound',
         starring: '',
-        image: 'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
         label: 'Yellow Dot',
         albumid: '2893211',
         language: 'english',
@@ -8002,8 +8467,10 @@ const AlbumList = [
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyDRMUykey4nwcLsJG32qhiUyyJirJ1s1ejb8ZK7Gm+fo0r7fEMliDVBw7tS9a8Gtq',
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
-        perma_url: 'https://www.jiosaavn.com/song/sweet-home-alabama/BBs,cgx8Rns',
-        album_url: 'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
+        perma_url:
+          'https://www.jiosaavn.com/song/sweet-home-alabama/BBs,cgx8Rns',
+        album_url:
+          'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
         duration: '318',
         rights: {
           code: 1,
@@ -8020,7 +8487,8 @@ const AlbumList = [
         release_date: '2009-08-17',
         triller_available: false,
         label_url: '/label/yellow-dot-albums/nPwaHFVK62Y_',
-        media_url: 'https://aac.saavncdn.com/052/c883a79718a04dd79a700696b3dc54f2_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/052/c883a79718a04dd79a700696b3dc54f2_320.mp4',
       },
       {
         id: '7ezOSD7F',
@@ -8036,7 +8504,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Union Of Sound',
         starring: '',
-        image: 'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
         label: 'Yellow Dot',
         albumid: '2893211',
         language: 'english',
@@ -8052,7 +8521,8 @@ const AlbumList = [
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDy6mPOZf6LMAvAEEWTpSRYeb54DLwLS/DRDBZ4pWA5BO7Sw8bnmCRkZxw7tS9a8Gtq',
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         perma_url: 'https://www.jiosaavn.com/song/go-your-own-way/Rw0Rfid0AHU',
-        album_url: 'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
+        album_url:
+          'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
         duration: '213',
         rights: {
           code: 1,
@@ -8069,7 +8539,8 @@ const AlbumList = [
         release_date: '2009-08-17',
         triller_available: false,
         label_url: '/label/yellow-dot-albums/nPwaHFVK62Y_',
-        media_url: 'https://aac.saavncdn.com/052/97fcdcd068c37021fd9b9b12d738404d_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/052/97fcdcd068c37021fd9b9b12d738404d_320.mp4',
       },
       {
         id: 'qN1I19F2',
@@ -8085,7 +8556,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Union Of Sound',
         starring: '',
-        image: 'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
         label: 'Yellow Dot',
         albumid: '2893211',
         language: 'english',
@@ -8100,8 +8572,10 @@ const AlbumList = [
         encrypted_media_url:
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyDVXi4PUKRNp+/VQcgFvD5A21+ixtH5CoCrTfXWFDi27AngL06eUP6Rw7tS9a8Gtq',
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
-        perma_url: 'https://www.jiosaavn.com/song/on-the-road-again/ASZaeEUJcQE',
-        album_url: 'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
+        perma_url:
+          'https://www.jiosaavn.com/song/on-the-road-again/ASZaeEUJcQE',
+        album_url:
+          'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
         duration: '145',
         rights: {
           code: 1,
@@ -8118,7 +8592,8 @@ const AlbumList = [
         release_date: '2009-08-17',
         triller_available: false,
         label_url: '/label/yellow-dot-albums/nPwaHFVK62Y_',
-        media_url: 'https://aac.saavncdn.com/052/bcf154d3474cc0c8761a848507accc33_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/052/bcf154d3474cc0c8761a848507accc33_320.mp4',
       },
       {
         id: 'SUUUGyZJ',
@@ -8134,7 +8609,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Union Of Sound',
         starring: '',
-        image: 'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/052/Music-From-Forrest-Gump-English-2009-500x500.jpg',
         label: 'Yellow Dot',
         albumid: '2893211',
         language: 'english',
@@ -8150,7 +8626,8 @@ const AlbumList = [
           'ID2ieOjCrwfgWvL5sXl4B1ImC5QfbsDyfMuemgcOiVvhgXcebheH92grexLs9bm98YqnLzI4x/93CmyLL/23gBw7tS9a8Gtq',
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         perma_url: 'https://www.jiosaavn.com/song/against-the-wind/Iz0,ZDNJbXk',
-        album_url: 'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
+        album_url:
+          'https://www.jiosaavn.com/album/music-from-forrest-gump/QDQUQv4Wn7Q_',
         duration: '334',
         rights: {
           code: 1,
@@ -8167,7 +8644,8 @@ const AlbumList = [
         release_date: '2009-08-17',
         triller_available: false,
         label_url: '/label/yellow-dot-albums/nPwaHFVK62Y_',
-        media_url: 'https://aac.saavncdn.com/052/1d85937aeff49cba6bac34083d22e060_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/052/1d85937aeff49cba6bac34083d22e060_320.mp4',
       },
     ],
   },
@@ -8180,7 +8658,8 @@ const AlbumList = [
     primary_artists_id: '578407',
     albumid: '10436096',
     perma_url: 'https://www.jiosaavn.com/album/\u00f7/KelXOKU4pi4_',
-    image: 'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
+    image:
+      'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
     songs: [
       {
         id: 'xlwlKMzj',
@@ -8196,7 +8675,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ed Sheeran',
         starring: '',
-        image: 'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
         label: 'Atlantic Records UK',
         albumid: '10436096',
         language: 'english',
@@ -8231,10 +8711,12 @@ const AlbumList = [
         },
         release_date: '2017-03-03',
         vcode: '010910140683406',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140647546.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140647546.mp3',
         triller_available: false,
         label_url: '/label/atlantic-records-uk-albums/Nq1WxI8CVrI_',
-        media_url: 'https://aac.saavncdn.com/286/1aea91043117c1cb167d73fbec64d6c6_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/286/1aea91043117c1cb167d73fbec64d6c6_320.mp4',
       },
       {
         id: '06l2YQ8D',
@@ -8250,7 +8732,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ed Sheeran',
         starring: '',
-        image: 'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
         label: 'Atlantic Records UK',
         albumid: '10436096',
         language: 'english',
@@ -8268,7 +8751,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/286/e8195bb43f49453eb8584e517b420d8b_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/castle-on-the-hill/QF4HAy1hD3c',
+        perma_url:
+          'https://www.jiosaavn.com/song/castle-on-the-hill/QF4HAy1hD3c',
         album_url: 'https://www.jiosaavn.com/album/\u00f7/KelXOKU4pi4_',
         duration: '261',
         rights: {
@@ -8285,10 +8769,12 @@ const AlbumList = [
         },
         release_date: '2017-03-03',
         vcode: '010910140490612',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140479404.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140479404.mp3',
         triller_available: false,
         label_url: '/label/atlantic-records-uk-albums/Nq1WxI8CVrI_',
-        media_url: 'https://aac.saavncdn.com/286/e8195bb43f49453eb8584e517b420d8b_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/286/e8195bb43f49453eb8584e517b420d8b_320.mp4',
       },
       {
         id: 'SMKmnWKf',
@@ -8304,7 +8790,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ed Sheeran',
         starring: '',
-        image: 'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
         label: 'Atlantic Records UK',
         albumid: '10436096',
         language: 'english',
@@ -8339,10 +8826,12 @@ const AlbumList = [
         },
         release_date: '2017-03-03',
         vcode: '010910140683678',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140647558.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140647558.mp3',
         triller_available: false,
         label_url: '/label/atlantic-records-uk-albums/Nq1WxI8CVrI_',
-        media_url: 'https://aac.saavncdn.com/286/9ab8e5c5859588adb80e186872efcd47_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/286/9ab8e5c5859588adb80e186872efcd47_320.mp4',
       },
       {
         id: 'wwSCc15h',
@@ -8358,7 +8847,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ed Sheeran',
         starring: '',
-        image: 'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
         label: 'Atlantic Records UK',
         albumid: '10436096',
         language: 'english',
@@ -8393,10 +8883,12 @@ const AlbumList = [
         },
         release_date: '2017-03-03',
         vcode: '010910140490610',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140479402.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140479402.mp3',
         triller_available: false,
         label_url: '/label/atlantic-records-uk-albums/Nq1WxI8CVrI_',
-        media_url: 'https://aac.saavncdn.com/286/2929d11a5d44a3592ced0383fa6f1977_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/286/2929d11a5d44a3592ced0383fa6f1977_320.mp4',
       },
       {
         id: '6o8JoQ8b',
@@ -8412,7 +8904,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ed Sheeran',
         starring: '',
-        image: 'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
         label: 'Atlantic Records UK',
         albumid: '10436096',
         language: 'english',
@@ -8447,10 +8940,12 @@ const AlbumList = [
         },
         release_date: '2017-03-03',
         vcode: '010910140683676',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140647552.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140647552.mp3',
         triller_available: false,
         label_url: '/label/atlantic-records-uk-albums/Nq1WxI8CVrI_',
-        media_url: 'https://aac.saavncdn.com/286/71bb6cc3391ddf619a4a3f1a1134f1c4_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/286/71bb6cc3391ddf619a4a3f1a1134f1c4_320.mp4',
       },
       {
         id: 'bfg7xyT-',
@@ -8466,7 +8961,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ed Sheeran',
         starring: '',
-        image: 'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
         label: 'Atlantic Records UK',
         albumid: '10436096',
         language: 'english',
@@ -8501,10 +8997,12 @@ const AlbumList = [
         },
         release_date: '2017-03-03',
         vcode: '010910140683692',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140647580.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140647580.mp3',
         triller_available: false,
         label_url: '/label/atlantic-records-uk-albums/Nq1WxI8CVrI_',
-        media_url: 'https://aac.saavncdn.com/286/d7a8ec4209656d72eaaf8b0ce8d34cdc_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/286/d7a8ec4209656d72eaaf8b0ce8d34cdc_320.mp4',
       },
       {
         id: 'ybI8g938',
@@ -8520,7 +9018,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ed Sheeran',
         starring: '',
-        image: 'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
         label: 'Atlantic Records UK',
         albumid: '10436096',
         language: 'english',
@@ -8555,10 +9054,12 @@ const AlbumList = [
         },
         release_date: '2017-03-03',
         vcode: '010910140683424',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140647582.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140647582.mp3',
         triller_available: false,
         label_url: '/label/atlantic-records-uk-albums/Nq1WxI8CVrI_',
-        media_url: 'https://aac.saavncdn.com/286/1f1e72e0d96ca82ac4f9b2439032ed6c_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/286/1f1e72e0d96ca82ac4f9b2439032ed6c_320.mp4',
       },
       {
         id: 'lO-feVnM',
@@ -8574,7 +9075,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ed Sheeran',
         starring: '',
-        image: 'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
         label: 'Atlantic Records UK',
         albumid: '10436096',
         language: 'english',
@@ -8609,10 +9111,12 @@ const AlbumList = [
         },
         release_date: '2017-03-03',
         vcode: '010910140683672',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140647542.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140647542.mp3',
         triller_available: false,
         label_url: '/label/atlantic-records-uk-albums/Nq1WxI8CVrI_',
-        media_url: 'https://aac.saavncdn.com/286/2f0479500d6fe5b837f327e09289bc9d_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/286/2f0479500d6fe5b837f327e09289bc9d_320.mp4',
       },
       {
         id: '6MdC1gk5',
@@ -8628,7 +9132,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ed Sheeran',
         starring: '',
-        image: 'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
         label: 'Atlantic Records UK',
         albumid: '10436096',
         language: 'english',
@@ -8646,7 +9151,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/286/a9c027a2f124ace4c19dc95f4ed477b3_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/hearts-dont-break-around-here/RiUPckVXXAY',
+        perma_url:
+          'https://www.jiosaavn.com/song/hearts-dont-break-around-here/RiUPckVXXAY',
         album_url: 'https://www.jiosaavn.com/album/\u00f7/KelXOKU4pi4_',
         duration: '248',
         rights: {
@@ -8663,10 +9169,12 @@ const AlbumList = [
         },
         release_date: '2017-03-03',
         vcode: '010910140683418',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140647568.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140647568.mp3',
         triller_available: false,
         label_url: '/label/atlantic-records-uk-albums/Nq1WxI8CVrI_',
-        media_url: 'https://aac.saavncdn.com/286/a9c027a2f124ace4c19dc95f4ed477b3_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/286/a9c027a2f124ace4c19dc95f4ed477b3_320.mp4',
       },
       {
         id: 'OVKDEI3g',
@@ -8682,7 +9190,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ed Sheeran',
         starring: '',
-        image: 'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
         label: 'Atlantic Records UK',
         albumid: '10436096',
         language: 'english',
@@ -8717,10 +9226,12 @@ const AlbumList = [
         },
         release_date: '2017-03-03',
         vcode: '010910140683674',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140647544.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140647544.mp3',
         triller_available: false,
         label_url: '/label/atlantic-records-uk-albums/Nq1WxI8CVrI_',
-        media_url: 'https://aac.saavncdn.com/286/11df76870c5983ed88829a5ec17b200b_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/286/11df76870c5983ed88829a5ec17b200b_320.mp4',
       },
       {
         id: 'vCPZGlYk',
@@ -8736,7 +9247,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ed Sheeran',
         starring: '',
-        image: 'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
         label: 'Atlantic Records UK',
         albumid: '10436096',
         language: 'english',
@@ -8754,7 +9266,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/286/791ac86156b346c26e3a93b896ae06db_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/how-would-you-feel-paean/Bis7azNcblg',
+        perma_url:
+          'https://www.jiosaavn.com/song/how-would-you-feel-paean/Bis7azNcblg',
         album_url: 'https://www.jiosaavn.com/album/\u00f7/KelXOKU4pi4_',
         duration: '280',
         rights: {
@@ -8771,10 +9284,12 @@ const AlbumList = [
         },
         release_date: '2017-03-03',
         vcode: '010910140683680',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140647560.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140647560.mp3',
         triller_available: false,
         label_url: '/label/atlantic-records-uk-albums/Nq1WxI8CVrI_',
-        media_url: 'https://aac.saavncdn.com/286/791ac86156b346c26e3a93b896ae06db_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/286/791ac86156b346c26e3a93b896ae06db_320.mp4',
       },
       {
         id: 'gh4KQfn4',
@@ -8790,7 +9305,8 @@ const AlbumList = [
         featured_artists_id: '',
         singers: 'Ed Sheeran',
         starring: '',
-        image: 'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
+        image:
+          'https://c.saavncdn.com/286/WMG_190295851286-English-2017-500x500.jpg',
         label: 'Atlantic Records UK',
         albumid: '10436096',
         language: 'english',
@@ -8808,7 +9324,8 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/286/559d5e175fdea00090e3ae7596988376_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/supermarket-flowers/FwBfeiVWWQc',
+        perma_url:
+          'https://www.jiosaavn.com/song/supermarket-flowers/FwBfeiVWWQc',
         album_url: 'https://www.jiosaavn.com/album/\u00f7/KelXOKU4pi4_',
         duration: '221',
         rights: {
@@ -8825,10 +9342,12 @@ const AlbumList = [
         },
         release_date: '2017-03-03',
         vcode: '010910140683426',
-        vlink: 'https://jiotunepreview.jio.com/content/Converted/010910140647588.mp3',
+        vlink:
+          'https://jiotunepreview.jio.com/content/Converted/010910140647588.mp3',
         triller_available: false,
         label_url: '/label/atlantic-records-uk-albums/Nq1WxI8CVrI_',
-        media_url: 'https://aac.saavncdn.com/286/559d5e175fdea00090e3ae7596988376_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/286/559d5e175fdea00090e3ae7596988376_320.mp4',
       },
     ],
   },
@@ -8841,7 +9360,8 @@ const AlbumList = [
     primary_artists_id: '1274170',
     albumid: '23241654',
     perma_url: 'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
-    image: 'https://c.saavncdn.com/665/Future-Nostalgia-English-2020-20210608164518-500x500.jpg',
+    image:
+      'https://c.saavncdn.com/665/Future-Nostalgia-English-2020-20210608164518-500x500.jpg',
     songs: [
       {
         id: 'sz5F1aWB',
@@ -8877,7 +9397,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/665/b54ac43457e147e7ac88af0b18ed406b_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/future-nostalgia/AxJed0VRYHE',
-        album_url: 'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
+        album_url:
+          'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
         duration: '184',
         rights: {
           code: 1,
@@ -8894,7 +9415,8 @@ const AlbumList = [
         release_date: '2020-03-27',
         triller_available: false,
         label_url: '/label/warner-records-albums/8FBCbUPZpYc_',
-        media_url: 'https://aac.saavncdn.com/665/b54ac43457e147e7ac88af0b18ed406b_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/665/b54ac43457e147e7ac88af0b18ed406b_320.mp4',
       },
       {
         id: 'gw6XjuYY',
@@ -8930,7 +9452,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/665/c632cc31aaf0627866e6b2adbb843490_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/dont-start-now/Fx9daR5Fbmo',
-        album_url: 'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
+        album_url:
+          'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
         duration: '183',
         rights: {
           code: 1,
@@ -8947,7 +9470,8 @@ const AlbumList = [
         release_date: '2020-03-27',
         triller_available: false,
         label_url: '/label/warner-records-albums/8FBCbUPZpYc_',
-        media_url: 'https://aac.saavncdn.com/665/c632cc31aaf0627866e6b2adbb843490_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/665/c632cc31aaf0627866e6b2adbb843490_320.mp4',
       },
       {
         id: 'wNTvSTeV',
@@ -8983,7 +9507,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/665/de8854c261cebde93b0cb237299522a9_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/cool/ByY-RydkUmU',
-        album_url: 'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
+        album_url:
+          'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
         duration: '209',
         rights: {
           code: 1,
@@ -9000,7 +9525,8 @@ const AlbumList = [
         release_date: '2020-03-27',
         triller_available: false,
         label_url: '/label/warner-records-albums/8FBCbUPZpYc_',
-        media_url: 'https://aac.saavncdn.com/665/de8854c261cebde93b0cb237299522a9_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/665/de8854c261cebde93b0cb237299522a9_320.mp4',
       },
       {
         id: '0LqLnJyM',
@@ -9036,7 +9562,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/665/f59adc61cad30842d5d32aad77ef76cc_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/physical/QCQafRp6Tn4',
-        album_url: 'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
+        album_url:
+          'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
         duration: '193',
         rights: {
           code: 1,
@@ -9053,7 +9580,8 @@ const AlbumList = [
         release_date: '2020-03-27',
         triller_available: false,
         label_url: '/label/warner-records-albums/8FBCbUPZpYc_',
-        media_url: 'https://aac.saavncdn.com/665/f59adc61cad30842d5d32aad77ef76cc_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/665/f59adc61cad30842d5d32aad77ef76cc_320.mp4',
       },
       {
         id: '3IoDK8qI',
@@ -9089,7 +9617,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/665/7790c3b9097592113008eaf1031d6e57_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/levitating/QyEEdT8IRno',
-        album_url: 'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
+        album_url:
+          'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
         duration: '203',
         rights: {
           code: 1,
@@ -9106,7 +9635,8 @@ const AlbumList = [
         release_date: '2020-03-27',
         triller_available: false,
         label_url: '/label/warner-records-albums/8FBCbUPZpYc_',
-        media_url: 'https://aac.saavncdn.com/665/7790c3b9097592113008eaf1031d6e57_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/665/7790c3b9097592113008eaf1031d6e57_320.mp4',
       },
       {
         id: 'mp09QKJc',
@@ -9142,7 +9672,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/665/12754f31c63286eda8251d4e3d49dae1_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/pretty-please/HRhbCCV7fVA',
-        album_url: 'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
+        album_url:
+          'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
         duration: '194',
         rights: {
           code: 1,
@@ -9159,7 +9690,8 @@ const AlbumList = [
         release_date: '2020-03-27',
         triller_available: false,
         label_url: '/label/warner-records-albums/8FBCbUPZpYc_',
-        media_url: 'https://aac.saavncdn.com/665/12754f31c63286eda8251d4e3d49dae1_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/665/12754f31c63286eda8251d4e3d49dae1_320.mp4',
       },
       {
         id: '9DkBs29O',
@@ -9195,7 +9727,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/665/506d5bcf23172d62705c800d51ed157b_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/hallucinate/SSwAcwcCDnw',
-        album_url: 'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
+        album_url:
+          'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
         duration: '208',
         rights: {
           code: 1,
@@ -9212,7 +9745,8 @@ const AlbumList = [
         release_date: '2020-03-27',
         triller_available: false,
         label_url: '/label/warner-records-albums/8FBCbUPZpYc_',
-        media_url: 'https://aac.saavncdn.com/665/506d5bcf23172d62705c800d51ed157b_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/665/506d5bcf23172d62705c800d51ed157b_320.mp4',
       },
       {
         id: 'NYbOVCNT',
@@ -9248,7 +9782,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/665/345db6fd4257836c528aba8067b49863_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/love-again/PjEJfiJzeWc',
-        album_url: 'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
+        album_url:
+          'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
         duration: '258',
         rights: {
           code: 1,
@@ -9265,7 +9800,8 @@ const AlbumList = [
         release_date: '2020-03-27',
         triller_available: false,
         label_url: '/label/warner-records-albums/8FBCbUPZpYc_',
-        media_url: 'https://aac.saavncdn.com/665/345db6fd4257836c528aba8067b49863_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/665/345db6fd4257836c528aba8067b49863_320.mp4',
       },
       {
         id: '4u1DDB-A',
@@ -9301,7 +9837,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/665/bd2f1f23571e3b431bdc18d26d89ea25_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/break-my-heart/RB1adTByGnI',
-        album_url: 'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
+        album_url:
+          'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
         duration: '221',
         rights: {
           code: 1,
@@ -9318,7 +9855,8 @@ const AlbumList = [
         release_date: '2020-03-27',
         triller_available: false,
         label_url: '/label/warner-records-albums/8FBCbUPZpYc_',
-        media_url: 'https://aac.saavncdn.com/665/bd2f1f23571e3b431bdc18d26d89ea25_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/665/bd2f1f23571e3b431bdc18d26d89ea25_320.mp4',
       },
       {
         id: '_Rt0mBbB',
@@ -9354,7 +9892,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/665/aab5fcc51ccfff2d3b3f5d85c928348b_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/good-in-bed/LzofARlyVXE',
-        album_url: 'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
+        album_url:
+          'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
         duration: '218',
         rights: {
           code: 1,
@@ -9371,7 +9910,8 @@ const AlbumList = [
         release_date: '2020-03-27',
         triller_available: false,
         label_url: '/label/warner-records-albums/8FBCbUPZpYc_',
-        media_url: 'https://aac.saavncdn.com/665/aab5fcc51ccfff2d3b3f5d85c928348b_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/665/aab5fcc51ccfff2d3b3f5d85c928348b_320.mp4',
       },
       {
         id: 'jsR1-Gv1',
@@ -9406,8 +9946,10 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/665/74e24626062bb7cfaad51b9747e82aa2_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/boys-will-be-boys/Ghs5AFl3QQI',
-        album_url: 'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
+        perma_url:
+          'https://www.jiosaavn.com/song/boys-will-be-boys/Ghs5AFl3QQI',
+        album_url:
+          'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
         duration: '166',
         rights: {
           code: 1,
@@ -9424,7 +9966,8 @@ const AlbumList = [
         release_date: '2020-03-27',
         triller_available: false,
         label_url: '/label/warner-records-albums/8FBCbUPZpYc_',
-        media_url: 'https://aac.saavncdn.com/665/74e24626062bb7cfaad51b9747e82aa2_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/665/74e24626062bb7cfaad51b9747e82aa2_320.mp4',
       },
       {
         id: 'Aw1lYnno',
@@ -9459,8 +10002,10 @@ const AlbumList = [
         encrypted_media_path: 'NMKyboFo/Fi0VFqJf5Q3Rw==',
         media_preview_url:
           'https://preview.saavncdn.com/665/5337f5fb815b0c325bc786e1ba80edac_96_p.mp4',
-        perma_url: 'https://www.jiosaavn.com/song/levitating-feat.-dababy/MR9aXS1eWVw',
-        album_url: 'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
+        perma_url:
+          'https://www.jiosaavn.com/song/levitating-feat.-dababy/MR9aXS1eWVw',
+        album_url:
+          'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
         duration: '203',
         rights: {
           code: 1,
@@ -9478,7 +10023,8 @@ const AlbumList = [
         release_date: '2020-03-27',
         triller_available: false,
         label_url: '/label/warner-records-albums/8FBCbUPZpYc_',
-        media_url: 'https://aac.saavncdn.com/665/5337f5fb815b0c325bc786e1ba80edac_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/665/5337f5fb815b0c325bc786e1ba80edac_320.mp4',
       },
       {
         id: '3UD1H82b',
@@ -9514,7 +10060,8 @@ const AlbumList = [
         media_preview_url:
           'https://preview.saavncdn.com/665/ef0d0d9cf51f9e388d54f1057025e35f_96_p.mp4',
         perma_url: 'https://www.jiosaavn.com/song/fever/Qz0vADwIBVE',
-        album_url: 'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
+        album_url:
+          'https://www.jiosaavn.com/album/future-nostalgia/ITIyo-GDr7A_',
         duration: '156',
         rights: {
           code: 1,
@@ -9532,7 +10079,8 @@ const AlbumList = [
         release_date: '2020-03-27',
         triller_available: false,
         label_url: '/label/warner-records-albums/8FBCbUPZpYc_',
-        media_url: 'https://aac.saavncdn.com/665/ef0d0d9cf51f9e388d54f1057025e35f_320.mp4',
+        media_url:
+          'https://aac.saavncdn.com/665/ef0d0d9cf51f9e388d54f1057025e35f_320.mp4',
       },
     ],
   },

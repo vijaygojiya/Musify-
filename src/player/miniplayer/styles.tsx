@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import {StyleSheet} from 'react-native';
 import colors from '../../utils/colors';
 import styleConfig from '../../utils/styleConfig';
 import GS from '../../utils/styles';
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
     fontSize: styleConfig.countPixelRatio(12),
   },
   // borderStyle: { borderRadius: styleConfig.countPixelRatio(8) },
-  progressBarContainer: { alignSelf: 'center' },
+  progressBarContainer: {alignSelf: 'center'},
 });
 
 export default styles;

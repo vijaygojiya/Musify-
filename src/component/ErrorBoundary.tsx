@@ -1,8 +1,8 @@
-import React, { Component, PropsWithChildren } from 'react';
-import { Dimensions, Image, Text, View } from 'react-native';
+import React, {Component, PropsWithChildren} from 'react';
+import {Dimensions, Image, Text, View} from 'react-native';
 import AppImages from '../assets/images';
 
-const { height, width } = Dimensions.get('window');
+const {height, width} = Dimensions.get('window');
 
 interface ErrorBoundaryState {
   hasError: boolean;
@@ -17,12 +17,12 @@ type ErrorBoundaryProps = PropsWithChildren<ErrorBoundaryStateProps>;
 class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
   constructor(props: ErrorBoundaryProps) {
     super(props);
-    this.state = { hasError: false };
+    this.state = {hasError: false};
   }
 
   public componentDidCatch() {
     // Display fallback UI
-    this.setState({ hasError: true });
+    this.setState({hasError: true});
   }
 
   public render() {
@@ -41,8 +41,7 @@ class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
           flexDirection: 'column',
           alignItems: 'center',
           height,
-        }}
-      >
+        }}>
         <Image
           source={AppImages.ic_error}
           style={{
@@ -52,10 +51,12 @@ class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
             marginTop: -(backgroundHeight * 0.7),
           }}
         />
-        <View style={{ height: 40 }} />
-        <Text style={{ alignSelf: 'flex-start', paddingHorizontal: 20 }}>{'Oops!'}</Text>
-        <View style={{ height: 10 }} />
-        <Text style={{ alignSelf: 'flex-start', paddingHorizontal: 20 }}>
+        <View style={{height: 40}} />
+        <Text style={{alignSelf: 'flex-start', paddingHorizontal: 20}}>
+          {'Oops!'}
+        </Text>
+        <View style={{height: 10}} />
+        <Text style={{alignSelf: 'flex-start', paddingHorizontal: 20}}>
           {
             'It seems that something went wrong.\nPlease make sure your app is up-to-date, then try again.'
           }

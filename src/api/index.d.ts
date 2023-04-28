@@ -60,7 +60,14 @@ export interface SongType {
   };
 }
 
-export type mediaType = 'charts' | 'radio_station' | 'playlist' | 'song' | 'mix' | 'show' | 'album';
+export type mediaType =
+  | 'charts'
+  | 'radio_station'
+  | 'playlist'
+  | 'song'
+  | 'mix'
+  | 'show'
+  | 'album';
 
 declare module namespace {
   export interface Artist {

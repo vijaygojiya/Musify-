@@ -1,8 +1,0 @@
-__tests__/whatwg-fetch.js
-app/modules/navigation/src/stackTransitioner/**/*.ts
-app/modules/navigation/src/stackTransitioner/**/*.tsx
-node_modules
-metro.config.js
-babel.config.js
-jest.config.js
-/src/modules/auth/__mocks__/

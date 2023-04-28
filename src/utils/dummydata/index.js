@@ -38,17 +38,20 @@ const MyPageFansData = [
   {
     name: 'Faizal Diulianto',
     location: 'Tokyo, JP',
-    picture: 'https://cdn.pixabay.com/photo/2016/03/27/17/40/man-1283231_960_720.jpg',
+    picture:
+      'https://cdn.pixabay.com/photo/2016/03/27/17/40/man-1283231_960_720.jpg',
   },
   {
     name: 'Michael Webber',
     location: 'Tokyo, JP',
-    picture: 'https://cdn.pixabay.com/photo/2016/11/18/19/07/happy-1836445_960_720.jpg',
+    picture:
+      'https://cdn.pixabay.com/photo/2016/11/18/19/07/happy-1836445_960_720.jpg',
   },
   {
     name: 'John Smith',
     location: 'Tokyo, JP',
-    picture: 'https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358_960_720.jpg',
+    picture:
+      'https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358_960_720.jpg',
   },
   {
     name: 'Derrick Herrera',
@@ -83,7 +86,8 @@ const MyPageReview = [
       'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
     createdAt: '2022-04-12T13:05:29.874Z',
     rating: '4',
-    picture: 'https://cdn.pixabay.com/photo/2016/03/27/17/40/man-1283231_960_720.jpg',
+    picture:
+      'https://cdn.pixabay.com/photo/2016/03/27/17/40/man-1283231_960_720.jpg',
   },
   {
     name: 'Michael Webber',
@@ -91,7 +95,8 @@ const MyPageReview = [
       'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
     createdAt: '2022-04-12T13:05:29.874Z',
     rating: '3',
-    picture: 'https://cdn.pixabay.com/photo/2016/11/18/19/07/happy-1836445_960_720.jpg',
+    picture:
+      'https://cdn.pixabay.com/photo/2016/11/18/19/07/happy-1836445_960_720.jpg',
   },
   {
     name: 'John Smith',
@@ -99,7 +104,8 @@ const MyPageReview = [
       'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
     createdAt: '2022-04-12T13:05:29.874Z',
     rating: '1.4',
-    picture: 'https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358_960_720.jpg',
+    picture:
+      'https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358_960_720.jpg',
   },
   {
     name: 'Derrick Herrera',

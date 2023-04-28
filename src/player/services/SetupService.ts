@@ -16,7 +16,8 @@ export const SetupService = async (): Promise<boolean> => {
     });
     await TrackPlayer.updateOptions({
       android: {
-        appKilledPlaybackBehavior: AppKilledPlaybackBehavior.StopPlaybackAndRemoveNotification,
+        appKilledPlaybackBehavior:
+          AppKilledPlaybackBehavior.StopPlaybackAndRemoveNotification,
       },
       // This flag is now deprecated. Please use the above to define playback mode.
       // stoppingAppPausesPlayback: true,
@@ -27,7 +28,11 @@ export const SetupService = async (): Promise<boolean> => {
         Capability.SkipToPrevious,
         Capability.SeekTo,
       ],
-      compactCapabilities: [Capability.Play, Capability.Pause, Capability.SkipToNext],
+      compactCapabilities: [
+        Capability.Play,
+        Capability.Pause,
+        Capability.SkipToNext,
+      ],
       progressUpdateEventInterval: 2,
     });
     await TrackPlayer.setRepeatMode(RepeatMode.Queue);

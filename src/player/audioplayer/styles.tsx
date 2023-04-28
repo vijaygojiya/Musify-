@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import {StyleSheet} from 'react-native';
 import colors from '../../utils/colors';
 import styleConfig from '../../utils/styleConfig';
 
@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
       width: 0,
       height: 2,
     },
-    sliderContainer: { width: '70%', height: styleConfig.countPixelRatio(40) },
+    sliderContainer: {width: '70%', height: styleConfig.countPixelRatio(40)},
     shadowOpacity: 0.25,
     shadowRadius: styleConfig.countPixelRatio(4),
     elevation: 5,

@@ -1,6 +1,12 @@
-import type { Ref } from 'react';
-import React, { useCallback, useEffect, useImperativeHandle, useRef, useState } from 'react';
-import type { TextProps } from 'react-native';
+import type {Ref} from 'react';
+import React, {
+  useCallback,
+  useEffect,
+  useImperativeHandle,
+  useRef,
+  useState,
+} from 'react';
+import type {TextProps} from 'react-native';
 import {
   Animated,
   Easing,
@@ -13,7 +19,7 @@ import {
   View,
 } from 'react-native';
 
-const { UIManager } = NativeModules;
+const {UIManager} = NativeModules;
 
 export interface MarqueeTextProps extends TextProps {
   /**
@@ -49,7 +55,7 @@ export interface MarqueeTextHandles {
 }
 
 function wait(duration: number): Promise<void> {
-  return new Promise((resolve) => {
+  return new Promise(resolve => {
     setTimeout(resolve, duration);
   });
 }
@@ -65,7 +71,7 @@ const createAnimation = (
   consecutive?: {
     resetToValue: number;
     duration: number;
-  }
+  },
 ): Animated.CompositeAnimation => {
   const baseAnimation = Animated.timing(animatedValue, {
     easing: Easing.linear,
@@ -90,17 +96,22 @@ const createAnimation = (
               ...config,
               duration: consecutive.duration,
             }),
-          ])
+          ]),
         ),
       ]);
     }
-    return Animated.loop(Animated.sequence([baseAnimation, Animated.delay(1000)]));
+    return Animated.loop(
+      Animated.sequence([baseAnimation, Animated.delay(1000)]),
+    );
   }
 
   return baseAnimation;
 };
 
-const MarqueeText = (props: MarqueeTextProps, ref: Ref<MarqueeTextHandles>): JSX.Element => {
+const MarqueeText = (
+  props: MarqueeTextProps,
+  ref: Ref<MarqueeTextHandles>,
+): JSX.Element => {
   const {
     style,
     marqueeOnStart = true,
@@ -158,8 +169,9 @@ const MarqueeText = (props: MarqueeTextProps, ref: Ref<MarqueeTextHandles>): JSX
     }
 
     const baseDuration =
-      PixelRatio.getPixelSizeForLayoutSize(marqueeTextWidth.current) / config.current.speed;
-    const { consecutive: isConsecutive } = config.current;
+      PixelRatio.getPixelSizeForLayoutSize(marqueeTextWidth.current) /
+      config.current.speed;
+    const {consecutive: isConsecutive} = config.current;
     animation.current = createAnimation(
       animatedValue.current,
       {
@@ -173,9 +185,10 @@ const MarqueeText = (props: MarqueeTextProps, ref: Ref<MarqueeTextHandles>): JSX
         ? {
             resetToValue: containerWidth.current,
             duration:
-              baseDuration * ((containerWidth.current + marqueeTextWidth.current) / distance),
+              baseDuration *
+              ((containerWidth.current + marqueeTextWidth.current) / distance),
           }
-        : undefined
+        : undefined,
     );
 
     animation.current.start((): void => {
@@ -211,10 +224,13 @@ const MarqueeText = (props: MarqueeTextProps, ref: Ref<MarqueeTextHandles>): JSX
       }
 
       const measureWidth = (component: ScrollView | Text): Promise<number> =>
-        new Promise((resolve) => {
-          UIManager.measure(findNodeHandle(component), (_x: number, _y: number, w: number) => {
-            return resolve(w);
-          });
+        new Promise(resolve => {
+          UIManager.measure(
+            findNodeHandle(component),
+            (_x: number, _y: number, w: number) => {
+              return resolve(w);
+            },
+          );
         });
 
       const [wrapperWidth, textWidth] = await Promise.all([
@@ -235,11 +251,14 @@ const MarqueeText = (props: MarqueeTextProps, ref: Ref<MarqueeTextHandles>): JSX
     marqueeTextWidth.current = null;
   };
 
-  const { width, height } = StyleSheet.flatten(style || {});
+  const {width, height} = StyleSheet.flatten(style || {});
 
   return (
-    <View style={[styles.container, { width, height }]}>
-      <Text numberOfLines={1} {...restProps} style={[style, { opacity: isAnimating ? 0 : 1 }]}>
+    <View style={[styles.container, {width, height}]}>
+      <Text
+        numberOfLines={1}
+        {...restProps}
+        style={[style, {opacity: isAnimating ? 0 : 1}]}>
         {children}
       </Text>
 
@@ -249,8 +268,7 @@ const MarqueeText = (props: MarqueeTextProps, ref: Ref<MarqueeTextHandles>): JSX
         showsHorizontalScrollIndicator={false}
         horizontal={true}
         scrollEnabled={false}
-        onContentSizeChange={calculateMetrics}
-      >
+        onContentSizeChange={calculateMetrics}>
         <Animated.Text
           ref={textRef}
           numberOfLines={1}
@@ -258,12 +276,11 @@ const MarqueeText = (props: MarqueeTextProps, ref: Ref<MarqueeTextHandles>): JSX
           style={[
             style,
             {
-              transform: [{ translateX: animatedValue.current }],
+              transform: [{translateX: animatedValue.current}],
               opacity: isAnimating ? 1 : 0,
               width: '100%',
             },
-          ]}
-        >
+          ]}>
           {children}
         </Animated.Text>
       </ScrollView>

@@ -1,4 +1,4 @@
-import { FORCEUPDATE_SET, MAINTENANCE_SET, SHOW_LOADER } from '../types';
+import {FORCEUPDATE_SET, MAINTENANCE_SET, SHOW_LOADER} from '../types';
 
 const INITIAL_STATE = {
   isLoading: false,
@@ -14,9 +14,9 @@ export default function (state = INITIAL_STATE, action) {
         isLoading: action.payload,
       };
     case FORCEUPDATE_SET:
-      return { ...state, forceUpdate: action.payload };
+      return {...state, forceUpdate: action.payload};
     case MAINTENANCE_SET:
-      return { ...state, maintenance: action.payload };
+      return {...state, maintenance: action.payload};
     default:
       return state;
   }

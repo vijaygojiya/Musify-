@@ -1,4 +1,4 @@
-import TrackPlayer, { Event } from 'react-native-track-player';
+import TrackPlayer, {Event} from 'react-native-track-player';
 
 export async function PlaybackService() {
   TrackPlayer.addEventListener(Event.RemotePause, () => {
@@ -21,38 +21,38 @@ export async function PlaybackService() {
     TrackPlayer.skipToPrevious();
   });
 
-  TrackPlayer.addEventListener(Event.RemoteJumpForward, async (event) => {
+  TrackPlayer.addEventListener(Event.RemoteJumpForward, async event => {
     console.log('Event.RemoteJumpForward', event);
     TrackPlayer.seekBy(event.interval);
   });
 
-  TrackPlayer.addEventListener(Event.RemoteJumpBackward, async (event) => {
+  TrackPlayer.addEventListener(Event.RemoteJumpBackward, async event => {
     console.log('Event.RemoteJumpBackward', event);
     TrackPlayer.seekBy(-event.interval);
   });
 
-  TrackPlayer.addEventListener(Event.RemoteSeek, (event) => {
+  TrackPlayer.addEventListener(Event.RemoteSeek, event => {
     console.log('Event.RemoteSeek', event);
     TrackPlayer.seekTo(event.position);
   });
 
-  TrackPlayer.addEventListener(Event.RemoteDuck, async (event) => {
+  TrackPlayer.addEventListener(Event.RemoteDuck, async event => {
     console.log('Event.RemoteDuck', event);
   });
 
-  TrackPlayer.addEventListener(Event.PlaybackQueueEnded, (event) => {
+  TrackPlayer.addEventListener(Event.PlaybackQueueEnded, event => {
     console.log('Event.PlaybackQueueEnded', event);
   });
 
-  TrackPlayer.addEventListener(Event.PlaybackActiveTrackChanged, (event) => {
+  TrackPlayer.addEventListener(Event.PlaybackActiveTrackChanged, event => {
     console.log('Event.PlaybackActiveTrackChanged', event);
   });
 
-  TrackPlayer.addEventListener(Event.PlaybackPlayWhenReadyChanged, (event) => {
+  TrackPlayer.addEventListener(Event.PlaybackPlayWhenReadyChanged, event => {
     console.log('Event.PlaybackPlayWhenReadyChanged', event);
   });
 
-  TrackPlayer.addEventListener(Event.PlaybackState, (event) => {
+  TrackPlayer.addEventListener(Event.PlaybackState, event => {
     console.log('Event.PlaybackState', event);
   });
 }

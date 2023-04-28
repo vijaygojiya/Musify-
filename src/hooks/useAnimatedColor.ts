@@ -11,7 +11,7 @@ const DEFAULT_COLOR = '#000000';
 
 export function useAnimatedColor(
   color: Reanimated.SharedValue<string>,
-  animationDuration: number
+  animationDuration: number,
 ): Readonly<Reanimated.SharedValue<string | number>> {
   const animation = useSharedValue(0);
   const colorFrom = useSharedValue(DEFAULT_COLOR);
@@ -27,11 +27,11 @@ export function useAnimatedColor(
         duration: animationDuration,
         easing: Easing.linear,
       });
-    }
+    },
   );
 
   // TODO: Using colorFrom and colorTo in here raises "Attempting to assign to readonly property" error...
   return useDerivedValue(() =>
-    interpolateColor(animation.value, [0, 1], [colorFrom.value, colorTo.value])
+    interpolateColor(animation.value, [0, 1], [colorFrom.value, colorTo.value]),
   );
 }

@@ -1,5 +1,5 @@
-import React, { memo, useCallback, useMemo } from 'react';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import React, {memo, useCallback, useMemo} from 'react';
+import {Pressable, StyleSheet, Text, View} from 'react-native';
 import colors from '../../../utils/colors';
 import GS from '../../../utils/styles';
 import PressableIcon from '../pressableIcon';
@@ -30,19 +30,17 @@ const SongListItme: React.FC<SongItemProps> = ({
   }, [index]);
   return (
     <Pressable
-      android_ripple={{ color: colors.darkGrey }}
+      android_ripple={{color: colors.darkGrey}}
       onPress={handleOnSongItemClick}
-      style={styles.container}
-    >
+      style={styles.container}>
       <Text
         numberOfLines={2}
         ellipsizeMode="tail"
         style={[
           GS.text_white_regular,
-          { flex: 1, flexWrap: 'wrap' },
-          { color: isSelected ? colors.white : colors.darkGrey },
-        ]}
-      >
+          {flex: 1, flexWrap: 'wrap'},
+          {color: isSelected ? colors.white : colors.darkGrey},
+        ]}>
         {title}
       </Text>
       <PressableIcon
@@ -79,7 +77,7 @@ const styles = StyleSheet.create({
     width: styleConfig.countPixelRatio(24),
     resizeMode: 'contain',
     tintColor: colors.white,
-    transform: [{ rotate: '90deg' }],
+    transform: [{rotate: '90deg'}],
   },
 });
 

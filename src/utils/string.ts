@@ -1,6 +1,6 @@
 const string = {
   MyMusic: 'MyMusic',
-  Favourites: 'Favourites',
+  Favorites: 'Favourites',
   Playlist: 'Playlist',
   Search: 'Search',
   Home: 'Home',

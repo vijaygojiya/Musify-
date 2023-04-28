@@ -1,12 +1,26 @@
-import { Animated, Image, ImageStyle, Pressable, StyleProp, Text } from 'react-native';
-import React, { FC, memo, useCallback, useMemo, useRef } from 'react';
-import { getImageUrl } from '../../../../utils/helpers';
-import { styles } from './styles';
+import {
+  Animated,
+  Image,
+  ImageStyle,
+  Pressable,
+  StyleProp,
+  Text,
+} from 'react-native';
+import React, {FC, memo, useCallback, useMemo, useRef} from 'react';
+import {getImageUrl} from '../../../../utils/helpers';
+import {styles} from './styles';
 import styleConfig from '../../../../utils/styleConfig';
 import GS from '../../../../utils/styles';
-import { getSubTitle } from '../../../../utils/helper';
+import {getSubTitle} from '../../../../utils/helper';
 import TrackPlayer from 'react-native-track-player';
-export type mediaType = 'charts' | 'radio_station' | 'playlist' | 'song' | 'mix' | 'show' | 'album';
+export type mediaType =
+  | 'charts'
+  | 'radio_station'
+  | 'playlist'
+  | 'song'
+  | 'mix'
+  | 'show'
+  | 'album';
 
 interface Props {
   image: string;
@@ -16,8 +30,8 @@ interface Props {
 
 const AnimatedPressable = Animated.createAnimatedComponent(Pressable);
 
-const PlayListItem: FC<Props> = (item) => {
-  const { image, type, title } = item;
+const PlayListItem: FC<Props> = item => {
+  const {image, type, title} = item;
 
   const scale = useRef(new Animated.Value(1)).current;
   const opacity = useRef(new Animated.Value(1)).current;
@@ -55,7 +69,7 @@ const PlayListItem: FC<Props> = (item) => {
   const itemClickHandler = useCallback(() => {
     if (type === 'song') {
       TrackPlayer.reset();
-      TrackPlayer.add([{ ...item, artwork: image }]);
+      TrackPlayer.add([{...item, artwork: image}]);
       TrackPlayer.play();
     }
   }, []);
@@ -85,20 +99,21 @@ const PlayListItem: FC<Props> = (item) => {
       style={[
         styles.itemContainer,
         {
-          transform: [{ scale }],
+          transform: [{scale}],
           opacity,
         },
-      ]}
-    >
+      ]}>
       <Image
-        source={{ uri: imageUrl }}
+        source={{uri: imageUrl}}
         style={[styles.artwrokImage, songItemContainerStyle]}
         resizeMode="contain"
       />
       <Text numberOfLines={1} style={[GS.text_white_medium, styles.titleText]}>
         {title}
       </Text>
-      <Text numberOfLines={1} style={[GS.text_white_regular, styles.subTitleText]}>
+      <Text
+        numberOfLines={1}
+        style={[GS.text_white_regular, styles.subTitleText]}>
         {subTitle}
       </Text>
     </AnimatedPressable>

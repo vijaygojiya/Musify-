@@ -1,5 +1,5 @@
-import React, { useRef } from 'react';
-import { Pressable, StyleSheet } from 'react-native';
+import React, {useRef} from 'react';
+import {Pressable, StyleSheet} from 'react-native';
 import Animated, {
   interpolateColor,
   useAnimatedStyle,
@@ -16,7 +16,7 @@ const ItemTab: React.FC<{
   index: number;
   isSelected: boolean;
   onTabClickListener: (index: number) => void;
-}> = ({ item, index, isSelected, onTabClickListener }) => {
+}> = ({item, index, isSelected, onTabClickListener}) => {
   const bounceValue = useSharedValue(1);
   const bounce = () => {
     bounceValue.value = 0.9;
@@ -27,7 +27,11 @@ const ItemTab: React.FC<{
   });
 
   const animatedStyle = useAnimatedStyle(() => {
-    const tintColor = interpolateColor(progress.value, [0, 1], [colors.white50, colors.tertiary]);
+    const tintColor = interpolateColor(
+      progress.value,
+      [0, 1],
+      [colors.white50, colors.tertiary],
+    );
     return {
       tintColor: tintColor,
       transform: [
@@ -44,9 +48,12 @@ const ItemTab: React.FC<{
       onPress={() => {
         onTabClickListener(index);
         bounce();
-      }}
-    >
-      <Animated.Image style={[styles.iIcon, animatedStyle]} source={item.Icon} resizeMode="cover" />
+      }}>
+      <Animated.Image
+        style={[styles.iIcon, animatedStyle]}
+        source={item.Icon}
+        resizeMode="cover"
+      />
     </Pressable>
   );
 };

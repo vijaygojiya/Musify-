@@ -1,5 +1,5 @@
 const constant = {
-  AppName: 'VMPlayer',
+  AppName: 'Musify',
 };
 
-export { constant };
+export {constant};

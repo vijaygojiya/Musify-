@@ -7,7 +7,7 @@ import {
   ImageSourcePropType,
   PressableProps,
 } from 'react-native';
-import React, { FC, memo } from 'react';
+import React, {FC, memo} from 'react';
 import colors from '../../../utils/colors';
 import styleConfig from '../../../utils/styleConfig';
 
@@ -17,15 +17,15 @@ const PressableIcon: FC<{
   onIconClick: () => void;
   containerStyle?: ViewStyle;
   iconStyle?: ImageStyle;
-}> = (props) => {
-  const { iconSource, onIconClick, containerStyle, iconStyle, containerProps } = props;
+}> = props => {
+  const {iconSource, onIconClick, containerStyle, iconStyle, containerProps} =
+    props;
   return (
     <Pressable
       {...containerProps}
       hitSlop={5}
       style={[styles.iconContainerStyle, containerStyle]}
-      onPress={onIconClick}
-    >
+      onPress={onIconClick}>
       <Image style={[styles.iconStyle, iconStyle]} source={iconSource} />
     </Pressable>
   );

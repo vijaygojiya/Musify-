@@ -1,5 +1,5 @@
-const baseUrl = 'www.jiosaavn.com';
-const apiStr = '/api.php?_format=json&_marker=0&api_version=4&ctx=web6dot0';
+const baseUrl = 'www.jiosaavn.com/';
+const apiStr = 'api.php?_format=json&_marker=0&api_version=4&ctx=web6dot0';
 
 const apiEndPoints = {
   homeData: '__call=webapi.getLaunchData',
@@ -21,4 +21,4 @@ const apiEndPoints = {
   artistOtherTopSongs: '__call=search.artistOtherTopSongs', // still not used
 };
 
-export { baseUrl, apiStr, apiEndPoints };
+export {baseUrl, apiStr, apiEndPoints};

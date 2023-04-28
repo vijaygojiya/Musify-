@@ -1,4 +1,10 @@
 {
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true
+  "cSpell.words": [
+    "customtabbar",
+    "itemtab",
+    "miniplayer",
+    "Musify",
+    "persistor",
+    "reduxjs"
+  ]
 }

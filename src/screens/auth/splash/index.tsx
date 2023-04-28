@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react';
-import { StyleSheet, View } from 'react-native';
-import { routes } from '../../../router/routes';
+import React, {useEffect} from 'react';
+import {StyleSheet, View} from 'react-native';
+import {routes} from '../../../router/routes';
 import styleConfig from '../../../utils/styleConfig';
-import Animated, { FadeIn, FadeOut } from 'react-native-reanimated';
+import Animated, {FadeIn, FadeOut} from 'react-native-reanimated';
 import GS from '../../../utils/styles';
 import colors from '../../../utils/colors';
 
@@ -10,7 +10,7 @@ type SplashScreenProps = {
   navigation: any;
 };
 
-const SplashScreen: React.FC<SplashScreenProps> = ({ navigation }) => {
+const SplashScreen: React.FC<SplashScreenProps> = ({navigation}) => {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       redirection();
@@ -29,8 +29,7 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ navigation }) => {
       <Animated.Text
         entering={FadeIn}
         exiting={FadeOut}
-        style={[GS.text_white_regular, styles.textStyle]}
-      >
+        style={[GS.text_white_regular, styles.textStyle]}>
         VM GOJIYA
       </Animated.Text>
     </View>

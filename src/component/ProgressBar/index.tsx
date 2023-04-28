@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import { Animated, Easing, View, I18nManager } from 'react-native';
+import {Animated, Easing, View, I18nManager} from 'react-native';
 
 const INDETERMINATE_WIDTH_FACTOR = 0.3;
-const BAR_WIDTH_ZERO_POSITION = INDETERMINATE_WIDTH_FACTOR / (1 + INDETERMINATE_WIDTH_FACTOR);
+const BAR_WIDTH_ZERO_POSITION =
+  INDETERMINATE_WIDTH_FACTOR / (1 + INDETERMINATE_WIDTH_FACTOR);
 
 export default class ProgressBar extends Component {
   static propTypes = {
@@ -37,7 +38,7 @@ export default class ProgressBar extends Component {
     progress: 0,
     width: 150,
     useNativeDriver: false,
-    animationConfig: { bounciness: 0 },
+    animationConfig: {bounciness: 0},
     animationType: 'spring',
   };
 
@@ -46,7 +47,9 @@ export default class ProgressBar extends Component {
     const progress = Math.min(Math.max(props.progress, 0), 1);
     this.state = {
       width: 0,
-      progress: new Animated.Value(props.indeterminate ? INDETERMINATE_WIDTH_FACTOR : progress),
+      progress: new Animated.Value(
+        props.indeterminate ? INDETERMINATE_WIDTH_FACTOR : progress,
+      ),
       animationValue: new Animated.Value(BAR_WIDTH_ZERO_POSITION),
     };
   }
@@ -77,7 +80,7 @@ export default class ProgressBar extends Component {
         : Math.min(Math.max(this.props.progress, 0), 1);
 
       if (this.props.animated) {
-        const { animationType, animationConfig } = this.props;
+        const {animationType, animationConfig} = this.props;
         Animated[animationType](this.state.progress, {
           ...animationConfig,
           toValue: progress,
@@ -89,9 +92,9 @@ export default class ProgressBar extends Component {
     }
   }
 
-  handleLayout = (event) => {
+  handleLayout = event => {
     if (!this.props.width) {
-      this.setState({ width: event.nativeEvent.layout.width });
+      this.setState({width: event.nativeEvent.layout.width});
     }
     if (this.props.onLayout) {
       this.props.onLayout(event);
@@ -106,7 +109,7 @@ export default class ProgressBar extends Component {
       easing: Easing.linear,
       isInteraction: false,
       useNativeDriver: this.props.useNativeDriver,
-    }).start((endState) => {
+    }).start(endState => {
       if (endState.finished) {
         this.animate();
       }
@@ -163,7 +166,10 @@ export default class ProgressBar extends Component {
     };
 
     return (
-      <View style={[containerStyle, style]} onLayout={this.handleLayout} {...restProps}>
+      <View
+        style={[containerStyle, style]}
+        onLayout={this.handleLayout}
+        {...restProps}>
         <Animated.View style={progressStyle} />
         {children}
       </View>

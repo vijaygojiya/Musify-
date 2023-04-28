@@ -1,22 +1,23 @@
-import { ActivityIndicator, FlatList, Text, View } from 'react-native';
-import React, { useCallback, useEffect, useState } from 'react';
+import {ActivityIndicator, FlatList, Text, View} from 'react-native';
+import React, {useCallback, useEffect, useState} from 'react';
 import GS from '../../utils/styles';
 import CommonGradientBg from '../../component/custom/commonGradientBg';
 
-import { apiEndPoints } from '../../api/ApiConst';
-import { getResponse } from '../../api/getResponse';
-import { formatHomePageData } from '../../api/format';
+import {apiEndPoints} from '../../api/ApiConst';
+import {getResponse} from '../../api/getResponse';
+import {formatHomePageData} from '../../api/format';
 
 import HomeListItem from './components/homeListItem';
 import styles from './styles';
-import { showToast } from '../../utils/tost';
+import {showToast} from '../../utils/tost';
 import TrackPlayer from 'react-native-track-player';
-import { SetupService } from '../../player/services';
+import {SetupService} from '../../player/services';
 import SafeAreaView from 'react-native-safe-area-view';
 import styleConfig from '../../utils/styleConfig';
 import colors from '../../utils/colors';
 
-const ITEM_HEIGHT = styleConfig.smartScale(28) + styleConfig.countPixelRatio(219);
+const ITEM_HEIGHT =
+  styleConfig.smartScale(28) + styleConfig.countPixelRatio(219);
 
 const HomeScreen = () => {
   const [isPlayerReady, setIsPlayerReady] = useState<boolean>(false);
@@ -47,6 +48,7 @@ const HomeScreen = () => {
   const fetchData = useCallback(async () => {
     try {
       const data = await getResponse(apiEndPoints.homeData);
+      console.log('datadata',data)
       if (data.data) {
         const formattedData = await formatHomePageData(data.data);
         setData(formattedData);
@@ -57,15 +59,24 @@ const HomeScreen = () => {
   }, []);
 
   const renderItem = useCallback(
-    ({ item }) => {
-      const { modules } = data;
-      return <HomeListItem playListData={data[`${item}`]} title={modules[`${item}`]?.title} />;
+    ({item}) => {
+      const {modules} = data;
+      return (
+        <HomeListItem
+          playListData={data[`${item}`]}
+          title={modules[`${item}`]?.title}
+        />
+      );
     },
-    [data]
+    [data],
   );
 
   const renderListHeader = useCallback(() => {
-    return <Text style={[GS.text_white_regular, styles.greetingTextStyle]}>{data.greeting}</Text>;
+    return (
+      <Text style={[GS.text_white_regular, styles.greetingTextStyle]}>
+        {data.greeting}
+      </Text>
+    );
   }, [data.greeting]);
 
   if (!isPlayerReady) {

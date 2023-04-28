@@ -1,11 +1,12 @@
-import { FlatList, ListRenderItem, Pressable, Text } from 'react-native';
-import React, { FC, memo, useCallback } from 'react';
+import {FlatList, ListRenderItem, Pressable, Text} from 'react-native';
+import React, {FC, memo, useCallback} from 'react';
 import GS from '../../../../utils/styles';
 import PlayListItem from '../playlistitem';
-import { styles } from './styles';
-import { mediaType } from '../../../../api';
+import {styles} from './styles';
+import {mediaType} from '../../../../api';
 import styleConfig from '../../../../utils/styleConfig';
-const ITEM_WIDTH = styleConfig.smartWidthScale(8) + styleConfig.countPixelRatio(175);
+const ITEM_WIDTH =
+  styleConfig.smartWidthScale(8) + styleConfig.countPixelRatio(175);
 
 interface Props {
   playListData: {
@@ -15,12 +16,12 @@ interface Props {
   title: string;
 }
 
-const HomeListItem: FC<Props> = ({ playListData, title }) => {
+const HomeListItem: FC<Props> = ({playListData, title}) => {
   const renderSubItem: ListRenderItem<{
     image: string;
     type: mediaType;
     title: string;
-  }> = useCallback(({ item, index }) => {
+  }> = useCallback(({item, index}) => {
     return <PlayListItem {...item} />;
   }, []);
 

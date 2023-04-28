@@ -1,6 +1,6 @@
-import { Dimensions, Platform } from 'react-native';
+import {Dimensions, Platform} from 'react-native';
 
-const { width, height } = Dimensions.get('window');
+const {width, height} = Dimensions.get('window');
 const isIphone = Platform.OS === 'ios';
 const isAndroid = Platform.OS === 'android';
 const widthPer = width / 100;
@@ -25,7 +25,8 @@ export default {
   responsiveHeight: (size: number) => size * heightPer,
   responsiveWidth: (size: number) => size * widthPer,
   smartScale: (value: number) => {
-    const tempHeight = Platform.OS === 'ios' ? (iPhoneX ? height - 78 : height) : height - 24;
+    const tempHeight =
+      Platform.OS === 'ios' ? (iPhoneX ? height - 78 : height) : height - 24;
     if (deviceType === 'phone') {
       return (value * tempHeight) / 667;
     }

@@ -7,7 +7,8 @@ const VenuesList = [
   },
   {
     title: 'The SSE Arena',
-    venue_url: 'https://cdn.londonandpartners.com/asset/5d90f10382f275c61af93088b5992aa2.jpg',
+    venue_url:
+      'https://cdn.londonandpartners.com/asset/5d90f10382f275c61af93088b5992aa2.jpg',
     location: 'Wembley',
   },
   {
@@ -18,7 +19,8 @@ const VenuesList = [
   },
   {
     title: 'The Evening Muse',
-    venue_url: 'https://media-cdn.tripadvisor.com/media/photo-s/0c/56/cf/56/the-evening-muse.jpg',
+    venue_url:
+      'https://media-cdn.tripadvisor.com/media/photo-s/0c/56/cf/56/the-evening-muse.jpg',
     location: 'Charlotte',
   },
   {
