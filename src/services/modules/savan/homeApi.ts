@@ -1,18 +1,23 @@
-import {apiStr} from '../../../api/ApiConst';
-import {api} from '../../api';
-
-export type User = {
-  id: number;
-  name: string;
-};
-
-export const homeApi = api.injectEndpoints({
-  endpoints: build => ({
-    fetchOne: build.query<User, string>({
-      query: params => `${apiStr}&${params}`,
+import {createApi, fetchBaseQuery} from '@reduxjs/toolkit/query/react';
+import {apiEndPoints, apiStr, baseUrl} from '../../../api/ApiConst';
+import {formatHomePageData} from '../../../api/format';
+// Define a new API slice using createApi
+export const homeScreenApi = createApi({
+  reducerPath: 'homeScreenApi',
+  baseQuery: fetchBaseQuery({
+    baseUrl: baseUrl,
+  }),
+  endpoints: builder => ({
+    getHomeScreenData: builder.query({
+      query: () => `${apiStr}&${apiEndPoints.homeData}`,
+      transformResponse: async response => {
+        // Do any data formatting here
+        const formatedData = await formatHomePageData(response);
+        return formatedData; // Return the formatted data
+      },
     }),
   }),
-  overrideExisting: false,
 });
 
-export const {useLazyFetchOneQuery} = homeApi;
+// Export the generated hooks for use in React components
+export const {useGetHomeScreenDataQuery} = homeScreenApi;

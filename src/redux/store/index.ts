@@ -12,11 +12,10 @@ import {
   Storage,
 } from 'redux-persist';
 import {MMKV} from 'react-native-mmkv';
-
-import {api} from '../../services/api';
+import {homeScreenApi} from '../../services/modules/savan/homeApi';
 
 const reducers = combineReducers({
-  [api.reducerPath]: api.reducer,
+  [homeScreenApi.reducerPath]: homeScreenApi.reducer,
 });
 
 const storage = new MMKV();
@@ -50,7 +49,7 @@ const store = configureStore({
       serializableCheck: {
         ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
       },
-    }).concat(api.middleware);
+    }).concat(homeScreenApi.middleware);
 
     if (__DEV__ && !process.env.JEST_WORKER_ID) {
       const createDebugger = require('redux-flipper').default;
