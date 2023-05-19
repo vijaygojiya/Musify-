@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     paddingTop: styleConfig.smartScale(24),
   },
   flContainer: {
-    paddingBottom: styleConfig.smartScale(50),
+    paddingBottom: styleConfig.smartScale(75),
   },
 });
 

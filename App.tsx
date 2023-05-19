@@ -11,6 +11,7 @@ import {PersistGate} from 'redux-persist/integration/react';
 
 const App = () => {
   useEffect(() => {
+    StatusBar.setBarStyle('dark-content')
     SystemNavigationBar.setNavigationColor(
       colors.dark_blue,
       'light',

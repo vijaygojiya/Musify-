@@ -12,7 +12,6 @@ import {SetupService} from '../../player/services';
 import SafeAreaView from 'react-native-safe-area-view';
 import styleConfig from '../../utils/styleConfig';
 import {useGetHomeScreenDataQuery} from '../../services/modules/savan/homeApi';
-import {useSelector} from 'react-redux';
 
 const ITEM_HEIGHT =
   styleConfig.smartScale(28) + styleConfig.countPixelRatio(219);
@@ -20,6 +19,9 @@ const ITEM_HEIGHT =
 const HomeScreen = () => {
   const [isPlayerReady, setIsPlayerReady] = useState<boolean>(false);
 
+  const {data = {collections: []}} = useGetHomeScreenDataQuery(
+    apiEndPoints.homeData,
+  );
   useEffect(() => {
     let unmounted = false;
     (async () => {
@@ -44,13 +46,6 @@ const HomeScreen = () => {
       unmounted = true;
     };
   }, []);
-
-  const {homeScreenApi} = useSelector(state => state);
-  console.log('GStoreGStoreGStore', homeScreenApi.subscriptions);
-
-  const {data = {collections: []}} = useGetHomeScreenDataQuery(
-    apiEndPoints.homeData,
-  );
 
   const renderItem = useCallback(
     ({item}) => {
@@ -86,7 +81,7 @@ const HomeScreen = () => {
   const getItemLayout = (data, index) => {
     return {
       length: ITEM_HEIGHT,
-      offset: ITEM_HEIGHT * data.length,
+      offset: ITEM_HEIGHT * data?.collections?.length,
       index,
     };
   };

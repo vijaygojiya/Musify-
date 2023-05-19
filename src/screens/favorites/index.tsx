@@ -6,7 +6,7 @@ import colors from '../../utils/colors';
 const FavoritesScreen = () => {
   return (
     <View style={styles.screenContainer}>
-      <Text style={[GS.text_white_regular]}>Favourites Screen</Text>
+      <Text style={[GS.text_white_regular]}>Favorites Screen</Text>
     </View>
   );
 };
