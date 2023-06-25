@@ -1,4 +1,4 @@
-# Music Player App (React Native)
+# Musify Player App (React Native)
 
 This is a Music Player app built using React Native. It allows users to browse and play music tracks on their mobile devices. The app provides a user-friendly interface with essential features for managing and enjoying music.
 
@@ -23,5 +23,33 @@ Before running the app, ensure that you have the following installed:
 
 ## Getting Started
 
-1. Clone the repository:
+### :hammer: Installation
+
+Firstly, install dependencies using yarn
+
+```bash
 git clone https://github.com/vijaygojiya/Musify.git
+cd x-gram
+yarn
+npx pod-install
+```
+
+### :car: Usage
+
+Start the application
+
+```bash
+npx react-native run-ios # for ios
+npx react-native run-android # for android
+
+```
+
+### :white_check_mark: Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+### :paperclip: License
+
+[MIT](https://choosealicense.com/licenses/mit/)
