@@ -1,8 +1,11 @@
 import {ActivityIndicator, FlatList, Text, View} from 'react-native';
 import React, {useCallback, useEffect, useState} from 'react';
 import GS from '../../utils/styles';
+import CommonGradientBg from '../../component/custom/commonGradientBg';
 
 import {apiEndPoints} from '../../api/ApiConst';
+import {getResponse} from '../../api/getResponse';
+import {formatHomePageData} from '../../api/format';
 
 import HomeListItem from './components/homeListItem';
 import styles from './styles';
@@ -11,30 +14,25 @@ import TrackPlayer from 'react-native-track-player';
 import {SetupService} from '../../player/services';
 import SafeAreaView from 'react-native-safe-area-view';
 import styleConfig from '../../utils/styleConfig';
-import {useGetHomeScreenDataQuery} from '../../services/modules/savan/homeApi';
+import colors from '../../utils/colors';
 
 const ITEM_HEIGHT =
   styleConfig.smartScale(28) + styleConfig.countPixelRatio(219);
 
 const HomeScreen = () => {
   const [isPlayerReady, setIsPlayerReady] = useState<boolean>(false);
+  const [data, setData] = useState([]);
 
-  const {data = {collections: []}} = useGetHomeScreenDataQuery(
-    apiEndPoints.homeData,
-  );
   useEffect(() => {
+    fetchData();
     let unmounted = false;
     (async () => {
       try {
         const isSetup = await SetupService();
-        if (unmounted) {
-          return;
-        }
+        if (unmounted) return;
         setIsPlayerReady(isSetup);
         const queue = await TrackPlayer.getQueue();
-        if (unmounted) {
-          return;
-        }
+        if (unmounted) return;
         if (isSetup && queue.length <= 0) {
           // await QueueInitialTracksService();
         }
@@ -45,6 +43,19 @@ const HomeScreen = () => {
     return () => {
       unmounted = true;
     };
+  }, []);
+
+  const fetchData = useCallback(async () => {
+    try {
+      const data = await getResponse(apiEndPoints.homeData);
+      console.log('datadata', data);
+      if (data.data) {
+        const formattedData = await formatHomePageData(data.data);
+        setData(formattedData);
+      }
+    } catch (error) {
+      showToast(`${error?.response?.data?.message}`);
+    }
   }, []);
 
   const renderItem = useCallback(
@@ -66,7 +77,7 @@ const HomeScreen = () => {
         {data.greeting}
       </Text>
     );
-  }, [data?.greeting]);
+  }, [data.greeting]);
 
   if (!isPlayerReady) {
     return (
@@ -81,7 +92,7 @@ const HomeScreen = () => {
   const getItemLayout = (data, index) => {
     return {
       length: ITEM_HEIGHT,
-      offset: ITEM_HEIGHT * data?.collections?.length,
+      offset: ITEM_HEIGHT * data.length,
       index,
     };
   };
@@ -89,7 +100,7 @@ const HomeScreen = () => {
   return (
     <View style={styles.screenContainer}>
       <FlatList
-        data={data?.collections}
+        data={data.collections}
         renderItem={renderItem}
         keyExtractor={getKey}
         showsVerticalScrollIndicator={false}
