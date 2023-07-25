@@ -30,7 +30,7 @@ const SplashScreen: React.FC<SplashScreenProps> = ({navigation}) => {
         entering={FadeIn}
         exiting={FadeOut}
         style={[GS.text_white_regular, styles.textStyle]}>
-        VM GOJIYA
+        Musify
       </Animated.Text>
     </View>
   );
