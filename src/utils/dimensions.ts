@@ -1,5 +1,3 @@
-import styleConfig from './styleConfig';
-
 export const Margin = {
   huge: 128,
   extraLarge: 64,
@@ -45,8 +43,8 @@ export const Sizes = {
     ultraLarge: 70,
   },
 
-  deviceHeight: styleConfig.height,
-  deviceWidth: styleConfig.width,
+  // deviceHeight: styleConfig.height,
+  // deviceWidth: styleConfig.width,
   androidElevation: 10,
   iosElevation: 5,
   toolBarHeight: 55,

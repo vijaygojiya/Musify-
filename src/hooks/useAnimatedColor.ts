@@ -9,7 +9,7 @@ import Reanimated, {
 
 const DEFAULT_COLOR = '#000000';
 
-export function useAnimatedColor(
+function useAnimatedColor(
   color: Reanimated.SharedValue<string>,
   animationDuration: number,
 ): Readonly<Reanimated.SharedValue<string | number>> {
@@ -35,3 +35,5 @@ export function useAnimatedColor(
     interpolateColor(animation.value, [0, 1], [colorFrom.value, colorTo.value]),
   );
 }
+
+export default useAnimatedColor;

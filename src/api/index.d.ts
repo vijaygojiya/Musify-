@@ -2,6 +2,7 @@ export interface SongType {
   music: string;
   id: string;
   title: string;
+  description: string;
   subtitle: string;
   header_desc: string;
   type: string;
