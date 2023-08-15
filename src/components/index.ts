@@ -5,3 +5,4 @@ export {default as AppBackground} from './AppBackground';
 export {default as HomeListItem} from './HomeListItem';
 export {default as PlaylistItem} from './PlaylistItem';
 export {default as MiniPlayer} from './MiniPlayer';
+export {default as AnimatedPressable} from './AnimatedPressable';

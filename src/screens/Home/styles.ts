@@ -18,6 +18,7 @@ const styles = StyleSheet.create({
     paddingTop: 24,
   },
   flContainer: {
+    flexGrow: 1,
     paddingBottom: 75,
   },
 });

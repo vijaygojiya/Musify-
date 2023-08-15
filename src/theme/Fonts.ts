@@ -21,15 +21,21 @@ const Fonts = StyleSheet.create({
     fontSize: FontSize.large,
     color: Colors.textGray400,
   },
-  textBold: {
-    fontWeight: 'bold',
+  textFontBold: {
+    fontFamily: 'OpenSans-Bold',
   },
+  textFontRegular: {
+    fontFamily: 'OpenSans-Regular',
+  },
+  textFontMedium: {
+    fontFamily: 'OpenSans-Medium',
+  },
+
   textUppercase: {
     textTransform: 'uppercase',
   },
   titleSmall: {
     fontSize: FontSize.small * 1.5,
-    fontWeight: 'bold',
     color: Colors.textGray800,
   },
   titleRegular: {
@@ -65,10 +71,6 @@ const Fonts = StyleSheet.create({
   },
   textLight: {
     color: Colors.textGray200,
-  },
-  textLobster: {
-    fontFamily: 'lobster',
-    fontWeight: 'normal',
   },
 });
 

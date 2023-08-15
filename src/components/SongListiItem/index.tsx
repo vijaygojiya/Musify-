@@ -2,7 +2,7 @@ import React, {memo, useCallback, useMemo} from 'react';
 import {Pressable, StyleSheet, Text} from 'react-native';
 import colors from '../../utils/colors';
 import IconButton from '../IconButton';
-import {Images} from '../../theme';
+import {Fonts, Images, Layout} from '../../theme';
 
 type SongListItemProps = {
   title: string;
@@ -35,9 +35,9 @@ const SongListItem: React.FC<SongListItemProps> = ({
         numberOfLines={2}
         ellipsizeMode="tail"
         style={[
-          GS.text_white_regular,
-          {flex: 1, flexWrap: 'wrap'},
+          Layout.fill,
           {color: isSelected ? colors.white : colors.darkGrey},
+          Fonts.textFontRegular,
         ]}>
         {title}
       </Text>

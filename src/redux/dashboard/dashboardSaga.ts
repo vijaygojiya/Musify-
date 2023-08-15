@@ -18,7 +18,10 @@ function* fetchHomeDataSaga() {
     }
   } catch (error) {
     yield put(dashboardActions.fetchHomeDataFailed());
-    yield call(showToast, `${error?.response?.data?.message}`);
+    yield call(
+      showToast,
+      `${error?.response?.data?.message || error?.message}`,
+    );
   }
 }
 

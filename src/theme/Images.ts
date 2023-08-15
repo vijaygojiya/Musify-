@@ -17,6 +17,7 @@ const Images = {
   ic_more: require('./assets/images/ic_more.png'),
   ic_back_arrow: require('./assets/images/ic_back.png'),
   ic_error: require('./assets/images/ic_error.jpg'),
+  music: require('./assets/images/music.png'),
 };
 
 export default Images;

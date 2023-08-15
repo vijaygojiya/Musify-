@@ -1,10 +1,30 @@
 import {FlatList, ListRenderItem, Pressable, Text} from 'react-native';
-import React, {FC, memo, useCallback} from 'react';
+import React, {FC, memo} from 'react';
 
 import {styles} from './styles';
 import PlaylistItem from '../PlaylistItem';
 import {PlayListItemType} from '../../redux/dashboard/dashboardSlice';
+import {Fonts} from '../../theme';
 const ITEM_WIDTH = 8 + 175;
+
+const renderSubItem: ListRenderItem<PlayListItemType> = ({item}) => {
+  return <PlaylistItem {...item} />;
+};
+
+const getItemLayout = (
+  data: ArrayLike<PlayListItemType> | null | undefined,
+  index: any,
+) => {
+  const _data = data ?? [];
+  return {
+    length: ITEM_WIDTH,
+    offset: ITEM_WIDTH * _data.length,
+    index,
+  };
+};
+
+const getKey = (_item: PlayListItemType, index: number): string =>
+  `playlistItem-${index}`;
 
 interface Props {
   playListData: PlayListItemType[];
@@ -12,32 +32,14 @@ interface Props {
 }
 
 const HomeListItem: FC<Props> = ({playListData, title}) => {
-  const renderSubItem: ListRenderItem<PlayListItemType> = useCallback(
-    ({item}) => {
-      return <PlaylistItem {...item} />;
-    },
-    [],
-  );
-
-  const getItemLayout = useCallback(
-    (data: ArrayLike<PlayListItemType> | null | undefined, index: any) => {
-      const _data = data ?? [];
-      return {
-        length: ITEM_WIDTH,
-        offset: ITEM_WIDTH * _data.length,
-        index,
-      };
-    },
-    [],
-  );
   return (
     <Pressable style={styles.container}>
-      <Text style={[styles.playlistTitle]}>{title}</Text>
+      <Text style={[styles.playlistTitle, Fonts.textFontMedium]}>{title}</Text>
       <FlatList
         data={playListData}
         renderItem={renderSubItem}
         horizontal={true}
-        keyExtractor={(_, index) => index.toString()}
+        keyExtractor={getKey}
         showsHorizontalScrollIndicator={false}
         // bounces={false}
         // overScrollMode="never"

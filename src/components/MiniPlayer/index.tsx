@@ -13,7 +13,7 @@ import colors from '../../utils/colors';
 import styles from './styles';
 import MarqueeText from '../MarqueeText';
 import IconButton from '../IconButton';
-import {Images} from '../../theme';
+import {Fonts, Images} from '../../theme';
 import ProgressBar from '../ProgressBar';
 import {useDebouncedValue} from '../../hooks';
 import {screenWidth} from '../../theme/Variables';
@@ -38,14 +38,16 @@ const MiniPlayer = () => {
         />
         <View style={styles.songDetailContainer}>
           <MarqueeText
-            style={[styles.titleTextStyle]}
+            style={[styles.titleTextStyle, Fonts.textFontMedium]}
             speed={1}
             marqueeOnStart={true}
             loop={true}
             delay={1000}>
             {title}
           </MarqueeText>
-          <Text numberOfLines={1} style={[styles.songArtist]}>
+          <Text
+            numberOfLines={1}
+            style={[styles.songArtist, Fonts.textFontRegular]}>
             {artist}
           </Text>
         </View>

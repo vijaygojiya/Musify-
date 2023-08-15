@@ -19,7 +19,6 @@ export const styles = StyleSheet.create({
   subTitleText: {
     fontSize: 12,
     color: 'white',
-
     opacity: 0.7,
   },
 });
