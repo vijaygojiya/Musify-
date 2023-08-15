@@ -18,6 +18,8 @@ export interface PlayListItemType {
     | 'show'
     | 'album';
   title: string;
+  artist: string;
+  url: string;
 }
 
 export interface DashboardState {

@@ -2,7 +2,7 @@ import {ActivityIndicator, FlatList, ListRenderItem, View} from 'react-native';
 import React, {useCallback, useEffect} from 'react';
 import {AppBackground, HomeListItem} from '../../components';
 import styles from './styles';
-import {useAppDispatch, useAppSelector} from '../../hooks';
+import {useAppDispatch, useAppSelector, useSetupPlayer} from '../../hooks';
 import {
   HomeDataType,
   PlayListDataType,
@@ -18,6 +18,7 @@ const HomeScreen = () => {
   const dispatch = useAppDispatch();
   const isLoading = useAppSelector(selectHomeDataLoading);
   const data = useAppSelector(selectHomeData) as HomeDataType;
+  const isPlayerReady = useSetupPlayer();
 
   useEffect(() => {
     dispatch(dashboardActions.fetchHomeData());

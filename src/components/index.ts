@@ -4,3 +4,4 @@ export {default as MarqueeText} from './MarqueeText';
 export {default as AppBackground} from './AppBackground';
 export {default as HomeListItem} from './HomeListItem';
 export {default as PlaylistItem} from './PlaylistItem';
+export {default as MiniPlayer} from './MiniPlayer';

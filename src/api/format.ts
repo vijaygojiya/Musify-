@@ -3,7 +3,6 @@ import {capitalizeString, unescapeString} from '../utils/helper';
 import {getImageUrl} from '../utils/helpers';
 import {fetchSongDetails} from './fetchSongDetails';
 import CryptoJS from 'crypto-js';
-
 function decode(input: string) {
   const key = '38346591';
   const encrypted = CryptoJS.enc.Base64.parse(input);
@@ -91,12 +90,15 @@ export async function formatHomePageData(res) {
   try {
     const data = res;
     const collections = Object.keys(data.modules);
-    const promoList = collections.filter(key => key.startsWith('promo'));
-
+    const tempPlaylist = ['new_trending', 'new_albums', 'city_mod'];
     await Promise.all(
-      promoList.map(async promoKey => {
-        data[promoKey] = await formatSongsInList(data[promoKey]);
-      }),
+      collections
+        .filter(key => {
+          return tempPlaylist.includes(key) || key.startsWith('promo');
+        })
+        .map(async promoKey => {
+          data[promoKey] = await formatSongsInList(data[promoKey]);
+        }),
     );
 
     return collections.map(key => ({

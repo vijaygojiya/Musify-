@@ -29,6 +29,7 @@
     "react-native-screens": "^3.24.0",
     "react-native-simple-toast": "^3.0.1",
     "react-native-system-navigation-bar": "^2.6.1",
+    "react-native-track-player": "^3.2.0-83ad44ad9212f4e038f0ed7b470c432b91bc87d4",
     "react-redux": "^8.1.2",
     "redux-persist": "^6.0.0",
     "redux-saga": "^1.2.3"

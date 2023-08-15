@@ -6,6 +6,7 @@ import {Routes} from './routes';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import TabNavigator from './Tab';
 import {Colors} from '../theme/Variables';
+import {MiniPlayer} from '../components';
 
 const Stack = createNativeStackNavigator();
 const AppTheme = {
@@ -25,7 +26,7 @@ const ApplicationNavigator = () => {
         <Stack.Screen name={Routes.Splash} component={SplashScreen} />
         <Stack.Screen name={Routes.Dashboard} component={TabNavigator} />
       </Stack.Navigator>
-      {/* <MiniPlayer /> */}
+      <MiniPlayer />
     </NavigationContainer>
   );
 };

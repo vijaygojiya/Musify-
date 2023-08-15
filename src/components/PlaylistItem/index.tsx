@@ -5,6 +5,7 @@ import {getSubTitle} from '../../utils/helper';
 import {getImageUrl} from '../../utils/helpers';
 import FastImage from 'react-native-fast-image';
 import {PlayListItemType} from '../../redux/dashboard/dashboardSlice';
+import TrackPlayer from 'react-native-track-player';
 
 const AnimatedPressable = Animated.createAnimatedComponent(Pressable);
 
@@ -45,11 +46,18 @@ const PlayListItem: FC<PlayListItemType> = item => {
   }, [opacity, scale]);
 
   const itemClickHandler = useCallback(() => {
-    // if (type === 'song') {
-    //   TrackPlayer.reset();
-    //   TrackPlayer.add([{...item, artwork: image}]);
-    //   TrackPlayer.play();
-    // }
+    if (type === 'song') {
+      // TrackPlayer.reset();
+      TrackPlayer.add([
+        {
+          artwork: image,
+          url: item.url,
+          title: item.title,
+          artist: item.image.artist,
+        },
+      ]);
+      TrackPlayer.play();
+    }
   }, []);
 
   const subTitle: string = useMemo(() => {
