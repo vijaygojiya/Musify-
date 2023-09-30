@@ -13,6 +13,7 @@ import styleConfig from '../../../../utils/styleConfig';
 import GS from '../../../../utils/styles';
 import {getSubTitle} from '../../../../utils/helper';
 import TrackPlayer from 'react-native-track-player';
+import {decode} from '../../../../api/format';
 export type mediaType =
   | 'charts'
   | 'radio_station'
@@ -67,9 +68,13 @@ const PlayListItem: FC<Props> = item => {
   }, []);
 
   const itemClickHandler = useCallback(() => {
+    console.log('===+>', item);
+
     if (type === 'song') {
       TrackPlayer.reset();
-      TrackPlayer.add([{...item, artwork: image}]);
+      TrackPlayer.add([
+        {url: decode(item.more_info.encrypted_media_url), artwork: image},
+      ]);
       TrackPlayer.play();
     }
   }, []);

@@ -4,7 +4,7 @@ import {getImageUrl} from '../utils/helpers';
 import {fetchSongDetails} from './fetchSongDetails';
 import CryptoJS from 'crypto-js';
 
-function decode(input: string) {
+export function decode(input: string) {
   const key = '38346591';
   const encrypted = CryptoJS.enc.Base64.parse(input);
   const decrypted = CryptoJS.DES.decrypt(

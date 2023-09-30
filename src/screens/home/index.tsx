@@ -77,7 +77,7 @@ const HomeScreen = () => {
         {data.greeting}
       </Text>
     );
-  }, [data.greeting]);
+  }, [data?.greeting]);
 
   if (!isPlayerReady) {
     return (

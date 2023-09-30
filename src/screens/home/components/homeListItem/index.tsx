@@ -41,8 +41,8 @@ const HomeListItem: FC<Props> = ({playListData, title}) => {
         horizontal={true}
         keyExtractor={(_, index) => index.toString()}
         showsHorizontalScrollIndicator={false}
-        bounces={false}
-        overScrollMode="never"
+        // bounces={false}
+        // overScrollMode="never"
         initialNumToRender={3}
         maxToRenderPerBatch={5}
         contentContainerStyle={styles.flContainerStyle}
