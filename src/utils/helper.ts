@@ -33,52 +33,41 @@ export const secondsToHHMMSS = (seconds: number) => {
 };
 
 export function getSubTitle(item: {[key: string]: any}): string {
-  const type = item['type'];
+  const type = item.type;
+
+  const formatSubtitle = (text: string | undefined, defaultText: string) => {
+    return text && text.trim() !== '' ? ` • ${text}` : '';
+  };
+
   switch (type) {
     case 'charts':
       return '';
     case 'radio_station':
-      return `Radio • ${
-        (item['subtitle']?.toString() ?? '').isEmpty
-          ? 'JioSaavn'
-          : item['subtitle']?.toString()
-      }`;
+      return `Radio${formatSubtitle(item.subtitle?.toString(), 'JioSaavn')}`;
     case 'playlist':
-      return `Playlist • ${
-        (item['subtitle']?.toString() ?? '').isEmpty
-          ? 'JioSaavn'
-          : item['subtitle']?.toString()
-      }`;
+      return `Playlist${formatSubtitle(item.subtitle?.toString(), 'JioSaavn')}`;
     case 'song':
-      return `Single • ${item['artist']?.toString()}`;
+      return item.artist?.toString() || '';
     case 'mix':
-      return `Mix • ${
-        (item['subtitle']?.toString() ?? '').isEmpty
-          ? 'JioSaavn'
-          : item['subtitle']?.toString()
-      }`;
+      return `Mix${formatSubtitle(item.subtitle?.toString(), 'JioSaavn')}`;
     case 'show':
-      return `Podcast • ${
-        (item['subtitle']?.toString() ?? '').isEmpty
-          ? 'JioSaavn'
-          : item['subtitle']?.toString()
-      }`;
+      return `Podcast${formatSubtitle(item.subtitle?.toString(), 'JioSaavn')}`;
     case 'album':
-      const artists = item['more_info']?.['artistMap']?.['artists'].map(
-        (artist: {[key: string]: any}) => artist['name'],
+      const artists = item.more_info?.artistMap?.artists.map(
+        (artist: {[key: string]: any}) => artist.name,
       );
 
-      if (artists != null) {
-        return `Album • ${artists?.join(', ')?.toString()}`;
-      } else if (item['subtitle'] != null && item['subtitle'] != '') {
-        return `Album • ${item['subtitle']?.toString()}`;
+      if (artists && artists.length > 0) {
+        return `Album • ${artists.join(', ')}`;
+      } else if (item.subtitle && item.subtitle.trim() !== '') {
+        return `Album${formatSubtitle(item.subtitle.toString(), '')}`;
       }
       return 'Album';
     default:
-      const _artists = item['more_info']?.['artistMap']?.['_artists'].map(
-        (artist: {[key: string]: any}) => artist['name'],
+      const _artists = item.more_info?.artistMap?._artists.map(
+        (artist: {[key: string]: any}) => artist.name,
       );
 
-      return _artists?.join(', ')?.toString() ?? '_';
+      return _artists && _artists.length > 0 ? _artists.join(', ') : '_';
   }
 }

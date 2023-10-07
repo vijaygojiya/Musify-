@@ -1,5 +1,10 @@
-import { configureStore, combineReducers } from '@reduxjs/toolkit';
-import { setupListeners } from '@reduxjs/toolkit/query';
+import {
+  configureStore,
+  combineReducers,
+  ThunkAction,
+  Action,
+} from '@reduxjs/toolkit';
+import {setupListeners} from '@reduxjs/toolkit/query';
 import {
   persistReducer,
   persistStore,
@@ -11,14 +16,15 @@ import {
   REGISTER,
   Storage,
 } from 'redux-persist';
-import { MMKV } from 'react-native-mmkv';
+import {MMKV} from 'react-native-mmkv';
+import createSagaMiddleware from 'redux-saga';
+import rootSaga from '../app/daemon';
+import dashboard from '../redux/dashboard/dashboardSlice';
 
-// import { api } from '../services/api';
-// import theme from './theme';
+const sagaMiddleware = createSagaMiddleware();
 
 const reducers = combineReducers({
-  // theme,
-  // [api.reducerPath]: api.reducer,
+  dashboard,
 });
 
 const storage = new MMKV();
@@ -40,7 +46,7 @@ export const reduxStorage: Storage = {
 const persistConfig = {
   key: 'root',
   storage: reduxStorage,
-  whitelist: ['theme', 'auth'],
+  whitelist: ['dashboard'],
 };
 
 const persistedReducer = persistReducer(persistConfig, reducers);
@@ -48,18 +54,13 @@ const persistedReducer = persistReducer(persistConfig, reducers);
 const store = configureStore({
   reducer: persistedReducer,
   middleware: getDefaultMiddleware => {
-    const middlewares = getDefaultMiddleware({
+    const middleware = getDefaultMiddleware({
       serializableCheck: {
         ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
       },
-    }).concat(api.middleware);
+    }).concat(sagaMiddleware);
 
-    if (__DEV__ && !process.env.JEST_WORKER_ID) {
-      const createDebugger = require('redux-flipper').default;
-      middlewares.push(createDebugger());
-    }
-
-    return middlewares;
+    return middleware;
   },
 });
 
@@ -67,4 +68,16 @@ const persistor = persistStore(store);
 
 setupListeners(store.dispatch);
 
-export { store, persistor };
+export {store, persistor};
+
+sagaMiddleware.run(rootSaga);
+
+export type AppDispatch = typeof store.dispatch;
+export type RootState = ReturnType<typeof store.getState>;
+
+export type AppThunk<ReturnType> = ThunkAction<
+  ReturnType,
+  RootState,
+  unknown,
+  Action<string>
+>;

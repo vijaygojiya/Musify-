@@ -21,15 +21,16 @@ export function decode(input: string) {
 }
 
 const formatArtistNames = (artistMap: any) => {
-  const primaryArtists =
-    artistMap?.primary_artists?.map(artist => artist.name) || [];
-  const featuredArtists =
-    artistMap?.featured_artists?.map(artist => artist.name) || [];
-  const artists = artistMap?.artists?.map(artist => artist.id?.[0]?.name) || [];
-  const filter = artists.filter((item, index) => Boolean(item));
-  return (
-    [...primaryArtists, ...featuredArtists, ...filter].join(', ') || 'Unknown'
-  );
+  const allArtists = [];
+
+  for (const key in artistMap) {
+    if (Array.isArray(artistMap[key])) {
+      allArtists.push(...artistMap[key]);
+    }
+  }
+
+  const artistNames = allArtists.map(artist => artist.name);
+  return artistNames.join(', ') ?? 'Unknown';
 };
 
 export const formatSingleSongResponse = async (response: SongType) => {
@@ -67,15 +68,17 @@ const formatSongsInList = async (list: any[]) => {
   if (list.length > 0) {
     try {
       const tempData = await Promise.all(
-        list.map(async item => {
-          if (item.type === 'song') {
-            if (item.mini_obj) {
-              return fetchSongDetails(item.id.toString());
+        list
+          .filter(item => Boolean(item))
+          .map(async item => {
+            if (item.type === 'song') {
+              if (item.mini_obj) {
+                return fetchSongDetails(item.id.toString());
+              }
+              return formatSingleSongResponse(item);
             }
-            return formatSingleSongResponse(item);
-          }
-          return item;
-        }),
+            return item;
+          }),
       );
       return tempData;
     } catch (error) {
@@ -84,49 +87,25 @@ const formatSongsInList = async (list: any[]) => {
   }
   return [];
 };
-
-export async function formatHomePageData(data) {
+export async function formatHomePageData(res) {
   try {
-    const keys = Object.keys(data);
-    const listKeys = keys.filter(key => Array.isArray(data[key]));
-    const listPromoKeys = listKeys.filter(key => key.startsWith('promo'));
-    const listNonPromoKeys = listKeys.filter(key => !key.startsWith('promo'));
+    const data = res;
+    const collections = Object.keys(data.modules);
+    const tempPlaylist = ['new_trending', 'new_albums', 'city_mod'];
     await Promise.all(
-      listPromoKeys.map(async promoKey => {
-        if (
-          data[promoKey][0].type === 'song' &&
-          data[promoKey][0].mini_obj === true
-        ) {
-          return;
-        }
-        data[promoKey] = await formatSongsInList(data[promoKey]);
-      }),
-    );
-    await Promise.all(
-      listNonPromoKeys.map(async key => {
-        data[key] = await formatSongsInList(data[key]);
-      }),
+      collections
+        .filter(key => {
+          return tempPlaylist.includes(key) || key.startsWith('promo');
+        })
+        .map(async promoKey => {
+          data[promoKey] = await formatSongsInList(data[promoKey]);
+        }),
     );
 
-    return {
-      ...data,
-      collections: [
-        'new_trending',
-        'charts',
-        'new_albums',
-        'tag_mixes',
-        'top_playlists',
-        'radio',
-        'city_mod',
-        'artist_recos',
-        ...listPromoKeys,
-      ],
-      collections_temp: listPromoKeys.filter(
-        promoKey =>
-          data[promoKey][0].type === 'song' &&
-          data[promoKey][0].mini_obj === true,
-      ),
-    };
+    return collections.map(key => ({
+      data: data[key],
+      title: data.modules[key].title,
+    }));
   } catch (error) {
     console.error(`Error inside formatHomePageData: ${error}`);
   }
